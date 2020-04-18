@@ -412,4 +412,17 @@
 #pragma pop_macro("TRAIL_EMITTER_NULL_NEXT")
 #pragma pop_macro("TRAIL_EMITTER_NEXT_SHIFT")
 #pragma pop_macro("TRAIL_EMITTER_NEXT_MASK")
-#pragm
+#pragma pop_macro("TRAIL_EMITTER_IS_START")
+#pragma pop_macro("TRAIL_EMITTER_IS_ONLY")
+#pragma pop_macro("TRAIL_EMITTER_IS_MIDDLE")
+#pragma pop_macro("TRAIL_EMITTER_IS_HEADONLY")
+#pragma pop_macro("TRAIL_EMITTER_IS_HEAD")
+#pragma pop_macro("TRAIL_EMITTER_IS_FORCEKILL")
+#pragma pop_macro("TRAIL_EMITTER_IS_END")
+#pragma pop_macro("TRAIL_EMITTER_IS_DEADTRAIL")
+#pragma pop_macro("TRAIL_EMITTER_GET_PREVNEXT")
+#pragma pop_macro("TRAIL_EMITTER_GET_PREV")
+#pragma pop_macro("TRAIL_EMITTER_GET_NEXT")
+#pragma pop_macro("TRAIL_EMITTER_FLAG_START")
+#pragma pop_macro("TRAIL_EMITTER_FLAG_MIDDLE")
+#pragma pop_
