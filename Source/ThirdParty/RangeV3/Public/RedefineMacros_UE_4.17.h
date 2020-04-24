@@ -609,4 +609,17 @@
 #pragma pop_macro("SCOPED_RHI_DRAW_EVENTF_COLOR")
 #pragma pop_macro("SCOPED_RHI_DRAW_EVENTF")
 #pragma pop_macro("SCOPED_RHI_DRAW_EVENT_COLOR")
-#pragma pop_
+#pragma pop_macro("SCOPED_RHI_DRAW_EVENT")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENTF")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENT_COLOR")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENT")
+#pragma pop_macro("SCOPED_NAMED_EVENT")
+#pragma pop_macro("SCOPED_LOADTIMER_CNT")
+#pragma pop_macro("SCOPED_LOADTIMER")
+#pragma pop_macro("SCOPED_GPU_STAT")
+#pragma pop_macro("SCOPED_DRAW_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_DRAW_EVENTF")
+#pragma pop_macro("SCOPED_DRAW_EVENT_COLOR")
+#pragma pop_macro("SCOPED_DRAW_EVENT")
+#pragma
