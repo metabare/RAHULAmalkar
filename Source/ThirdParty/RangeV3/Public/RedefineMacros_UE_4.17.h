@@ -622,4 +622,16 @@
 #pragma pop_macro("SCOPED_DRAW_EVENTF")
 #pragma pop_macro("SCOPED_DRAW_EVENT_COLOR")
 #pragma pop_macro("SCOPED_DRAW_EVENT")
-#pragma
+#pragma pop_macro("SCOPED_CONDITIONAL_DRAW_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_CONDITIONAL_DRAW_EVENTF")
+#pragma pop_macro("SCOPED_CONDITIONAL_DRAW_EVENT_COLOR")
+#pragma pop_macro("SCOPED_CONDITIONAL_DRAW_EVENT")
+#pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENTF")
+#pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENT_COLOR")
+#pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENT")
+#pragma pop_macro("SCOPED_COMPUTE_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_COMPUTE_EVENTF")
+#pragma pop_macro("SCOPED_COMPUTE_EVENT_COLOR")
+#pragma pop_macro("SCOPED_COMPUTE_EVENT")
+#pragma pop_
