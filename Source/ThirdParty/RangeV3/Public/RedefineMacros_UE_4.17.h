@@ -869,4 +869,15 @@
 #pragma pop_macro("PLATFORM_HAS_NO_EPROCLIM")
 #pragma pop_macro("PLATFORM_HAS_CPUID")
 #pragma pop_macro("PLATFORM_HAS_BSD_TIME")
-#pragma pop_macro("
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKETS")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_WINSOCKETS")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_SELECT")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_MSG_DONTWAIT")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_IOCTL")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_GETHOSTNAME")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_GETADDRINFO")
+#pragma pop_macro("PLATFORM_HAS_BSD_SOCKET_FEATURE_CLOSE_ON_EXEC")
+#pragma pop_macro("PLATFORM_HAS_BSD_IPV6_SOCKETS")
+#pragma pop_macro("PLATFORM_HAS_64BIT_ATOMICS")
+#pragma pop_macro("PLATFORM_HAS_128BIT_ATOMICS")
+#pr
