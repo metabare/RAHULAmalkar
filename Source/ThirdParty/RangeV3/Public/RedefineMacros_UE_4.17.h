@@ -891,4 +891,15 @@
 #pragma pop_macro("PLATFORM_CONSOLE")
 #pragma pop_macro("PLATFORM_COMPILER_HAS_TCHAR_WMAIN")
 #pragma pop_macro("PLATFORM_COMPILER_HAS_GENERIC_KEYWORD")
-#pragma pop_macro("PLATF
+#pragma pop_macro("PLATFORM_COMPILER_HAS_DEFAULTED_FUNCTIONS")
+#pragma pop_macro("PLATFORM_COMPILER_HAS_AUTO_RETURN_TYPES")
+#pragma pop_macro("PLATFORM_COMPILER_DISTINGUISHES_INT_AND_LONG")
+#pragma pop_macro("PLATFORM_COMPILER_COMMON_LANGUAGE_RUNTIME_COMPILATION")
+#pragma pop_macro("PLATFORM_COMPILER_CLANG")
+#pragma pop_macro("PLATFORM_CAN_SUPPORT_EDITORONLY_DATA")
+#pragma pop_macro("PLATFORM_CACHE_LINE_SIZE")
+#pragma pop_macro("PLATFORM_BUILTIN_VERTEX_HALF_FLOAT")
+#pragma pop_macro("PLATFORM_APPLE")
+#pragma pop_macro("PLATFORM_ANDROIDESDEFERRED")
+#pragma pop_macro("PLATFORM_ANDROID_X86")
+#pragma pop_macro("PLATFORM_A
