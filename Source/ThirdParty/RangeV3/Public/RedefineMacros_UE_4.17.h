@@ -880,4 +880,15 @@
 #pragma pop_macro("PLATFORM_HAS_BSD_IPV6_SOCKETS")
 #pragma pop_macro("PLATFORM_HAS_64BIT_ATOMICS")
 #pragma pop_macro("PLATFORM_HAS_128BIT_ATOMICS")
-#pr
+#pragma pop_macro("PLATFORM_FREEBSD")
+#pragma pop_macro("PLATFORM_FORCE_SINGLE_SYNC_FILE_HANDLE_PER_GENERIC_ASYNC_FILE_HANDLE")
+#pragma pop_macro("PLATFORM_EXCEPTIONS_DISABLED")
+#pragma pop_macro("PLATFORM_ENABLE_VECTORINTRINSICS_NEON")
+#pragma pop_macro("PLATFORM_ENABLE_VECTORINTRINSICS")
+#pragma pop_macro("PLATFORM_DESKTOP")
+#pragma pop_macro("PLATFORM_CPU_X86_FAMILY")
+#pragma pop_macro("PLATFORM_CPU_ARM_FAMILY")
+#pragma pop_macro("PLATFORM_CONSOLE")
+#pragma pop_macro("PLATFORM_COMPILER_HAS_TCHAR_WMAIN")
+#pragma pop_macro("PLATFORM_COMPILER_HAS_GENERIC_KEYWORD")
+#pragma pop_macro("PLATF
