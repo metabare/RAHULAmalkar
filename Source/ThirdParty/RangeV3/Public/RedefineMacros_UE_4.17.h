@@ -1257,4 +1257,16 @@
 #pragma pop_macro("LLM_SCOPED_TAG_WITH_OBJECT_IN_SET")
 #pragma pop_macro("LLM_SCOPED_TAG_WITH_ENUM")
 #pragma pop_macro("LLM_SCOPED_SINGLE_RHI_STAT_TAG_IN_SET")
-#pragma pop_macro("LLM_SCO
+#pragma pop_macro("LLM_SCOPED_SINGLE_RHI_STAT_TAG")
+#pragma pop_macro("LLM_SCOPED_SINGLE_PLATFORM_STAT_TAG_IN_SET")
+#pragma pop_macro("LLM_SCOPED_SINGLE_PLATFORM_STAT_TAG")
+#pragma pop_macro("LLM_SCOPED_SINGLE_MALLOC_STAT_TAG_IN_SET")
+#pragma pop_macro("LLM_SCOPED_SINGLE_MALLOC_STAT_TAG")
+#pragma pop_macro("LLM_SCOPED_PAUSE_TRACKING_WITH_STAT_AND_AMOUNT")
+#pragma pop_macro("LLM_SCOPED_PAUSE_TRACKING_WITH_ENUM_AND_AMOUNT")
+#pragma pop_macro("LLM_SCOPED_PAUSE_TRACKING")
+#pragma pop_macro("LLM_PUSH_STATS_FOR_ASSET_TAGS")
+#pragma pop_macro("LLM_COMMANDLINE_ENABLES_FUNCTIONALITY")
+#pragma pop_macro("LLM_ALLOW_ASSETS_TAGS")
+#pragma pop_macro("LLM")
+#pragma 
