@@ -1359,4 +1359,16 @@
 #pragma pop_macro("INC_DWORD_STAT_FNAME_BY")
 #pragma pop_macro("INC_DWORD_STAT_FName")
 #pragma pop_macro("INC_DWORD_STAT_BY_FName")
-#pragm
+#pragma pop_macro("INC_DWORD_STAT_BY")
+#pragma pop_macro("INC_DWORD_STAT")
+#pragma pop_macro("IN")
+#pragma pop_macro("IMPLEMENT_VERTEX_FACTORY_TYPE")
+#pragma pop_macro("IMPLEMENT_UNIFORM_BUFFER_STRUCT")
+#pragma pop_macro("IMPLEMENT_STRUCT")
+#pragma pop_macro("IMPLEMENT_SIMPLE_AUTOMATION_TEST_PRIVATE")
+#pragma pop_macro("IMPLEMENT_SIMPLE_AUTOMATION_TEST")
+#pragma pop_macro("IMPLEMENT_SHADERPIPELINE_TYPE_VSPS")
+#pragma pop_macro("IMPLEMENT_SHADERPIPELINE_TYPE_VSHSDSPS")
+#pragma pop_macro("IMPLEMENT_SHADERPIPELINE_TYPE_VSHSDSGSPS")
+#pragma pop_macro("IMPLEMENT_SHADERPIPELINE_TYPE_VSHSDSGS")
+#pragma pop_macro("IMPLEMENT_
