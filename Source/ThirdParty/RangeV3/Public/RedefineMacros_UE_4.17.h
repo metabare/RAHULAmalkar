@@ -1456,4 +1456,17 @@
 #pragma pop_macro("glBlitFramebuffer")
 #pragma pop_macro("GL_XOR")
 #pragma pop_macro("GL_WRITE_ONLY_OES")
-#
+#pragma pop_macro("GL_WRITE_ONLY")
+#pragma pop_macro("GL_VERTEX_SHADER_BIT")
+#pragma pop_macro("GL_UNSIGNED_NORMALIZED")
+#pragma pop_macro("GL_UNSIGNED_INT64_NV")
+#pragma pop_macro("GL_UNSIGNED_INT_VEC4")
+#pragma pop_macro("GL_UNSIGNED_INT_VEC3")
+#pragma pop_macro("GL_UNSIGNED_INT_VEC2")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_CUBE")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_BUFFER")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_3D")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_RECT")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE")
+#pragm
