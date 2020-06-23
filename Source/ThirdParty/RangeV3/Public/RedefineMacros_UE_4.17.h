@@ -1624,4 +1624,17 @@
 #pragma pop_macro("GL_MAX_TESS_CONTROL_UNIFORM_COMPONENTS_EXT")
 #pragma pop_macro("GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS_EXT")
 #pragma pop_macro("GL_MAX_TESS_CONTROL_TEXTURE_IMAGE_UNITS")
-#pragma pop_
+#pragma pop_macro("GL_MAX_SAMPLES")
+#pragma pop_macro("GL_MAX_INTEGER_SAMPLES")
+#pragma pop_macro("GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS")
+#pragma pop_macro("GL_MAX_DRAW_BUFFERS")
+#pragma pop_macro("GL_MAX_DEPTH_TEXTURE_SAMPLES")
+#pragma pop_macro("GL_MAX_COMPUTE_WORK_GROUP_SIZE")
+#pragma pop_macro("GL_MAX_COMPUTE_WORK_GROUP_COUNT")
+#pragma pop_macro("GL_MAX_COMPUTE_UNIFORM_COMPONENTS")
+#pragma pop_macro("GL_MAX_COMPUTE_UNIFORM_BLOCKS")
+#pragma pop_macro("GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS")
+#pragma pop_macro("GL_MAX_COMPUTE_SHARED_MEMORY_SIZE")
+#pragma pop_macro("GL_MAX_COMPUTE_LOCAL_INVOCATIONS")
+#pragma pop_macro("GL_MAX_COMPUTE_IMAGE_UNIFORMS")
+#pr
