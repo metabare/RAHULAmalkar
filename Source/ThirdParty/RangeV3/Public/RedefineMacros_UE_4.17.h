@@ -1768,4 +1768,16 @@
 #pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_8x8_KHR")
 #pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_8x6_KHR")
 #pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_8x5_KHR")
-#pragma pop_macro("GL
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_6x6_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_6x5_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_5x5_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_5x4_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_4x4_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_12x12_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_12x10_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_10x8_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_10x6_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_10x5_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGBA_ASTC_10x10_KHR")
+#pragma pop_macro("GL_COMPRESSED_RGB8_ETC2")
+#p
