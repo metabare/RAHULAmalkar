@@ -1870,4 +1870,16 @@
 #pragma pop_macro("GCC_DIAGNOSTIC_HELPER")
 #pragma pop_macro("GCC_ALIGN")
 #pragma pop_macro("GARBAGE_COLLECTION_KEEPFLAGS")
-#pragma 
+#pragma pop_macro("GAME_SAFE_OPTIONAL_BINDING")
+#pragma pop_macro("GAME_SAFE_BINDING_IMPLEMENTATION")
+#pragma pop_macro("FVector")
+#pragma pop_macro("FUNCTION_NON_NULL_RETURN_START")
+#pragma pop_macro("FUNCTION_NON_NULL_RETURN_END")
+#pragma pop_macro("FUNCTION_NO_RETURN_START")
+#pragma pop_macro("FUNCTION_NO_RETURN_END")
+#pragma pop_macro("FUNCTION_CHECK_RETURN_START")
+#pragma pop_macro("FUNCTION_CHECK_RETURN_END")
+#pragma pop_macro("FUNCTION_CHECK_RETURN")
+#pragma pop_macro("FUNC_NetFuncFlags")
+#pragma pop_macro("FUNC_INCLUDING_INLINE_IMPL")
+#pragma pop_macro("FUNC_FuncOverrid
