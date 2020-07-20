@@ -1955,4 +1955,17 @@
 #pragma pop_macro("ENUM_RANGE_BY_COUNT")
 #pragma pop_macro("ENUM_GL_ENTRYPOINTS_OPTIONAL")
 #pragma pop_macro("ENUM_GL_ENTRYPOINTS_MANUAL")
-#pragma 
+#pragma pop_macro("ENUM_GL_ENTRYPOINTS_DLL")
+#pragma pop_macro("ENUM_GL_ENTRYPOINTS_CORE")
+#pragma pop_macro("ENUM_GL_ENTRYPOINTS_ALL")
+#pragma pop_macro("ENUM_GL_ENTRYPOINTS")
+#pragma pop_macro("ENUM_CLASS_FLAGS")
+#pragma pop_macro("ensureMsgf")
+#pragma pop_macro("ensureMsg")
+#pragma pop_macro("ensureAsRuntimeWarning")
+#pragma pop_macro("ensureAlwaysMsgf")
+#pragma pop_macro("ensureAlways")
+#pragma pop_macro("ensure")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_DECLARE_TEMPLATE")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_DECLARE_OPTTYPENAME")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_DECL
