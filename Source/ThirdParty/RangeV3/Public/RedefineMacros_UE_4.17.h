@@ -2028,4 +2028,15 @@
 #pragma pop_macro("ENABLE_VERIFY_GL_TRACE")
 #pragma pop_macro("ENABLE_VERIFY_GL")
 #pragma pop_macro("ENABLE_VECTORIZED_TRANSFORM")
-#pragma pop_mac
+#pragma pop_macro("ENABLE_VECTORIZED_FBONEATOM")
+#pragma pop_macro("ENABLE_UNREAL_AUDIO_THREAD_DEBUGGING")
+#pragma pop_macro("ENABLE_UNREAL_AUDIO_EXTRA_DEBUG_CHECKS")
+#pragma pop_macro("ENABLE_UNREAL_AUDIO")
+#pragma pop_macro("ENABLE_UNIFORM_BUFFER_LAYOUT_VERIFICATION")
+#pragma pop_macro("ENABLE_UNIFORM_BUFFER_LAYOUT_DUMP")
+#pragma pop_macro("ENABLE_UNBOUNDED_SAMPLER_DESCRIPTORS")
+#pragma pop_macro("ENABLE_TRANSITION_DUMP")
+#pragma pop_macro("ENABLE_TRAILS_START_END_INDEX_OPTIMIZATION")
+#pragma pop_macro("ENABLE_TFUNCTIONREF_VISUALIZATION")
+#pragma pop_macro("ENABLE_TEXT_ERROR_CHECKING_RESULTS")
+#pragma pop_macro("ENABLE_STATIC_
