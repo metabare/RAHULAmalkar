@@ -2068,4 +2068,16 @@
 #pragma pop_macro("EM_LOG_WARN")
 #pragma pop_macro("EM_LOG_NO_PATHS")
 #pragma pop_macro("EM_LOG_JS_STACK")
-#pragma pop_macro("EM_LOG_ERROR"
+#pragma pop_macro("EM_LOG_ERROR")
+#pragma pop_macro("EM_LOG_DEMANGLE")
+#pragma pop_macro("EM_LOG_CONSOLE")
+#pragma pop_macro("EM_LOG_C_STACK")
+#pragma pop_macro("EGL_OPENGL_ES3_BIT_KHR")
+#pragma pop_macro("EGL_NO_RESET_NOTIFICATION_KHR")
+#pragma pop_macro("EGL_LOSE_CONTEXT_ON_RESET_KHR")
+#pragma pop_macro("EGL_KHR_create_context")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_ROBUST_ACCESS_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_RESET_NOTIFICATION_STRATEGY_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_PROFILE_MASK_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_FORWARD_COMPATIBLE_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_OP
