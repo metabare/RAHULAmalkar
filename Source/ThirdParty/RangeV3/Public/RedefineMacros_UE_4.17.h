@@ -2222,4 +2222,16 @@
 #pragma pop_macro("DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER")
 #pragma pop_macro("DEFINE_VTABLE_PTR_HELPER_CTOR")
 #pragma pop_macro("DEFINE_VLOG_EVENT")
-#pragma
+#pragma pop_macro("DEFINE_TEXT_EXPRESSION_OPERATOR_NODE")
+#pragma pop_macro("DEFINE_STAT")
+#pragma pop_macro("DEFINE_SPEC_PRIVATE")
+#pragma pop_macro("DEFINE_SPEC")
+#pragma pop_macro("DEFINE_RANGEBOUND_WRAPPER_STRUCT")
+#pragma pop_macro("DEFINE_RANGE_WRAPPER_STRUCT")
+#pragma pop_macro("DEFINE_NDI_FUNC_BINDER")
+#pragma pop_macro("DEFINE_LOG_CATEGORY_STATIC")
+#pragma pop_macro("DEFINE_LOG_CATEGORY_CLASS")
+#pragma pop_macro("DEFINE_LOG_CATEGORY")
+#pragma pop_macro("DEFINE_LATENT_AUTOMATION_COMMAND_ONE_PARAMETER")
+#pragma pop_macro("DEFINE_LATENT_AUTOMATION_COMMAND")
+#pragma pop_macro("DE
