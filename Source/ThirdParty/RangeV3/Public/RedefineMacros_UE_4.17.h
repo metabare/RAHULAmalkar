@@ -2267,4 +2267,15 @@
 #pragma pop_macro("DEFAULT_MIN_NUMBER_OF_HASHED_ELEMENTS")
 #pragma pop_macro("DEFAULT_MID_FREQUENCY")
 #pragma pop_macro("DEFAULT_LOW_FREQUENCY")
-#pragma pop_macro("DEFAULT_HIGH_FREQUENCY"
+#pragma pop_macro("DEFAULT_HIGH_FREQUENCY")
+#pragma pop_macro("DEFAULT_GMallocBinned2PerThreadCaches")
+#pragma pop_macro("DEFAULT_GMallocBinned2LockFreeCaches")
+#pragma pop_macro("DEFAULT_GMallocBinned2BundleSize")
+#pragma pop_macro("DEFAULT_GMallocBinned2BundleCount")
+#pragma pop_macro("DEFAULT_GMallocBinned2AllocExtra")
+#pragma pop_macro("DEFAULT_CONTEXT_UPLOAD_POOL_SIZE")
+#pragma pop_macro("DEFAULT_CONTEXT_UPLOAD_POOL_MAX_ALLOC_SIZE")
+#pragma pop_macro("DEFAULT_CONTEXT_UPLOAD_POOL_ALIGNMENT")
+#pragma pop_macro("DEFAULT_BUFFER_POOL_SIZE")
+#pragma pop_macro("DEFAULT_BUFFER_POOL_MAX_ALLOC_SIZE")
+#pragma pop_macro("DEFAULT_BASE_NUMBER_OF_HASH_BUCKET
