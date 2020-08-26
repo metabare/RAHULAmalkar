@@ -2317,4 +2317,15 @@
 #pragma pop_macro("DECLARE_MULTICAST_DELEGATE_ThreeParams")
 #pragma pop_macro("DECLARE_MULTICAST_DELEGATE_SixParams")
 #pragma pop_macro("DECLARE_MULTICAST_DELEGATE_SevenParams")
-#pragma pop_macro("D
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_OneParam")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_NineParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_FourParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_FiveParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_EightParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE")
+#pragma pop_macro("DECLARE_MEMORY_STAT_POOL_EXTERN")
+#pragma pop_macro("DECLARE_MEMORY_STAT_POOL")
+#pragma pop_macro("DECLARE_MEMORY_STAT_EXTERN")
+#pragma pop_macro("DECLARE_MEMORY_STAT")
+#pragma pop_macro("DECLARE_MATERIALUNIFORMEXPRESSION_TYPE")
+#pragma pop_macro("DECLARE_LO
