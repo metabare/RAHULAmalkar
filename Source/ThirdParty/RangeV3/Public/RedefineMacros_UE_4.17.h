@@ -2341,4 +2341,16 @@
 #pragma pop_macro("DECLARE_FLOAT_ACCUMULATOR_STAT_EXTERN")
 #pragma pop_macro("DECLARE_FLOAT_ACCUMULATOR_STAT")
 #pragma pop_macro("DECLARE_EXPORTED_SHADER_TYPE")
-#pragma pop_macro("DEC
+#pragma pop_macro("DECLARE_EVENT_TwoParams")
+#pragma pop_macro("DECLARE_EVENT_ThreeParams")
+#pragma pop_macro("DECLARE_EVENT_SixParams")
+#pragma pop_macro("DECLARE_EVENT_SevenParams")
+#pragma pop_macro("DECLARE_EVENT_OneParam")
+#pragma pop_macro("DECLARE_EVENT_NineParams")
+#pragma pop_macro("DECLARE_EVENT_FourParams")
+#pragma pop_macro("DECLARE_EVENT_FiveParams")
+#pragma pop_macro("DECLARE_EVENT_EightParams")
+#pragma pop_macro("DECLARE_EVENT")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGAT
