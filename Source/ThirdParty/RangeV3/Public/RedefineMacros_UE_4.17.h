@@ -2397,4 +2397,17 @@
 #pragma pop_macro("DECLARE_DELEGATE_RetVal_OneParam")
 #pragma pop_macro("DECLARE_DELEGATE_RetVal_NineParams")
 #pragma pop_macro("DECLARE_DELEGATE_RetVal_FourParams")
-#prag
+#pragma pop_macro("DECLARE_DELEGATE_RetVal_FiveParams")
+#pragma pop_macro("DECLARE_DELEGATE_RetVal_EightParams")
+#pragma pop_macro("DECLARE_DELEGATE_RetVal")
+#pragma pop_macro("DECLARE_DELEGATE_OneParam")
+#pragma pop_macro("DECLARE_DELEGATE_NineParams")
+#pragma pop_macro("DECLARE_DELEGATE_FourParams")
+#pragma pop_macro("DECLARE_DELEGATE_FiveParams")
+#pragma pop_macro("DECLARE_DELEGATE_EightParams")
+#pragma pop_macro("DECLARE_DELEGATE")
+#pragma pop_macro("DECLARE_CYCLE_STAT_EXTERN")
+#pragma pop_macro("DECLARE_CYCLE_STAT")
+#pragma pop_macro("DECLARE_COMMAND")
+#pragma pop_macro("DECLARE_CLASS_INTRINSIC_NO_CTOR")
+#pragma pop_macro("DECLAR
