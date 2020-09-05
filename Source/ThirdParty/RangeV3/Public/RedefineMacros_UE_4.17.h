@@ -2438,4 +2438,15 @@
 #pragma pop_macro("DEBUG_GL_SHADERS")
 #pragma pop_macro("DEBUG_FRAME_TIMING")
 #pragma pop_macro("DEBUG_FENCES")
-#pragma p
+#pragma pop_macro("DEBUG_EXECUTE_COMMAND_LIST")
+#pragma pop_macro("DEBUG_EXECUTE_COMMAND_CONTEXT")
+#pragma pop_macro("DEBUG_DISTRIBUTED_COOKING")
+#pragma pop_macro("DEBUG_AUDIO_CHECK_MSG")
+#pragma pop_macro("DEBUG_AUDIO_CHECK_MAIN_THREAD")
+#pragma pop_macro("DEBUG_AUDIO_CHECK_AUDIO_THREAD")
+#pragma pop_macro("DEBUG_AUDIO_CHECK")
+#pragma pop_macro("D3D12RHI_RESOURCE_FLAG_ALLOW_INDIRECT_BUFFER")
+#pragma pop_macro("D3D12_SUPPORTS_PARALLEL_RHI_EXECUTE")
+#pragma pop_macro("D3D12_STATE_CACHE_RUNTIME_TOGGLE")
+#pragma pop_macro("D3D12_STATE_CACHE_INLINE")
+#pragma pop_macro("D3D12_STATE_CACHE_DEB
