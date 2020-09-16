@@ -2701,4 +2701,17 @@
 #pragma pop_macro("BIND_UOBJECT_ATTRIBUTE")
 #pragma pop_macro("BIG_NUMBER")
 #pragma pop_macro("BEGIN_UPDATE_LOOP")
-#pragma pop_macro("BEGIN_U
+#pragma pop_macro("BEGIN_UNIFORM_BUFFER_STRUCT_WITH_CONSTRUCTOR")
+#pragma pop_macro("BEGIN_UNIFORM_BUFFER_STRUCT_EX")
+#pragma pop_macro("BEGIN_UNIFORM_BUFFER_STRUCT")
+#pragma pop_macro("BEGIN_SLATE_FUNCTION_BUILD_OPTIMIZATION")
+#pragma pop_macro("BEGIN_JSON_SERIALIZER")
+#pragma pop_macro("BEGIN_FUNCTION_BUILD_OPTIMIZATION")
+#pragma pop_macro("BEGIN_DRAW_EVENTF_COLOR")
+#pragma pop_macro("BEGIN_DRAW_EVENTF")
+#pragma pop_macro("BEGIN_DEFINE_SPEC_PRIVATE")
+#pragma pop_macro("BEGIN_DEFINE_SPEC")
+#pragma pop_macro("BEAM2_TYPEDATA_SETLOCKED")
+#pragma pop_macro("BEAM2_TYPEDATA_SETFREQUENCY")
+#pragma pop_macro("BEAM2_TYPEDATA_LOCKED_MASK")
+#pragm
