@@ -2714,4 +2714,17 @@
 #pragma pop_macro("BEAM2_TYPEDATA_SETLOCKED")
 #pragma pop_macro("BEAM2_TYPEDATA_SETFREQUENCY")
 #pragma pop_macro("BEAM2_TYPEDATA_LOCKED_MASK")
-#pragm
+#pragma pop_macro("BEAM2_TYPEDATA_LOCKED")
+#pragma pop_macro("BEAM2_TYPEDATA_FREQUENCY_SHIFT")
+#pragma pop_macro("BEAM2_TYPEDATA_FREQUENCY_MASK")
+#pragma pop_macro("BEAM2_TYPEDATA_FREQUENCY")
+#pragma pop_macro("BATCH_COPYPAGEMAPPINGS")
+#pragma pop_macro("BACKUP_LOG_FILENAME_POSTFIX")
+#pragma pop_macro("AudioSampleType")
+#pragma pop_macro("AudioCallbackFrameSize")
+#pragma pop_macro("AUDIO_PLATFORM_ERROR")
+#pragma pop_macro("AUDIO_MIXER_MIN_PITCH")
+#pragma pop_macro("AUDIO_MIXER_MAX_PITCH")
+#pragma pop_macro("AUDIO_MIXER_MAX_OUTPUT_CHANNELS")
+#pragma pop_macro("AUDIO_MIXER_ENABLE_DEBUG_MODE")
+#pragma pop_macro("AUD
