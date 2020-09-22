@@ -2771,4 +2771,7 @@
 #pragma pop_macro("AES_BLOCK_SIZE")
 #pragma pop_macro("AddUniqueDynamic")
 #pragma pop_macro("AddDynamic")
-#pragma pop_macro(
+#pragma pop_macro("ADD_LATENT_AUTOMATION_COMMAND")
+#pragma pop_macro("ACCUM_LOADTIME")
+#pragma pop_macro("AC_UnalignedSwap")
+#pragma pop_macro("ABSTRACT")
