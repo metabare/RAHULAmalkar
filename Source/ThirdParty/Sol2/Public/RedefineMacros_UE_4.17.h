@@ -44,4 +44,17 @@
 #pragma pop_macro("WITH_D3DX_LIBS")
 #pragma pop_macro("WITH_CASE_PRESERVING_NAME")
 #pragma pop_macro("WITH_AUTOMATION_WORKER")
-#pragma
+#pragma pop_macro("WINDOWS_PLATFORM_TYPES_GUARD")
+#pragma pop_macro("WINDOWS_PLATFORM_ATOMICS_GUARD")
+#pragma pop_macro("WINDOWS_PF_COMPARE_EXCHANGE128")
+#pragma pop_macro("WINDOWS_MAX_PATH")
+#pragma pop_macro("WINAPI")
+#pragma pop_macro("WIN32_LEAN_AND_MEAN")
+#pragma pop_macro("WhitelistCommandLines")
+#pragma pop_macro("WEBBROWSER_HASAPPLICATIONCACHEDIR")
+#pragma pop_macro("WAVE_FORMAT_LPCM")
+#pragma pop_macro("WAVE_FORMAT_ADPCM")
+#pragma pop_macro("WARNING_LOCATION")
+#pragma pop_macro("WANTS_WINDOWS_EVENT_LOGGING")
+#pragma pop_macro("WANTS_DRAW_MESH_EVENTS")
+#pragma pop_macro("WA
