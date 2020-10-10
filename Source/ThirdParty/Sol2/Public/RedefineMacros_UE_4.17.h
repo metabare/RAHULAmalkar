@@ -57,4 +57,17 @@
 #pragma pop_macro("WARNING_LOCATION")
 #pragma pop_macro("WANTS_WINDOWS_EVENT_LOGGING")
 #pragma pop_macro("WANTS_DRAW_MESH_EVENTS")
-#pragma pop_macro("WA
+#pragma pop_macro("WANTS_COMMANDLINE_WHITELIST")
+#pragma pop_macro("VULKANAPINAMESPACE")
+#pragma pop_macro("VULKAN_USE_NEW_GFX_STATE")
+#pragma pop_macro("VULKAN_USE_MSAA_RESOLVE_ATTACHMENTS")
+#pragma pop_macro("VULKAN_UB_RING_BUFFER_SIZE")
+#pragma pop_macro("VULKAN_TRACK_MEMORY_USAGE")
+#pragma pop_macro("VULKAN_SINGLE_ALLOCATION_PER_RESOURCE")
+#pragma pop_macro("VULKAN_SIGNAL_UNIMPLEMENTED")
+#pragma pop_macro("VULKAN_REUSE_FENCES")
+#pragma pop_macro("VULKAN_KEEP_CREATE_INFO")
+#pragma pop_macro("VULKAN_HAS_DEBUGGING_ENABLED")
+#pragma pop_macro("VULKAN_ENABLE_RHI_DEBUGGING")
+#pragma pop_macro("VULKAN_ENABLE_DUMP_LAYER")
+#p
