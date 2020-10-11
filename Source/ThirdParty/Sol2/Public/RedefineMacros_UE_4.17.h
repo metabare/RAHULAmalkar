@@ -70,4 +70,15 @@
 #pragma pop_macro("VULKAN_HAS_DEBUGGING_ENABLED")
 #pragma pop_macro("VULKAN_ENABLE_RHI_DEBUGGING")
 #pragma pop_macro("VULKAN_ENABLE_DUMP_LAYER")
-#p
+#pragma pop_macro("VULKAN_ENABLE_DRAW_MARKERS")
+#pragma pop_macro("VULKAN_ENABLE_API_DUMP")
+#pragma pop_macro("VULKAN_ENABLE_AGGRESSIVE_STATS")
+#pragma pop_macro("VULKAN_DYNAMICALLYLOADED")
+#pragma pop_macro("VULKAN_DISABLE_DEBUG_CALLBACK")
+#pragma pop_macro("VULKAN_CUSTOM_MEMORY_MANAGER_ENABLED")
+#pragma pop_macro("VULKAN_COMMANDWRAPPERS_ENABLE")
+#pragma pop_macro("VULKAN_ALLOW_MIDPASS_CLEAR")
+#pragma pop_macro("VTABLE_OFFSET")
+#pragma pop_macro("VOICE_SAMPLE_RATE")
+#pragma pop_macro("VOICE_CHANNEL_INDEX")
+#pragma pop_macro("VK_USE_PLATFORM_WIN32_KHR"
