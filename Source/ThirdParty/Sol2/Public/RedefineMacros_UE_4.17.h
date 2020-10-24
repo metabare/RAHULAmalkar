@@ -254,4 +254,15 @@
 #pragma pop_macro("USE_INTERNAL_LOCKS")
 #pragma pop_macro("USE_IMPLICIT_ARCS")
 #pragma pop_macro("USE_GBuiltinSamplersUniformBuffer")
-#pragma pop_macro("
+#pragma pop_macro("USE_FAST_QUAT_MUL")
+#pragma pop_macro("USE_EVENT_DRIVEN_ASYNC_LOAD_AT_BOOT_TIME")
+#pragma pop_macro("USE_EQS_TICKLOADDATA")
+#pragma pop_macro("USE_EQS_DEBUGGER")
+#pragma pop_macro("USE_DELEGATE_TRYGETBOUNDFUNCTIONNAME")
+#pragma pop_macro("USE_DEFERRED_DEPENDENCY_CHECK_VERIFICATION_TESTS")
+#pragma pop_macro("USE_D3D12RHI_RESOURCE_STATE_TRACKING")
+#pragma pop_macro("USE_COMPILED_IN_NATIVES")
+#pragma pop_macro("USE_CIRCULAR_DEPENDENCY_LOAD_DEFERRING")
+#pragma pop_macro("USE_CHECKS_IN_SHIPPING")
+#pragma pop_macro("USE_BEHAVIORTREE_DEBUGGER")
+#pragma pop_macro("USE_ANIMATION_CODEC
