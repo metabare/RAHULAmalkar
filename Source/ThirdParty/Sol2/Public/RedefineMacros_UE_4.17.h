@@ -391,4 +391,17 @@
 #pragma pop_macro("UCLASS")
 #pragma pop_macro("UA_SYSTEM_ERROR")
 #pragma pop_macro("UA_DEVICE_PLATFORM_ERROR")
-#p
+#pragma pop_macro("TYPENAME_OUTSIDE_TEMPLATE")
+#pragma pop_macro("TWO_PI")
+#pragma pop_macro("TUPLES_USE_DEFAULTED_FUNCTIONS")
+#pragma pop_macro("TRUE")
+#pragma pop_macro("TRANSLATION_ZEROING_THRESHOLD")
+#pragma pop_macro("TRAIL_EMITTER_SET_START")
+#pragma pop_macro("TRAIL_EMITTER_SET_PREVNEXT")
+#pragma pop_macro("TRAIL_EMITTER_SET_PREV")
+#pragma pop_macro("TRAIL_EMITTER_SET_ONLY")
+#pragma pop_macro("TRAIL_EMITTER_SET_NEXT")
+#pragma pop_macro("TRAIL_EMITTER_SET_MIDDLE")
+#pragma pop_macro("TRAIL_EMITTER_SET_FORCEKILL")
+#pragma pop_macro("TRAIL_EMITTER_SET_FLAG")
+#pragma pop_macro("TRAIL_EMITTER_SET_END"
