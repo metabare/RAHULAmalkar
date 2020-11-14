@@ -593,4 +593,16 @@
 #pragma pop_macro("SET_CYCLE_COUNTER")
 #pragma pop_macro("SET_BONE_DATA")
 #pragma pop_macro("SERIALIZE_SYMBOL_INFO")
-#pragma p
+#pragma pop_macro("SEQUENCER_INSTANCE_PLAYER_TYPE")
+#pragma pop_macro("SELECT_STATIC_MESH_VERTEX_TYPE_WITH_TEX_COORDS")
+#pragma pop_macro("SELECT_STATIC_MESH_VERTEX_TYPE")
+#pragma pop_macro("SECRET_COUNT")
+#pragma pop_macro("SECRET_BYTE_SIZE")
+#pragma pop_macro("SDPG_NumBits")
+#pragma pop_macro("SCRIPT_LIMIT_BYTECODE_TO_64KB")
+#pragma pop_macro("SCOPED_SUSPEND_RENDERING_THREAD")
+#pragma pop_macro("SCOPED_SCRIPT_NATIVE_TIMER")
+#pragma pop_macro("SCOPED_SCENE_WRITE_LOCK_INDEXED")
+#pragma pop_macro("SCOPED_SCENE_WRITE_LOCK")
+#pragma pop_macro("SCOPED_SCENE_READ_LOCK_INDEXED")
+#pragma pop_macro(
