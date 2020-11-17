@@ -605,4 +605,17 @@
 #pragma pop_macro("SCOPED_SCENE_WRITE_LOCK_INDEXED")
 #pragma pop_macro("SCOPED_SCENE_WRITE_LOCK")
 #pragma pop_macro("SCOPED_SCENE_READ_LOCK_INDEXED")
-#pragma pop_macro(
+#pragma pop_macro("SCOPED_SCENE_READ_LOCK")
+#pragma pop_macro("SCOPED_RHI_DRAW_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_RHI_DRAW_EVENTF")
+#pragma pop_macro("SCOPED_RHI_DRAW_EVENT_COLOR")
+#pragma pop_macro("SCOPED_RHI_DRAW_EVENT")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENTF")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENT_COLOR")
+#pragma pop_macro("SCOPED_RHI_CONDITIONAL_DRAW_EVENT")
+#pragma pop_macro("SCOPED_NAMED_EVENT")
+#pragma pop_macro("SCOPED_LOADTIMER_CNT")
+#pragma pop_macro("SCOPED_LOADTIMER")
+#pragma pop_macro("SCOPED_GPU_STAT")
+#pragm
