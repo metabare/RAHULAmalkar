@@ -630,4 +630,17 @@
 #pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENTF")
 #pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENT_COLOR")
 #pragma pop_macro("SCOPED_CONDITIONAL_COMPUTE_EVENT")
-#pragma
+#pragma pop_macro("SCOPED_COMPUTE_EVENTF_COLOR")
+#pragma pop_macro("SCOPED_COMPUTE_EVENTF")
+#pragma pop_macro("SCOPED_COMPUTE_EVENT_COLOR")
+#pragma pop_macro("SCOPED_COMPUTE_EVENT")
+#pragma pop_macro("SCOPED_AUTORELEASE_POOL")
+#pragma pop_macro("SCOPED_APEX_SCENE_WRITE_LOCK")
+#pragma pop_macro("SCOPED_APEX_SCENE_READ_LOCK")
+#pragma pop_macro("SCOPED_ABTEST_DOFIRSTTEST")
+#pragma pop_macro("SCOPED_ABTEST")
+#pragma pop_macro("SCOPE_TIME_GUARD_MS")
+#pragma pop_macro("SCOPE_TIME_GUARD")
+#pragma pop_macro("SCOPE_SECONDS_COUNTER_RECURSION_SAFE_BASE")
+#pragma pop_macro("SCOPE_SECONDS_COUNTER_RECURSION_SAFE")
+#pragma pop_macro("SCOPE_SE
