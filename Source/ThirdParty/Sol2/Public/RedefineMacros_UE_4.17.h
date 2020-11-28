@@ -705,4 +705,16 @@
 #pragma pop_macro("RESIDENCY_PIPELINE_DEPTH")
 #pragma pop_macro("REQUIRES_ALIGNED_ACCESS")
 #pragma pop_macro("REPORT_GL_FRAMEBUFFER_BLIT_EVENT")
-#pragma pop_macro("REPORT_GL_END_BUFFER_
+#pragma pop_macro("REPORT_GL_END_BUFFER_EVENT_FOR_FRAME_DUMP")
+#pragma pop_macro("REPORT_GL_DRAW_RANGE_ELEMENTS_EVENT_FOR_FRAME_DUMP")
+#pragma pop_macro("REPORT_GL_DRAW_ELEMENTS_INSTANCED_EVENT_FOR_FRAME_DUMP")
+#pragma pop_macro("REPORT_GL_DRAW_ARRAYS_INSTANCED_EVENT_FOR_FRAME_DUMP")
+#pragma pop_macro("REPORT_GL_DRAW_ARRAYS_EVENT_FOR_FRAME_DUMP")
+#pragma pop_macro("REPORT_GL_CLEAR_EVENT_FOR_FRAME_DUMP")
+#pragma pop_macro("REPLACEMENT_OPERATOR_NEW_AND_DELETE")
+#pragma pop_macro("REN_Test")
+#pragma pop_macro("REN_SkipGeneratedClasses")
+#pragma pop_macro("REN_NonTransactional")
+#pragma pop_macro("REN_None")
+#pragma pop_macro("REN_ForceNoResetLoaders")
+#pragma po
