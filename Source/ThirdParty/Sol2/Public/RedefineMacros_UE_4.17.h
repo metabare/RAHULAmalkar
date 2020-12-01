@@ -779,4 +779,15 @@
 #pragma pop_macro("PREPROCESSOR_NOTHING")
 #pragma pop_macro("PREPROCESSOR_JOIN_INNER")
 #pragma pop_macro("PREPROCESSOR_JOIN")
-#
+#pragma pop_macro("PREPROCESSOR_IF_INNER_1")
+#pragma pop_macro("PREPROCESSOR_IF_INNER_0")
+#pragma pop_macro("PREPROCESSOR_IF")
+#pragma pop_macro("PREPROCESSOR_ENUM_PROTECT")
+#pragma pop_macro("PREPROCESSOR_COMMA_SEPARATED")
+#pragma pop_macro("PRAGMA_POP")
+#pragma pop_macro("PRAGMA_ENABLE_UNDEFINED_IDENTIFIER_WARNINGS")
+#pragma pop_macro("PRAGMA_ENABLE_SHADOW_VARIABLE_WARNINGS")
+#pragma pop_macro("PRAGMA_ENABLE_OPTIMIZATION_ACTUAL")
+#pragma pop_macro("PRAGMA_ENABLE_OPTIMIZATION")
+#pragma pop_macro("PRAGMA_ENABLE_NULL_DEREFERENCE_WARNINGS")
+#pragma pop_macro("PRAGMA_ENABLE_MISSING_VIRTUAL_DEST
