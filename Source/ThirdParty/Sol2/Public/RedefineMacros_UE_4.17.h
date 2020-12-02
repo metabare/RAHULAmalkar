@@ -801,4 +801,17 @@
 #pragma pop_macro("PRAGMA_DISABLE_MISSING_VIRTUAL_DESTRUCTOR_WARNINGS")
 #pragma pop_macro("PRAGMA_DISABLE_INLINING")
 #pragma pop_macro("PRAGMA_DISABLE_DEPRECATION_WARNINGS")
-#pragma pop_macro("PORTAL_RPC_LOCATE
+#pragma pop_macro("PORTAL_RPC_LOCATE_TIMEOUT")
+#pragma pop_macro("PORTAL_RPC_LOCATE_INTERVAL")
+#pragma pop_macro("POP_MACRO")
+#pragma pop_macro("PLAYWORLD_PACKAGE_PREFIX")
+#pragma pop_macro("PLAYWORLD_CONSOLE_BASE_PACKAGE_PREFIX")
+#pragma pop_macro("PLATFORM_XBOXONE")
+#pragma pop_macro("PLATFORM_WINDOWS")
+#pragma pop_macro("PLATFORM_VTABLE_AT_END_OF_CLASS")
+#pragma pop_macro("PLATFORM_VECTOR_CUBIC_INTERP_SSE")
+#pragma pop_macro("PLATFORM_USES_STACKBASED_MALLOC_CRASH")
+#pragma pop_macro("PLATFORM_USES_POSIX_IMCP")
+#pragma pop_macro("PLATFORM_USES_MICROSOFT_LIBC_FUNCTIONS")
+#pragma pop_macro("PLATFORM_USES_FIXED_RHI_CLASS")
+#pragma
