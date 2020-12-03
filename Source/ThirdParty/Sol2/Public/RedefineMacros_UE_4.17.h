@@ -814,4 +814,15 @@
 #pragma pop_macro("PLATFORM_USES_POSIX_IMCP")
 #pragma pop_macro("PLATFORM_USES_MICROSOFT_LIBC_FUNCTIONS")
 #pragma pop_macro("PLATFORM_USES_FIXED_RHI_CLASS")
-#pragma
+#pragma pop_macro("PLATFORM_USES_FIXED_GMalloc_CLASS")
+#pragma pop_macro("PLATFORM_USES_FACE_BUTTON_RIGHT_FOR_ACCEPT")
+#pragma pop_macro("PLATFORM_USES_ES2")
+#pragma pop_macro("PLATFORM_USES_ANSI_STRING_FOR_EXTERNAL_PROFILING")
+#pragma pop_macro("PLATFORM_USE_SYSTEM_VSWPRINTF")
+#pragma pop_macro("PLATFORM_USE_PTHREADS")
+#pragma pop_macro("PLATFORM_USE_LS_SPEC_FOR_WIDECHAR")
+#pragma pop_macro("PLATFORM_UI_NEEDS_TOOLTIPS")
+#pragma pop_macro("PLATFORM_UI_NEEDS_FOCUS_OUTLINES")
+#pragma pop_macro("PLATFORM_UI_HAS_MOBILE_SCROLLBARS")
+#pragma pop_macro("PLATFORM_TVOS")
+#pragma pop_macro("PLATFOR
