@@ -825,4 +825,16 @@
 #pragma pop_macro("PLATFORM_UI_NEEDS_FOCUS_OUTLINES")
 #pragma pop_macro("PLATFORM_UI_HAS_MOBILE_SCROLLBARS")
 #pragma pop_macro("PLATFORM_TVOS")
-#pragma pop_macro("PLATFOR
+#pragma pop_macro("PLATFORM_TCHAR_IS_4_BYTES")
+#pragma pop_macro("PLATFORM_TCHAR_IS_1_BYTE")
+#pragma pop_macro("PLATFORM_SWITCH")
+#pragma pop_macro("PLATFORM_SUPPORTS_WATCHDOG")
+#pragma pop_macro("PLATFORM_SUPPORTS_VOICE_CAPTURE")
+#pragma pop_macro("PLATFORM_SUPPORTS_VIRTUAL_TEXTURES")
+#pragma pop_macro("PLATFORM_SUPPORTS_UNALIGNED_INT_LOADS")
+#pragma pop_macro("PLATFORM_SUPPORTS_TEXTURE_STREAMING")
+#pragma pop_macro("PLATFORM_SUPPORTS_TBB")
+#pragma pop_macro("PLATFORM_SUPPORTS_STACK_SYMBOLS")
+#pragma pop_macro("PLATFORM_SUPPORTS_RHI_THREAD")
+#pragma pop_macro("PLATFORM_SUPPORTS_PRAGMA_PACK")
+#pragma pop_macr
