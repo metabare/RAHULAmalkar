@@ -848,4 +848,16 @@
 #pragma pop_macro("PLATFORM_SUPPORTS_DRAW_MESH_EVENTS")
 #pragma pop_macro("PLATFORM_SOCKETSUBSYSTEM")
 #pragma pop_macro("PLATFORM_SEH_EXCEPTIONS_DISABLED")
-#pragma pop_macro("PLATFORM_RHITHREAD_DEFAULT_B
+#pragma pop_macro("PLATFORM_RHITHREAD_DEFAULT_BYPASS")
+#pragma pop_macro("PLATFORM_RHI_USES_CONTEXT_OBJECT")
+#pragma pop_macro("PLATFORM_REQUIRES_FILESERVER")
+#pragma pop_macro("PLATFORM_PS4")
+#pragma pop_macro("PLATFORM_NUM_AUDIODECOMPRESSION_PRECACHE_BUFFERS")
+#pragma pop_macro("PLATFORM_MAX_FILEPATH_LENGTH")
+#pragma pop_macro("PLATFORM_MAX_CACHED_SYNC_FILE_HANDLES_PER_GENERIC_ASYNC_FILE_HANDLE")
+#pragma pop_macro("PLATFORM_MAC")
+#pragma pop_macro("PLATFORM_LITTLE_ENDIAN")
+#pragma pop_macro("PLATFORM_LINUX")
+#pragma pop_macro("PLATFORM_LIMIT_MOBILE_BONE_MATRICES")
+#pragma pop_macro("PLATFORM_IOS")
+#pragma pop_ma
