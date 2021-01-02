@@ -1252,4 +1252,15 @@
 #pragma pop_macro("LOADING_COMPRESSION_CHUNK_SIZE")
 #pragma pop_macro("LLM_SCOPED_TAG_WITH_STAT_NAME_IN_SET")
 #pragma pop_macro("LLM_SCOPED_TAG_WITH_STAT_NAME")
-#pragma
+#pragma pop_macro("LLM_SCOPED_TAG_WITH_STAT_IN_SET")
+#pragma pop_macro("LLM_SCOPED_TAG_WITH_STAT")
+#pragma pop_macro("LLM_SCOPED_TAG_WITH_OBJECT_IN_SET")
+#pragma pop_macro("LLM_SCOPED_TAG_WITH_ENUM")
+#pragma pop_macro("LLM_SCOPED_SINGLE_RHI_STAT_TAG_IN_SET")
+#pragma pop_macro("LLM_SCOPED_SINGLE_RHI_STAT_TAG")
+#pragma pop_macro("LLM_SCOPED_SINGLE_PLATFORM_STAT_TAG_IN_SET")
+#pragma pop_macro("LLM_SCOPED_SINGLE_PLATFORM_STAT_TAG")
+#pragma pop_macro("LLM_SCOPED_SINGLE_MALLOC_STAT_TAG_IN_SET")
+#pragma pop_macro("LLM_SCOPED_SINGLE_MALLOC_STAT_TAG")
+#pragma pop_macro("LLM_SCOPED_PAUSE_TRACKING_WITH_STAT_AND_AMOUNT")
+#pragma pop_macro("LLM_SCOPED_PAUSE_TRACKING_
