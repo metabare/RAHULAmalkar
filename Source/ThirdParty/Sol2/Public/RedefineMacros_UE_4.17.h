@@ -1379,4 +1379,16 @@
 #pragma pop_macro("IMPLEMENT_SHADER_TYPE2")
 #pragma pop_macro("IMPLEMENT_SHADER_TYPE")
 #pragma pop_macro("IMPLEMENT_PRIMARY_GAME_MODULE")
-#pragma pop_macro("IMPLEMENT
+#pragma pop_macro("IMPLEMENT_NETWORKED_AUTOMATION_TEST_PRIVATE")
+#pragma pop_macro("IMPLEMENT_NETWORKED_AUTOMATION_TEST")
+#pragma pop_macro("IMPLEMENT_MODULE")
+#pragma pop_macro("IMPLEMENT_MATERIALUNIFORMEXPRESSION_TYPE")
+#pragma pop_macro("IMPLEMENT_MATERIAL_SHADER_TYPE")
+#pragma pop_macro("IMPLEMENT_INTRINSIC_CLASS")
+#pragma pop_macro("IMPLEMENT_HIT_PROXY_BASE")
+#pragma pop_macro("IMPLEMENT_HIT_PROXY")
+#pragma pop_macro("IMPLEMENT_GAME_MODULE")
+#pragma pop_macro("IMPLEMENT_FOREIGN_ENGINE_DIR")
+#pragma pop_macro("IMPLEMENT_DYNAMIC_CLASS")
+#pragma pop_macro("IMPLEMENT_DEBUGGAME")
+#pragma pop_macro("IMPLEMENT_CUSTOM_SIMPLE_AUTOMATI
