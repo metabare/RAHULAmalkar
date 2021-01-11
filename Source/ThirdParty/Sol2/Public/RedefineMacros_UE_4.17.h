@@ -1464,4 +1464,15 @@
 #pragma pop_macro("GL_UNSIGNED_INT_VEC3")
 #pragma pop_macro("GL_UNSIGNED_INT_VEC2")
 #pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_CUBE")
-#pragma pop_macro("G
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_BUFFER")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_3D")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_RECT")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE_ARRAY")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_MULTISAMPLE")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D_ARRAY")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_2D")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_1D_ARRAY")
+#pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_1D")
+#pragma pop_macro("GL_UNSIGNED_INT_8_8_8_8_REV")
+#pragma pop_macro("GL_UNSIGNED_INT_2_10_10_10_REV")
+#pragma pop_macro("GL_UNPACK_ROW_LEN
