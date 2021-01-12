@@ -1488,4 +1488,16 @@
 #pragma pop_macro("GL_TIME_ELAPSED")
 #pragma pop_macro("GL_TEXTURE_WRAP_R")
 #pragma pop_macro("GL_TEXTURE_SWIZZLE_R")
-#pragma
+#pragma pop_macro("GL_TEXTURE_SWIZZLE_G")
+#pragma pop_macro("GL_TEXTURE_SWIZZLE_B")
+#pragma pop_macro("GL_TEXTURE_SWIZZLE_A")
+#pragma pop_macro("GL_TEXTURE_STORAGE_HINT_APPLE")
+#pragma pop_macro("GL_TEXTURE_RANGE_POINTER_APPLE")
+#pragma pop_macro("GL_TEXTURE_RANGE_LENGTH_APPLE")
+#pragma pop_macro("GL_TEXTURE_MINIMIZE_STORAGE_APPLE")
+#pragma pop_macro("GL_TEXTURE_MAX_LEVEL")
+#pragma pop_macro("GL_TEXTURE_LOD_BIAS")
+#pragma pop_macro("GL_TEXTURE_CUBE_MAP_SEAMLESS")
+#pragma pop_macro("GL_TEXTURE_CUBE_MAP_ARRAY")
+#pragma pop_macro("GL_TEXTURE_COMPARE_MODE")
+#pragma pop_macro("GL_TEXTURE_COMPARE_FU
