@@ -1475,4 +1475,17 @@
 #pragma pop_macro("GL_UNSIGNED_INT_SAMPLER_1D")
 #pragma pop_macro("GL_UNSIGNED_INT_8_8_8_8_REV")
 #pragma pop_macro("GL_UNSIGNED_INT_2_10_10_10_REV")
-#pragma pop_macro("GL_UNPACK_ROW_LEN
+#pragma pop_macro("GL_UNPACK_ROW_LENGTH")
+#pragma pop_macro("GL_UNPACK_IMAGE_HEIGHT")
+#pragma pop_macro("GL_UNPACK_CLIENT_STORAGE_APPLE")
+#pragma pop_macro("GL_UNIFORM_BUFFER_OFFSET_ALIGNMENT")
+#pragma pop_macro("GL_UNIFORM_BUFFER")
+#pragma pop_macro("GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_EVALUATION_SHADER")
+#pragma pop_macro("GL_UNIFORM_BLOCK_REFERENCED_BY_TESS_CONTROL_SHADER")
+#pragma pop_macro("GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER")
+#pragma pop_macro("GL_TIMESTAMP_EXT")
+#pragma pop_macro("GL_TIME_ELAPSED_EXT")
+#pragma pop_macro("GL_TIME_ELAPSED")
+#pragma pop_macro("GL_TEXTURE_WRAP_R")
+#pragma pop_macro("GL_TEXTURE_SWIZZLE_R")
+#pragma
