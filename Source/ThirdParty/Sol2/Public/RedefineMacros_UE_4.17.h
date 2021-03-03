@@ -1752,4 +1752,16 @@
 #pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT")
 #pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT3_NV")
 #pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT3_EXT")
-#pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT
+#pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT1_NV")
+#pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT")
+#pragma pop_macro("GL_COMPRESSED_SRGB_ALPHA_EXT")
+#pragma pop_macro("GL_COMPRESSED_SLUMINANCE_EXT")
+#pragma pop_macro("GL_COMPRESSED_SLUMINANCE_ALPHA_EXT")
+#pragma pop_macro("GL_COMPRESSED_SIGNED_RG_RGTC2")
+#pragma pop_macro("GL_COMPRESSED_SIGNED_RED_RGTC1")
+#pragma pop_macro("GL_COMPRESSED_RGBA8_ETC2_EAC")
+#pragma pop_macro("GL_COMPRESSED_RGBA_S3TC_DXT5_EXT")
+#pragma pop_macro("GL_COMPRESSED_RGBA_S3TC_DXT3_EXT")
+#pragma pop_macro("GL_COMPRESSED_RGBA_S3TC_DXT1_EXT")
+#pragma pop_macro("GL_COMPRESSED_RGBA_PVRTC_4BPPV1_IMG")
+#pragma 
