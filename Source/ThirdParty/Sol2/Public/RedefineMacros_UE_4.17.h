@@ -1965,4 +1965,12 @@
 #pragma pop_macro("ensureAsRuntimeWarning")
 #pragma pop_macro("ensureAlwaysMsgf")
 #pragma pop_macro("ensureAlways")
-#pragm
+#pragma pop_macro("ensure")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_DECLARE_TEMPLATE")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_DECLARE_OPTTYPENAME")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_DECLARE")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_CREATE_TEMPLATE")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER_CREATE")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_TWOPARAMETER")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_THREEPARAMETER_DECLARE_TEMPLATE")
+#pragma pop_macro("ENQUEUE_UNIQUE_RENDER_COMMAND_
