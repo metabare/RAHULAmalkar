@@ -2076,4 +2076,15 @@
 #pragma pop_macro("EGL_NO_RESET_NOTIFICATION_KHR")
 #pragma pop_macro("EGL_LOSE_CONTEXT_ON_RESET_KHR")
 #pragma pop_macro("EGL_KHR_create_context")
-#prag
+#pragma pop_macro("EGL_CONTEXT_OPENGL_ROBUST_ACCESS_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_RESET_NOTIFICATION_STRATEGY_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_PROFILE_MASK_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_FORWARD_COMPATIBLE_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_DEBUG_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_CORE_PROFILE_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_OPENGL_COMPATIBILITY_PROFILE_BIT_KHR")
+#pragma pop_macro("EGL_CONTEXT_MINOR_VERSION_KHR")
+#pragma pop_macro("EGL_CONTEXT_MAJOR_VERSION_KHR")
+#pragma pop_macro("EGL_CONTEXT_FLAGS_KHR")
+#pragma pop_macro("EFFECT_SETTINGS_NAME2")
+#pragma pop_macro("EFFECT_SET
