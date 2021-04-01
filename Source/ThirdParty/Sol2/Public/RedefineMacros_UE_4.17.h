@@ -2252,4 +2252,16 @@
 #pragma pop_macro("DEFINE_CONTROL_CHANNEL_MESSAGE_THREEPARAM")
 #pragma pop_macro("DEFINE_CONTROL_CHANNEL_MESSAGE_SEVENPARAM")
 #pragma pop_macro("DEFINE_CONTROL_CHANNEL_MESSAGE_ONEPARAM")
-#pragma pop_macro("DEFINE_C
+#pragma pop_macro("DEFINE_CONTROL_CHANNEL_MESSAGE_FOURPARAM")
+#pragma pop_macro("DEFINE_CONTROL_CHANNEL_MESSAGE_EIGHTPARAM")
+#pragma pop_macro("DEFAULTS")
+#pragma pop_macro("DEFAULT_ZLIB_BIT_WINDOW")
+#pragma pop_macro("DEFAULT_SUBTITLE_PRIORITY")
+#pragma pop_macro("DEFAULT_STRING_CONVERSION_SIZE")
+#pragma pop_macro("DEFAULT_SAMPLERATE")
+#pragma pop_macro("DEFAULT_ORTHOZOOM")
+#pragma pop_macro("DEFAULT_OBJECT_PREFIX")
+#pragma pop_macro("DEFAULT_NUMBER_OF_ELEMENTS_PER_HASH_BUCKET")
+#pragma pop_macro("DEFAULT_NAV_QUERY_EXTENT_VERTICAL")
+#pragma pop_macro("DEFAULT_NAV_QUERY_EXTENT_HORIZONTAL")
+#pragma pop_macro("DEFAULT_
