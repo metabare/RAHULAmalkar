@@ -2313,4 +2313,15 @@
 #pragma pop_macro("DECLARE_PARTICLE_PTR")
 #pragma pop_macro("DECLARE_PARTICLE_CONST")
 #pragma pop_macro("DECLARE_PARTICLE")
-#pragma pop_macro("DECLARE_MULTICAST
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_TwoParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_ThreeParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_SixParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_SevenParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_OneParam")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_NineParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_FourParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_FiveParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE_EightParams")
+#pragma pop_macro("DECLARE_MULTICAST_DELEGATE")
+#pragma pop_macro("DECLARE_MEMORY_STAT_POOL_EXTERN")
+#pragm
