@@ -2324,4 +2324,16 @@
 #pragma pop_macro("DECLARE_MULTICAST_DELEGATE_EightParams")
 #pragma pop_macro("DECLARE_MULTICAST_DELEGATE")
 #pragma pop_macro("DECLARE_MEMORY_STAT_POOL_EXTERN")
-#pragm
+#pragma pop_macro("DECLARE_MEMORY_STAT_POOL")
+#pragma pop_macro("DECLARE_MEMORY_STAT_EXTERN")
+#pragma pop_macro("DECLARE_MEMORY_STAT")
+#pragma pop_macro("DECLARE_MATERIALUNIFORMEXPRESSION_TYPE")
+#pragma pop_macro("DECLARE_LOG_CATEGORY_EXTERN")
+#pragma pop_macro("DECLARE_LOG_CATEGORY_CLASS")
+#pragma pop_macro("DECLARE_HIT_PROXY_STATIC")
+#pragma pop_macro("DECLARE_HIT_PROXY")
+#pragma pop_macro("DECLARE_GL_ENTRYPOINTS")
+#pragma pop_macro("DECLARE_FUNCTION")
+#pragma pop_macro("DECLARE_FNAME_STAT_EXTERN")
+#pragma pop_macro("DECLARE_FNAME_STAT")
+#pragma pop_macro("DECLARE_FLOAT_COUNTER_STAT_EXTER
