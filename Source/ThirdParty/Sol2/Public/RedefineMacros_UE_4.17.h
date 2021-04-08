@@ -2349,4 +2349,14 @@
 #pragma pop_macro("DECLARE_EVENT_NineParams")
 #pragma pop_macro("DECLARE_EVENT_FourParams")
 #pragma pop_macro("DECLARE_EVENT_FiveParams")
-#pragma pop_macro("DECLARE_EV
+#pragma pop_macro("DECLARE_EVENT_EightParams")
+#pragma pop_macro("DECLARE_EVENT")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_SevenParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_NineParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_FourParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_FiveParams")
+#pragma pop_macro("DECLARE_DYNAMIC_MULT
