@@ -2370,4 +2370,15 @@
 #pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_SixParams")
 #pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_SevenParams")
 #pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_OneParam")
-#pragma pop_macro("DECLARE_DYNAMIC
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_NineParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_FourParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_FiveParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_EightParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_RetVal")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_OneParam")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_NineParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_FourParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_FiveParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE_EightParams")
+#pragma pop_macro("DECLARE_DYNAMIC_DELEGATE")
+#pragma pop_macro("DECLARE_
