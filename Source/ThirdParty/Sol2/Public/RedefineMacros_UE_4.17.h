@@ -2405,4 +2405,16 @@
 #pragma pop_macro("DECLARE_DELEGATE_FourParams")
 #pragma pop_macro("DECLARE_DELEGATE_FiveParams")
 #pragma pop_macro("DECLARE_DELEGATE_EightParams")
-#pragma pop_macro("DECLARE_DEL
+#pragma pop_macro("DECLARE_DELEGATE")
+#pragma pop_macro("DECLARE_CYCLE_STAT_EXTERN")
+#pragma pop_macro("DECLARE_CYCLE_STAT")
+#pragma pop_macro("DECLARE_COMMAND")
+#pragma pop_macro("DECLARE_CLASS_INTRINSIC_NO_CTOR")
+#pragma pop_macro("DECLARE_CLASS_INTRINSIC")
+#pragma pop_macro("DECLARE_CLASS")
+#pragma pop_macro("DECLARE_CASTED_CLASS_INTRINSIC_WITH_API_NO_CTOR")
+#pragma pop_macro("DECLARE_CASTED_CLASS_INTRINSIC_WITH_API")
+#pragma pop_macro("DECLARE_CASTED_CLASS_INTRINSIC_NO_CTOR_NO_VTABLE_CTOR")
+#pragma pop_macro("DECLARE_CASTED_CLASS_INTRINSIC_NO_CTOR")
+#pragma pop_macro("DECLARE_CASTED_CLASS_INTRINSIC")
+#prag
