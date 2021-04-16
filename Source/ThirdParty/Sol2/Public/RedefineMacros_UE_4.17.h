@@ -2431,4 +2431,17 @@
 #pragma pop_macro("DEC_DWORD_STAT_BY")
 #pragma pop_macro("DEC_DWORD_STAT")
 #pragma pop_macro("DEBUGDRAW_H")
-#pragm
+#pragma pop_macro("DEBUG_TAB_MANAGEMENT")
+#pragma pop_macro("DEBUG_RHI_EXECUTE_COMMAND_LIST")
+#pragma pop_macro("DEBUG_RESOURCE_STATES")
+#pragma pop_macro("DEBUG_INFINITESHADERCOMPILE")
+#pragma pop_macro("DEBUG_GL_SHADERS")
+#pragma pop_macro("DEBUG_FRAME_TIMING")
+#pragma pop_macro("DEBUG_FENCES")
+#pragma pop_macro("DEBUG_EXECUTE_COMMAND_LIST")
+#pragma pop_macro("DEBUG_EXECUTE_COMMAND_CONTEXT")
+#pragma pop_macro("DEBUG_DISTRIBUTED_COOKING")
+#pragma pop_macro("DEBUG_AUDIO_CHECK_MSG")
+#pragma pop_macro("DEBUG_AUDIO_CHECK_MAIN_THREAD")
+#pragma pop_macro("DEBUG_AUDIO_CHECK_AUDIO_THREAD")
+#pragma pop_
