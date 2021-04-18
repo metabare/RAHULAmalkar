@@ -2444,4 +2444,16 @@
 #pragma pop_macro("DEBUG_AUDIO_CHECK_MSG")
 #pragma pop_macro("DEBUG_AUDIO_CHECK_MAIN_THREAD")
 #pragma pop_macro("DEBUG_AUDIO_CHECK_AUDIO_THREAD")
-#pragma pop_
+#pragma pop_macro("DEBUG_AUDIO_CHECK")
+#pragma pop_macro("D3D12RHI_RESOURCE_FLAG_ALLOW_INDIRECT_BUFFER")
+#pragma pop_macro("D3D12_SUPPORTS_PARALLEL_RHI_EXECUTE")
+#pragma pop_macro("D3D12_STATE_CACHE_RUNTIME_TOGGLE")
+#pragma pop_macro("D3D12_STATE_CACHE_INLINE")
+#pragma pop_macro("D3D12_STATE_CACHE_DEBUG")
+#pragma pop_macro("D3D12_RESOURCE_STATE_TBD")
+#pragma pop_macro("D3D12_RESOURCE_STATE_CORRUPT")
+#pragma pop_macro("D3D12_BUFFER_TYPE_VERTEX")
+#pragma pop_macro("D3D12_BUFFER_TYPE_STRUCTURED")
+#pragma pop_macro("D3D12_BUFFER_TYPE_INDEX")
+#pragma pop_macro("D3D12_BUFFER_TYPE_CONSTANT")
+#pragma pop_macro("D3D11_STATE_CACHE_VER
