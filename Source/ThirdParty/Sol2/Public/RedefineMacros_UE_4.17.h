@@ -2637,4 +2637,17 @@
 #pragma pop_macro("CASTCLASS_UFunction")
 #pragma pop_macro("CASTCLASS_UFloatProperty")
 #pragma pop_macro("CASTCLASS_UField")
-#p
+#pragma pop_macro("CASTCLASS_UEnumProperty")
+#pragma pop_macro("CASTCLASS_UEnum")
+#pragma pop_macro("CASTCLASS_UDoubleProperty")
+#pragma pop_macro("CASTCLASS_UDelegateProperty")
+#pragma pop_macro("CASTCLASS_UDelegateFunction")
+#pragma pop_macro("CASTCLASS_UClassProperty")
+#pragma pop_macro("CASTCLASS_UClass")
+#pragma pop_macro("CASTCLASS_UByteProperty")
+#pragma pop_macro("CASTCLASS_UBoolProperty")
+#pragma pop_macro("CASTCLASS_UBlueprint")
+#pragma pop_macro("CASTCLASS_UAssetObjectProperty")
+#pragma pop_macro("CASTCLASS_UAssetClassProperty")
+#pragma pop_macro("CASTCLASS_UArrayProperty")
+#pragma pop_macro("CASTCLASS_
