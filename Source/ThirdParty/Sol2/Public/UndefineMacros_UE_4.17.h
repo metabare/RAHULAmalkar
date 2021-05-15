@@ -4,4 +4,24 @@
 #undef AC_UnalignedSwap
 #pragma push_macro("ACCUM_LOADTIME")
 #undef ACCUM_LOADTIME
-#pragma push_macro("ADD_LATENT_AUTOMATION
+#pragma push_macro("ADD_LATENT_AUTOMATION_COMMAND")
+#undef ADD_LATENT_AUTOMATION_COMMAND
+#pragma push_macro("AddDynamic")
+#undef AddDynamic
+#pragma push_macro("AddUniqueDynamic")
+#undef AddUniqueDynamic
+#pragma push_macro("AES_BLOCK_SIZE")
+#undef AES_BLOCK_SIZE
+#pragma push_macro("AFR_API_OVERRIDE")
+#undef AFR_API_OVERRIDE
+#pragma push_macro("AFR_ENGINE_CHANGES_PRESENT")
+#undef AFR_ENGINE_CHANGES_PRESENT
+#pragma push_macro("AL_NO_PROTOTYPES")
+#undef AL_NO_PROTOTYPES
+#pragma push_macro("ALC_NO_PROTOTYPES")
+#undef ALC_NO_PROTOTYPES
+#pragma push_macro("ALIGNOF")
+#undef ALIGNOF
+#pragma push_macro("ALLOW_CONSOLE")
+#undef ALLOW_CONSOLE
+#prag
