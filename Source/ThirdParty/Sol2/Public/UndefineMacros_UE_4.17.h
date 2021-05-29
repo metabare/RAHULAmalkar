@@ -218,4 +218,25 @@
 #undef CA_ASSUME
 #pragma push_macro("CA_CHECK_RETVAL")
 #undef CA_CHECK_RETVAL
-#p
+#pragma push_macro("CA_CONSTANT_IF")
+#undef CA_CONSTANT_IF
+#pragma push_macro("CA_IN")
+#undef CA_IN
+#pragma push_macro("CA_NO_RETURN")
+#undef CA_NO_RETURN
+#pragma push_macro("CA_OUT")
+#undef CA_OUT
+#pragma push_macro("CA_READ_ONLY")
+#undef CA_READ_ONLY
+#pragma push_macro("CA_SUPPRESS")
+#undef CA_SUPPRESS
+#pragma push_macro("CA_VALID_POINTER")
+#undef CA_VALID_POINTER
+#pragma push_macro("CA_WRITE_ONLY")
+#undef CA_WRITE_ONLY
+#pragma push_macro("CACHE_FREED_OS_ALLOCS")
+#undef CACHE_FREED_OS_ALLOCS
+#pragma push_macro("CAN_TOGGLE_COMMAND_LIST_BYPASS")
+#undef CAN_TOGGLE_COMMAND_LIST_BYPASS
+#pragma push_macro("CASTCLASS_AActor")
+#
