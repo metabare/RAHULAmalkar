@@ -200,4 +200,22 @@
 #undef BUFFER_STORAGE_MODE
 #pragma push_macro("BUILD_PROJECT_COMPANY_NAME")
 #undef BUILD_PROJECT_COMPANY_NAME
-#pragma push_macro("BUILD_PROJECT_COPYRIGHT_STRING
+#pragma push_macro("BUILD_PROJECT_COPYRIGHT_STRING")
+#undef BUILD_PROJECT_COPYRIGHT_STRING
+#pragma push_macro("BUILD_PROJECT_PRODUCT_IDENTIFIER")
+#undef BUILD_PROJECT_PRODUCT_IDENTIFIER
+#pragma push_macro("BUILD_PROJECT_PRODUCT_NAME")
+#undef BUILD_PROJECT_PRODUCT_NAME
+#pragma push_macro("BUILD_VERSION")
+#undef BUILD_VERSION
+#pragma push_macro("BUILT_FROM_CHANGELIST")
+#undef BUILT_FROM_CHANGELIST
+#pragma push_macro("BYTESWAP_ORDER16_unsigned")
+#undef BYTESWAP_ORDER16_unsigned
+#pragma push_macro("BYTESWAP_ORDER32_unsigned")
+#undef BYTESWAP_ORDER32_unsigned
+#pragma push_macro("CA_ASSUME")
+#undef CA_ASSUME
+#pragma push_macro("CA_CHECK_RETVAL")
+#undef CA_CHECK_RETVAL
+#p
