@@ -239,4 +239,20 @@
 #pragma push_macro("CAN_TOGGLE_COMMAND_LIST_BYPASS")
 #undef CAN_TOGGLE_COMMAND_LIST_BYPASS
 #pragma push_macro("CASTCLASS_AActor")
-#
+#undef CASTCLASS_AActor
+#pragma push_macro("CASTCLASS_AllFlags")
+#undef CASTCLASS_AllFlags
+#pragma push_macro("CASTCLASS_APawn")
+#undef CASTCLASS_APawn
+#pragma push_macro("CASTCLASS_APlayerController")
+#undef CASTCLASS_APlayerController
+#pragma push_macro("CASTCLASS_None")
+#undef CASTCLASS_None
+#pragma push_macro("CASTCLASS_UArrayProperty")
+#undef CASTCLASS_UArrayProperty
+#pragma push_macro("CASTCLASS_UAssetClassProperty")
+#undef CASTCLASS_UAssetClassProperty
+#pragma push_macro("CASTCLASS_UAssetObjectProperty")
+#undef CASTCLASS_UAssetObjectProperty
+#pragma push_macro("CASTCLASS_UBlueprint")
+#undef CASTCLASS_UBluepri
