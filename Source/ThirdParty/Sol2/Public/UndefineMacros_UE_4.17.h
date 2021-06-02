@@ -302,4 +302,21 @@
 #undef CASTCLASS_UNameProperty
 #pragma push_macro("CASTCLASS_UNumericProperty")
 #undef CASTCLASS_UNumericProperty
-#pragma push_macro("CASTCL
+#pragma push_macro("CASTCLASS_UObjectProperty")
+#undef CASTCLASS_UObjectProperty
+#pragma push_macro("CASTCLASS_UObjectPropertyBase")
+#undef CASTCLASS_UObjectPropertyBase
+#pragma push_macro("CASTCLASS_UPackage")
+#undef CASTCLASS_UPackage
+#pragma push_macro("CASTCLASS_UPrimitiveComponent")
+#undef CASTCLASS_UPrimitiveComponent
+#pragma push_macro("CASTCLASS_UProperty")
+#undef CASTCLASS_UProperty
+#pragma push_macro("CASTCLASS_USceneComponent")
+#undef CASTCLASS_USceneComponent
+#pragma push_macro("CASTCLASS_UScriptStruct")
+#undef CASTCLASS_UScriptStruct
+#pragma push_macro("CASTCLASS_USetProperty")
+#undef CASTCLASS_USetProperty
+#pragma push_macro("CASTCLASS_USkeletalMeshComponent")
+#undef 
