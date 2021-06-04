@@ -319,4 +319,20 @@
 #pragma push_macro("CASTCLASS_USetProperty")
 #undef CASTCLASS_USetProperty
 #pragma push_macro("CASTCLASS_USkeletalMeshComponent")
-#undef 
+#undef CASTCLASS_USkeletalMeshComponent
+#pragma push_macro("CASTCLASS_USkinnedMeshComponent")
+#undef CASTCLASS_USkinnedMeshComponent
+#pragma push_macro("CASTCLASS_UStaticMeshComponent")
+#undef CASTCLASS_UStaticMeshComponent
+#pragma push_macro("CASTCLASS_UStrProperty")
+#undef CASTCLASS_UStrProperty
+#pragma push_macro("CASTCLASS_UStruct")
+#undef CASTCLASS_UStruct
+#pragma push_macro("CASTCLASS_UStructProperty")
+#undef CASTCLASS_UStructProperty
+#pragma push_macro("CASTCLASS_UTextProperty")
+#undef CASTCLASS_UTextProperty
+#pragma push_macro("CASTCLASS_UUInt16Property")
+#undef CASTCLASS_UUInt16Property
+#pragma push_macro("CASTCLASS_UUInt32Property")
+#undef CASTCLASS_UUInt3
