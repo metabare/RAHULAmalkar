@@ -395,4 +395,25 @@
 #pragma push_macro("CLOSEPROXIMITYSQUARED")
 #undef CLOSEPROXIMITYSQUARED
 #pragma push_macro("CMD_CONTEXT")
-#undef CM
+#undef CMD_CONTEXT
+#pragma push_macro("CMD_LINE_MAX")
+#undef CMD_LINE_MAX
+#pragma push_macro("CMDARG_SUPPRESS_DWARF_PARSING")
+#undef CMDARG_SUPPRESS_DWARF_PARSING
+#pragma push_macro("CmdPrintfBegin")
+#undef CmdPrintfBegin
+#pragma push_macro("CmdPrintfBeginResult")
+#undef CmdPrintfBeginResult
+#pragma push_macro("COLLAPSED_LOGF")
+#undef COLLAPSED_LOGF
+#pragma push_macro("COLLISION_GIZMO")
+#undef COLLISION_GIZMO
+#pragma push_macro("COMPARE_FIELD")
+#undef COMPARE_FIELD
+#pragma push_macro("COMPARE_FIELD_BEGIN")
+#undef COMPARE_FIELD_BEGIN
+#pragma push_macro("COMPARE_FIELD_END")
+#undef COMPARE_FIELD_END
+#pragma push_macro("COMPARE_OP")
+#undef COMPARE_OP
+#
