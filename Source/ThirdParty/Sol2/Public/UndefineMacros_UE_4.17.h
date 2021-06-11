@@ -416,4 +416,20 @@
 #undef COMPARE_FIELD_END
 #pragma push_macro("COMPARE_OP")
 #undef COMPARE_OP
-#
+#pragma push_macro("COMPAREDRAWINGPOLICYMEMBERS")
+#undef COMPAREDRAWINGPOLICYMEMBERS
+#pragma push_macro("COMPILE_ERROR")
+#undef COMPILE_ERROR
+#pragma push_macro("COMPILE_WARNING")
+#undef COMPILE_WARNING
+#pragma push_macro("COMPILED_IN_FLAGS")
+#undef COMPILED_IN_FLAGS
+#pragma push_macro("COMPILED_IN_INTRINSIC")
+#undef COMPILED_IN_INTRINSIC
+#pragma push_macro("COMPILED_IN_MINIMUM_VERBOSITY")
+#undef COMPILED_IN_MINIMUM_VERBOSITY
+#pragma push_macro("COMPRESS_Default")
+#undef COMPRESS_Default
+#pragma push_macro("COMPRESSION_FLAGS_OPTIONS_MASK")
+#undef COMPRESSION_FLAGS_OPTIONS_MASK
+#pragma push_macro("COMPRESSION_FLAGS_T
