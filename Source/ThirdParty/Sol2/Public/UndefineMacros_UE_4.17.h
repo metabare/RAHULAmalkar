@@ -524,4 +524,20 @@
 #undef CPF_ExposeOnSpawn
 #pragma push_macro("CPF_GlobalConfig")
 #undef CPF_GlobalConfig
-#pragma push_macro("CPF_
+#pragma push_macro("CPF_HasGetValueTypeHash")
+#undef CPF_HasGetValueTypeHash
+#pragma push_macro("CPF_InstancedReference")
+#undef CPF_InstancedReference
+#pragma push_macro("CPF_InterfaceClearMask")
+#undef CPF_InterfaceClearMask
+#pragma push_macro("CPF_Interp")
+#undef CPF_Interp
+#pragma push_macro("CPF_IsPlainOldData")
+#undef CPF_IsPlainOldData
+#pragma push_macro("CPF_NativeAccessSpecifierPrivate")
+#undef CPF_NativeAccessSpecifierPrivate
+#pragma push_macro("CPF_NativeAccessSpecifierProtected")
+#undef CPF_NativeAccessSpecifierProtected
+#pragma push_macro("CPF_NativeAccessSpecifierPublic")
+#undef CPF_NativeAccessSpecifierPublic
+#prag
