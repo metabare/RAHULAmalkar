@@ -540,4 +540,23 @@
 #undef CPF_NativeAccessSpecifierProtected
 #pragma push_macro("CPF_NativeAccessSpecifierPublic")
 #undef CPF_NativeAccessSpecifierPublic
-#prag
+#pragma push_macro("CPF_NativeAccessSpecifiers")
+#undef CPF_NativeAccessSpecifiers
+#pragma push_macro("CPF_Net")
+#undef CPF_Net
+#pragma push_macro("CPF_NoClear")
+#undef CPF_NoClear
+#pragma push_macro("CPF_NoDestructor")
+#undef CPF_NoDestructor
+#pragma push_macro("CPF_NonPIEDuplicateTransient")
+#undef CPF_NonPIEDuplicateTransient
+#pragma push_macro("CPF_NonTransactional")
+#undef CPF_NonTransactional
+#pragma push_macro("CPF_OutParm")
+#undef CPF_OutParm
+#pragma push_macro("CPF_Parm")
+#undef CPF_Parm
+#pragma push_macro("CPF_ParmFlags")
+#undef CPF_ParmFlags
+#pragma push_macro("CPF_PersistentInstance")
+#undef CPF_Persisten
