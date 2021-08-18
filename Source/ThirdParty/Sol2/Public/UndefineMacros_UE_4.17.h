@@ -559,4 +559,23 @@
 #pragma push_macro("CPF_ParmFlags")
 #undef CPF_ParmFlags
 #pragma push_macro("CPF_PersistentInstance")
-#undef CPF_Persisten
+#undef CPF_PersistentInstance
+#pragma push_macro("CPF_PropagateToArrayInner")
+#undef CPF_PropagateToArrayInner
+#pragma push_macro("CPF_PropagateToMapKey")
+#undef CPF_PropagateToMapKey
+#pragma push_macro("CPF_PropagateToMapValue")
+#undef CPF_PropagateToMapValue
+#pragma push_macro("CPF_PropagateToSetElement")
+#undef CPF_PropagateToSetElement
+#pragma push_macro("CPF_Protected")
+#undef CPF_Protected
+#pragma push_macro("CPF_ReferenceParm")
+#undef CPF_ReferenceParm
+#pragma push_macro("CPF_RepNotify")
+#undef CPF_RepNotify
+#pragma push_macro("CPF_RepSkip")
+#undef CPF_RepSkip
+#pragma push_macro("CPF_ReturnParm")
+#undef CPF_ReturnParm
+#pragma 
