@@ -597,4 +597,23 @@
 #pragma push_macro("CPP")
 #undef CPP
 #pragma push_macro("CPP_ARRAY_DIM")
-#undef CPP_ARRAY
+#undef CPP_ARRAY_DIM
+#pragma push_macro("CPP_BOOL_PROPERTY_BITMASK")
+#undef CPP_BOOL_PROPERTY_BITMASK
+#pragma push_macro("CPP_BOOL_PROPERTY_BITMASK_STRUCT")
+#undef CPP_BOOL_PROPERTY_BITMASK_STRUCT
+#pragma push_macro("CPP_BOOL_PROPERTY_OFFSET")
+#undef CPP_BOOL_PROPERTY_OFFSET
+#pragma push_macro("CPP_PROPERTY")
+#undef CPP_PROPERTY
+#pragma push_macro("CPP_PROPERTY_BASE")
+#undef CPP_PROPERTY_BASE
+#pragma push_macro("CRC_TO_BITFIELD")
+#undef CRC_TO_BITFIELD
+#pragma push_macro("CSV_CUSTOM_STAT")
+#undef CSV_CUSTOM_STAT
+#pragma push_macro("CSV_PROFILER")
+#undef CSV_PROFILER
+#pragma push_macro("CSV_SCOPED_STAT")
+#undef CSV_SCOPED_STAT
+#pragm
