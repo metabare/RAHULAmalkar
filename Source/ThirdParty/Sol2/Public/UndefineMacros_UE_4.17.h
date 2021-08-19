@@ -578,4 +578,23 @@
 #undef CPF_RepSkip
 #pragma push_macro("CPF_ReturnParm")
 #undef CPF_ReturnParm
-#pragma 
+#pragma push_macro("CPF_SaveGame")
+#undef CPF_SaveGame
+#pragma push_macro("CPF_SimpleDisplay")
+#undef CPF_SimpleDisplay
+#pragma push_macro("CPF_SkipSerialization")
+#undef CPF_SkipSerialization
+#pragma push_macro("CPF_SubobjectReference")
+#undef CPF_SubobjectReference
+#pragma push_macro("CPF_TextExportTransient")
+#undef CPF_TextExportTransient
+#pragma push_macro("CPF_Transient")
+#undef CPF_Transient
+#pragma push_macro("CPF_UObjectWrapper")
+#undef CPF_UObjectWrapper
+#pragma push_macro("CPF_ZeroConstructor")
+#undef CPF_ZeroConstructor
+#pragma push_macro("CPP")
+#undef CPP
+#pragma push_macro("CPP_ARRAY_DIM")
+#undef CPP_ARRAY
