@@ -676,4 +676,20 @@
 #undef DEBUG_FENCES
 #pragma push_macro("DEBUG_FRAME_TIMING")
 #undef DEBUG_FRAME_TIMING
-#prag
+#pragma push_macro("DEBUG_GL_SHADERS")
+#undef DEBUG_GL_SHADERS
+#pragma push_macro("DEBUG_INFINITESHADERCOMPILE")
+#undef DEBUG_INFINITESHADERCOMPILE
+#pragma push_macro("DEBUG_RESOURCE_STATES")
+#undef DEBUG_RESOURCE_STATES
+#pragma push_macro("DEBUG_RHI_EXECUTE_COMMAND_LIST")
+#undef DEBUG_RHI_EXECUTE_COMMAND_LIST
+#pragma push_macro("DEBUG_TAB_MANAGEMENT")
+#undef DEBUG_TAB_MANAGEMENT
+#pragma push_macro("DEBUGDRAW_H")
+#undef DEBUGDRAW_H
+#pragma push_macro("DEC_DWORD_STAT")
+#undef DEC_DWORD_STAT
+#pragma push_macro("DEC_DWORD_STAT_BY")
+#undef DEC_DWORD_STAT_BY
+#pragma push_macro("DEC_DWORD
