@@ -739,4 +739,18 @@
 #pragma push_macro("DECLARE_DELEGATE")
 #undef DECLARE_DELEGATE
 #pragma push_macro("DECLARE_DELEGATE_EightParams")
-#undef DECLARE_DELEGATE_
+#undef DECLARE_DELEGATE_EightParams
+#pragma push_macro("DECLARE_DELEGATE_FiveParams")
+#undef DECLARE_DELEGATE_FiveParams
+#pragma push_macro("DECLARE_DELEGATE_FourParams")
+#undef DECLARE_DELEGATE_FourParams
+#pragma push_macro("DECLARE_DELEGATE_NineParams")
+#undef DECLARE_DELEGATE_NineParams
+#pragma push_macro("DECLARE_DELEGATE_OneParam")
+#undef DECLARE_DELEGATE_OneParam
+#pragma push_macro("DECLARE_DELEGATE_RetVal")
+#undef DECLARE_DELEGATE_RetVal
+#pragma push_macro("DECLARE_DELEGATE_RetVal_EightParams")
+#undef DECLARE_DELEGATE_RetVal_EightParams
+#pragma push_macro("DECLARE_DELEGATE_RetVal_FiveParams")
+#
