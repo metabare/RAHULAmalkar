@@ -766,4 +766,17 @@
 #undef DECLARE_DELEGATE_RetVal_SixParams
 #pragma push_macro("DECLARE_DELEGATE_RetVal_ThreeParams")
 #undef DECLARE_DELEGATE_RetVal_ThreeParams
-#pragm
+#pragma push_macro("DECLARE_DELEGATE_RetVal_TwoParams")
+#undef DECLARE_DELEGATE_RetVal_TwoParams
+#pragma push_macro("DECLARE_DELEGATE_SevenParams")
+#undef DECLARE_DELEGATE_SevenParams
+#pragma push_macro("DECLARE_DELEGATE_SixParams")
+#undef DECLARE_DELEGATE_SixParams
+#pragma push_macro("DECLARE_DELEGATE_ThreeParams")
+#undef DECLARE_DELEGATE_ThreeParams
+#pragma push_macro("DECLARE_DELEGATE_TwoParams")
+#undef DECLARE_DELEGATE_TwoParams
+#pragma push_macro("DECLARE_DERIVED_EVENT")
+#undef DECLARE_DERIVED_EVENT
+#pragma push_macro("DECLARE_DWORD_ACCUMULATOR_STAT")
+#undef DECLARE_DWORD_ACCUMULATOR
