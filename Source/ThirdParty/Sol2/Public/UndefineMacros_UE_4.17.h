@@ -816,4 +816,16 @@
 #undef DECLARE_DYNAMIC_DELEGATE_RetVal_SixParams
 #pragma push_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_ThreeParams")
 #undef DECLARE_DYNAMIC_DELEGATE_RetVal_ThreeParams
-#pragma
+#pragma push_macro("DECLARE_DYNAMIC_DELEGATE_RetVal_TwoParams")
+#undef DECLARE_DYNAMIC_DELEGATE_RetVal_TwoParams
+#pragma push_macro("DECLARE_DYNAMIC_DELEGATE_SevenParams")
+#undef DECLARE_DYNAMIC_DELEGATE_SevenParams
+#pragma push_macro("DECLARE_DYNAMIC_DELEGATE_SixParams")
+#undef DECLARE_DYNAMIC_DELEGATE_SixParams
+#pragma push_macro("DECLARE_DYNAMIC_DELEGATE_ThreeParams")
+#undef DECLARE_DYNAMIC_DELEGATE_ThreeParams
+#pragma push_macro("DECLARE_DYNAMIC_DELEGATE_TwoParams")
+#undef DECLARE_DYNAMIC_DELEGATE_TwoParams
+#pragma push_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE")
+#undef DECLARE_DYNAMIC_MULTICAST_DELEGATE
+#pragma push_macro("DECLARE_DYNAMI
