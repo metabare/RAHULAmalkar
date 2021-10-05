@@ -838,4 +838,16 @@
 #undef DECLARE_DYNAMIC_MULTICAST_DELEGATE_NineParams
 #pragma push_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam")
 #undef DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam
-#pragma push_macro
+#pragma push_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_SevenParams")
+#undef DECLARE_DYNAMIC_MULTICAST_DELEGATE_SevenParams
+#pragma push_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams")
+#undef DECLARE_DYNAMIC_MULTICAST_DELEGATE_SixParams
+#pragma push_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams")
+#undef DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams
+#pragma push_macro("DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams")
+#undef DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams
+#pragma push_macro("DECLARE_EVENT")
+#undef DECLARE_EVENT
+#pragma push_macro("DECLARE_EVENT_EightParams")
+#undef DECLARE_EVENT_EightParams
+#pragma push_macro("DECLARE_EVENT_
