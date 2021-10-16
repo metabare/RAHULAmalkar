@@ -910,4 +910,18 @@
 #undef DECLARE_MULTICAST_DELEGATE_FiveParams
 #pragma push_macro("DECLARE_MULTICAST_DELEGATE_FourParams")
 #undef DECLARE_MULTICAST_DELEGATE_FourParams
-#pragma push_ma
+#pragma push_macro("DECLARE_MULTICAST_DELEGATE_NineParams")
+#undef DECLARE_MULTICAST_DELEGATE_NineParams
+#pragma push_macro("DECLARE_MULTICAST_DELEGATE_OneParam")
+#undef DECLARE_MULTICAST_DELEGATE_OneParam
+#pragma push_macro("DECLARE_MULTICAST_DELEGATE_SevenParams")
+#undef DECLARE_MULTICAST_DELEGATE_SevenParams
+#pragma push_macro("DECLARE_MULTICAST_DELEGATE_SixParams")
+#undef DECLARE_MULTICAST_DELEGATE_SixParams
+#pragma push_macro("DECLARE_MULTICAST_DELEGATE_ThreeParams")
+#undef DECLARE_MULTICAST_DELEGATE_ThreeParams
+#pragma push_macro("DECLARE_MULTICAST_DELEGATE_TwoParams")
+#undef DECLARE_MULTICAST_DELEGATE_TwoParams
+#pragma push_macro("DECLARE_PARTICLE")
+#undef DECLARE_PARTICLE
+#pragma 
