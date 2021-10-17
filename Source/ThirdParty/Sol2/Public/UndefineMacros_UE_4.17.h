@@ -924,4 +924,21 @@
 #undef DECLARE_MULTICAST_DELEGATE_TwoParams
 #pragma push_macro("DECLARE_PARTICLE")
 #undef DECLARE_PARTICLE
-#pragma 
+#pragma push_macro("DECLARE_PARTICLE_CONST")
+#undef DECLARE_PARTICLE_CONST
+#pragma push_macro("DECLARE_PARTICLE_PTR")
+#undef DECLARE_PARTICLE_PTR
+#pragma push_macro("DECLARE_PTR_STAT")
+#undef DECLARE_PTR_STAT
+#pragma push_macro("DECLARE_PTR_STAT_EXTERN")
+#undef DECLARE_PTR_STAT_EXTERN
+#pragma push_macro("DECLARE_RPC")
+#undef DECLARE_RPC
+#pragma push_macro("DECLARE_SCOPE_CYCLE_COUNTER")
+#undef DECLARE_SCOPE_CYCLE_COUNTER
+#pragma push_macro("DECLARE_SCOPED_DELEGATE")
+#undef DECLARE_SCOPED_DELEGATE
+#pragma push_macro("DECLARE_SERIALIZER")
+#undef DECLARE_SERIALIZER
+#pragma push_macro("DECLARE_SHADER_TRAITS")
+#undef DECLARE_SHAD
