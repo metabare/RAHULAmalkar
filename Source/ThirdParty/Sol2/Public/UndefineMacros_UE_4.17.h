@@ -997,4 +997,17 @@
 #pragma push_macro("DEFAULT_BUFFER_POOL_SIZE")
 #undef DEFAULT_BUFFER_POOL_SIZE
 #pragma push_macro("DEFAULT_CONTEXT_UPLOAD_POOL_ALIGNMENT")
-#undef DEFAULT_CONTEXT_U
+#undef DEFAULT_CONTEXT_UPLOAD_POOL_ALIGNMENT
+#pragma push_macro("DEFAULT_CONTEXT_UPLOAD_POOL_MAX_ALLOC_SIZE")
+#undef DEFAULT_CONTEXT_UPLOAD_POOL_MAX_ALLOC_SIZE
+#pragma push_macro("DEFAULT_CONTEXT_UPLOAD_POOL_SIZE")
+#undef DEFAULT_CONTEXT_UPLOAD_POOL_SIZE
+#pragma push_macro("DEFAULT_GMallocBinned2AllocExtra")
+#undef DEFAULT_GMallocBinned2AllocExtra
+#pragma push_macro("DEFAULT_GMallocBinned2BundleCount")
+#undef DEFAULT_GMallocBinned2BundleCount
+#pragma push_macro("DEFAULT_GMallocBinned2BundleSize")
+#undef DEFAULT_GMallocBinned2BundleSize
+#pragma push_macro("DEFAULT_GMallocBinned2LockFreeCaches")
+#undef DEFAULT_GMallocBinned2LockFreeCaches
+#pragma 
