@@ -1010,4 +1010,17 @@
 #undef DEFAULT_GMallocBinned2BundleSize
 #pragma push_macro("DEFAULT_GMallocBinned2LockFreeCaches")
 #undef DEFAULT_GMallocBinned2LockFreeCaches
-#pragma 
+#pragma push_macro("DEFAULT_GMallocBinned2PerThreadCaches")
+#undef DEFAULT_GMallocBinned2PerThreadCaches
+#pragma push_macro("DEFAULT_HIGH_FREQUENCY")
+#undef DEFAULT_HIGH_FREQUENCY
+#pragma push_macro("DEFAULT_LOW_FREQUENCY")
+#undef DEFAULT_LOW_FREQUENCY
+#pragma push_macro("DEFAULT_MID_FREQUENCY")
+#undef DEFAULT_MID_FREQUENCY
+#pragma push_macro("DEFAULT_MIN_NUMBER_OF_HASHED_ELEMENTS")
+#undef DEFAULT_MIN_NUMBER_OF_HASHED_ELEMENTS
+#pragma push_macro("DEFAULT_NAV_QUERY_EXTENT_HORIZONTAL")
+#undef DEFAULT_NAV_QUERY_EXTENT_HORIZONTAL
+#pragma push_macro("DEFAULT_NAV_QUERY_EXTENT_VERTICAL")
+#undef DEFAULT_
