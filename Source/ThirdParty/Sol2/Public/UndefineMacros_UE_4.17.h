@@ -1122,4 +1122,24 @@
 #undef DEPRECATED_MACRO
 #pragma push_macro("DESCRIPTOR_HEAP_BLOCK_SIZE")
 #undef DESCRIPTOR_HEAP_BLOCK_SIZE
-#pragm
+#pragma push_macro("DETOURALLOCATOR_H")
+#undef DETOURALLOCATOR_H
+#pragma push_macro("DETOURASSERT_H")
+#undef DETOURASSERT_H
+#pragma push_macro("DETOURCOMMON_H")
+#undef DETOURCOMMON_H
+#pragma push_macro("DETOURCROWD_H")
+#undef DETOURCROWD_H
+#pragma push_macro("DETOURDEBUGDRAW_H")
+#undef DETOURDEBUGDRAW_H
+#pragma push_macro("DETOURLOCALBOUNDARY_H")
+#undef DETOURLOCALBOUNDARY_H
+#pragma push_macro("DETOURNAVMESH_H")
+#undef DETOURNAVMESH_H
+#pragma push_macro("DETOURNAVMESHBUILDER_H")
+#undef DETOURNAVMESHBUILDER_H
+#pragma push_macro("DETOURNAVMESHQUERY_H")
+#undef DETOURNAVMESHQUERY_H
+#pragma push_macro("DETOURNODE_H")
+#undef DETOURNODE_H
+#pragma push_macro("DET
