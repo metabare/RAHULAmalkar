@@ -1177,4 +1177,23 @@
 #pragma push_macro("DO_ANIMSTAT_PROCESSING")
 #undef DO_ANIMSTAT_PROCESSING
 #pragma push_macro("DO_BLUEPRINT_GUARD")
-#u
+#undef DO_BLUEPRINT_GUARD
+#pragma push_macro("DO_CHECK")
+#undef DO_CHECK
+#pragma push_macro("DO_ENABLE_NET_TEST")
+#undef DO_ENABLE_NET_TEST
+#pragma push_macro("DO_GUARD_SLOW")
+#undef DO_GUARD_SLOW
+#pragma push_macro("DO_POINTER_CHECKS_ON_GC")
+#undef DO_POINTER_CHECKS_ON_GC
+#pragma push_macro("DO_TIMEGUARD")
+#undef DO_TIMEGUARD
+#pragma push_macro("DOREPLIFETIME")
+#undef DOREPLIFETIME
+#pragma push_macro("DOREPLIFETIME_ACTIVE_OVERRIDE")
+#undef DOREPLIFETIME_ACTIVE_OVERRIDE
+#pragma push_macro("DOREPLIFETIME_CHANGE_CONDITION")
+#undef DOREPLIFETIME_CHANGE_CONDITION
+#pragma push_macro("DOREPLIFETIME_CONDITION")
+#undef DOREPLIFETIME_CONDITION
+#pragma push_macro("DORE
