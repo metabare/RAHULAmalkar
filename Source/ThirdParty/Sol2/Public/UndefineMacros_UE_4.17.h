@@ -1159,4 +1159,22 @@
 #pragma push_macro("DevicePrintfBegin")
 #undef DevicePrintfBegin
 #pragma push_macro("DevicePrintfBeginResult")
-#undef Device
+#undef DevicePrintfBeginResult
+#pragma push_macro("DEVIRTUALIZE_FLinkerLoad_Serialize")
+#undef DEVIRTUALIZE_FLinkerLoad_Serialize
+#pragma push_macro("DISABLE_FUNCTION_OPTIMIZATION")
+#undef DISABLE_FUNCTION_OPTIMIZATION
+#pragma push_macro("DISABLE_RHI_DEFFERED_DELETE")
+#undef DISABLE_RHI_DEFFERED_DELETE
+#pragma push_macro("DISALLOW_32BIT_INDICES")
+#undef DISALLOW_32BIT_INDICES
+#pragma push_macro("DIST_GET_RANDOM_VALUE")
+#undef DIST_GET_RANDOM_VALUE
+#pragma push_macro("DLLEXPORT")
+#undef DLLEXPORT
+#pragma push_macro("DLLIMPORT")
+#undef DLLIMPORT
+#pragma push_macro("DO_ANIMSTAT_PROCESSING")
+#undef DO_ANIMSTAT_PROCESSING
+#pragma push_macro("DO_BLUEPRINT_GUARD")
+#u
