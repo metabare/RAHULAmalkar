@@ -1361,4 +1361,20 @@
 #pragma push_macro("ECC_TO_BITFIELD")
 #undef ECC_TO_BITFIELD
 #pragma push_macro("EFFECT_PRESET_METHODS")
-#undef EFFECT_PRESE
+#undef EFFECT_PRESET_METHODS
+#pragma push_macro("EFFECT_PRESET_METHODS_NO_ASSET_ACTIONS")
+#undef EFFECT_PRESET_METHODS_NO_ASSET_ACTIONS
+#pragma push_macro("EFFECT_PRESET_NAME")
+#undef EFFECT_PRESET_NAME
+#pragma push_macro("EFFECT_PRESET_NAME1")
+#undef EFFECT_PRESET_NAME1
+#pragma push_macro("EFFECT_PRESET_NAME2")
+#undef EFFECT_PRESET_NAME2
+#pragma push_macro("EFFECT_SETTINGS_NAME")
+#undef EFFECT_SETTINGS_NAME
+#pragma push_macro("EFFECT_SETTINGS_NAME1")
+#undef EFFECT_SETTINGS_NAME1
+#pragma push_macro("EFFECT_SETTINGS_NAME2")
+#undef EFFECT_SETTINGS_NAME2
+#pragma push_macro("EGL_CONTEXT_FLAGS_KHR")
+#u
