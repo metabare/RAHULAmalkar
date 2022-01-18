@@ -1402,4 +1402,24 @@
 #undef EGL_LOSE_CONTEXT_ON_RESET_KHR
 #pragma push_macro("EGL_NO_RESET_NOTIFICATION_KHR")
 #undef EGL_NO_RESET_NOTIFICATION_KHR
-#
+#pragma push_macro("EGL_OPENGL_ES3_BIT_KHR")
+#undef EGL_OPENGL_ES3_BIT_KHR
+#pragma push_macro("EM_LOG_C_STACK")
+#undef EM_LOG_C_STACK
+#pragma push_macro("EM_LOG_CONSOLE")
+#undef EM_LOG_CONSOLE
+#pragma push_macro("EM_LOG_DEMANGLE")
+#undef EM_LOG_DEMANGLE
+#pragma push_macro("EM_LOG_ERROR")
+#undef EM_LOG_ERROR
+#pragma push_macro("EM_LOG_JS_STACK")
+#undef EM_LOG_JS_STACK
+#pragma push_macro("EM_LOG_NO_PATHS")
+#undef EM_LOG_NO_PATHS
+#pragma push_macro("EM_LOG_WARN")
+#undef EM_LOG_WARN
+#pragma push_macro("EMIT_CUSTOM_WARNING")
+#undef EMIT_CUSTOM_WARNING
+#pragma push_macro("EMIT_CUSTOM_WARNING_AT_LINE")
+#undef EMIT_CUSTOM_WARNING_AT_LINE
+#pragma push_mac
