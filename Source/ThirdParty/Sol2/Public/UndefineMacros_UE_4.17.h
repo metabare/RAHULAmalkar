@@ -1527,4 +1527,20 @@
 #pragma push_macro("ENGINE_IS_LICENSEE_VERSION")
 #undef ENGINE_IS_LICENSEE_VERSION
 #pragma push_macro("ENGINE_IS_PROMOTED_BUILD")
-#undef ENGINE_IS_PR
+#undef ENGINE_IS_PROMOTED_BUILD
+#pragma push_macro("ENGINE_MAJOR_VERSION")
+#undef ENGINE_MAJOR_VERSION
+#pragma push_macro("ENGINE_MINOR_VERSION")
+#undef ENGINE_MINOR_VERSION
+#pragma push_macro("ENGINE_NET_VERSION")
+#undef ENGINE_NET_VERSION
+#pragma push_macro("ENGINE_PATCH_VERSION")
+#undef ENGINE_PATCH_VERSION
+#pragma push_macro("ENGINE_REPLAY_VERSION")
+#undef ENGINE_REPLAY_VERSION
+#pragma push_macro("ENGINE_VERSION_STRING")
+#undef ENGINE_VERSION_STRING
+#pragma push_macro("ENQUEUE_RENDER_COMMAND")
+#undef ENQUEUE_RENDER_COMMAND
+#pragma push_macro("ENQUEUE_UNIQUE_RENDER_COMMAND")
+#undef 
