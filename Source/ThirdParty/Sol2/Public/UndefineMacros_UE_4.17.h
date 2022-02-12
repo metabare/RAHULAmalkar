@@ -1648,4 +1648,21 @@
 #undef ENUM_RANGE_BY_FIRST_AND_LAST
 #pragma push_macro("ENUM_RANGE_BY_VALUES")
 #undef ENUM_RANGE_BY_VALUES
-#pragma push_macro("ENUM_VK_EN
+#pragma push_macro("ENUM_VK_ENTRYPOINTS_ALL")
+#undef ENUM_VK_ENTRYPOINTS_ALL
+#pragma push_macro("ENUM_VK_ENTRYPOINTS_BASE")
+#undef ENUM_VK_ENTRYPOINTS_BASE
+#pragma push_macro("ENUM_VK_ENTRYPOINTS_INSTANCE")
+#undef ENUM_VK_ENTRYPOINTS_INSTANCE
+#pragma push_macro("ENUM_VK_ENTRYPOINTS_OPTIONAL")
+#undef ENUM_VK_ENTRYPOINTS_OPTIONAL
+#pragma push_macro("EnumCase")
+#undef EnumCase
+#pragma push_macro("EPIC_ADDITION_USE_NEW_RECAST_RASTERIZER")
+#undef EPIC_ADDITION_USE_NEW_RECAST_RASTERIZER
+#pragma push_macro("EPIC_COMPANY_NAME")
+#undef EPIC_COMPANY_NAME
+#pragma push_macro("EPIC_COPYRIGHT_STRING")
+#undef EPIC_COPYRIGHT_STRING
+#pragma push_macro("EPIC_PRODUCT_IDENTIFIER")
+#und
