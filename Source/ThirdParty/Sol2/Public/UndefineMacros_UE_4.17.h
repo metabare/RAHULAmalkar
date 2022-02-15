@@ -1715,4 +1715,23 @@
 #pragma push_macro("FIND_UNKNOWN_SCENE_QUERIES")
 #undef FIND_UNKNOWN_SCENE_QUERIES
 #pragma push_macro("FINISH_DECLARING_CAST_FLAGS")
-#undef FINISH_DECLARING_CAST_F
+#undef FINISH_DECLARING_CAST_FLAGS
+#pragma push_macro("FIXUP_EXPR_OBJECT_POINTER")
+#undef FIXUP_EXPR_OBJECT_POINTER
+#pragma push_macro("FLOAT")
+#undef FLOAT
+#pragma push_macro("FLOAT_NORMAL_THRESH")
+#undef FLOAT_NORMAL_THRESH
+#pragma push_macro("FLUSH_CACHE_LINE")
+#undef FLUSH_CACHE_LINE
+#pragma push_macro("FlushDebugWrapperLog")
+#undef FlushDebugWrapperLog
+#pragma push_macro("FMemory_Alloca")
+#undef FMemory_Alloca
+#pragma push_macro("FMEMORY_INLINE_FUNCTION_DECORATOR")
+#undef FMEMORY_INLINE_FUNCTION_DECORATOR
+#pragma push_macro("FMEMORY_INLINE_GMalloc")
+#undef FMEMORY_INLINE_GMalloc
+#pragma push_macro("FOLIAGE_HASH_CELL_BITS")
+#undef FOLIAGE_HASH_CELL_BITS
+#p
