@@ -1734,4 +1734,19 @@
 #undef FMEMORY_INLINE_GMalloc
 #pragma push_macro("FOLIAGE_HASH_CELL_BITS")
 #undef FOLIAGE_HASH_CELL_BITS
-#p
+#pragma push_macro("FOpenGLCachedAttr_Invalid")
+#undef FOpenGLCachedAttr_Invalid
+#pragma push_macro("FOpenGLCachedAttr_SingleVertex")
+#undef FOpenGLCachedAttr_SingleVertex
+#pragma push_macro("FOpenGLCachedUniformBuffer_Invalid")
+#undef FOpenGLCachedUniformBuffer_Invalid
+#pragma push_macro("FORCE_ANSI_ALLOCATOR")
+#undef FORCE_ANSI_ALLOCATOR
+#pragma push_macro("FORCE_THREADSAFE_SHAREDPTRS")
+#undef FORCE_THREADSAFE_SHAREDPTRS
+#pragma push_macro("FORCEINLINE")
+#undef FORCEINLINE
+#pragma push_macro("FORCEINLINE_DEBUGGABLE")
+#undef FORCEINLINE_DEBUGGABLE
+#pragma push_macro("FORCEINLINE_DEBUGGABLE_ACTUAL")
+#undef FORCE
