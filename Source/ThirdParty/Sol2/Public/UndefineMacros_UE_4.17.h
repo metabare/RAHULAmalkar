@@ -1796,4 +1796,22 @@
 #undef FUNCTION_CHECK_RETURN_START
 #pragma push_macro("FUNCTION_NO_RETURN_END")
 #undef FUNCTION_NO_RETURN_END
-#pragma push_macro("FUNCTION_N
+#pragma push_macro("FUNCTION_NO_RETURN_START")
+#undef FUNCTION_NO_RETURN_START
+#pragma push_macro("FUNCTION_NON_NULL_RETURN_END")
+#undef FUNCTION_NON_NULL_RETURN_END
+#pragma push_macro("FUNCTION_NON_NULL_RETURN_START")
+#undef FUNCTION_NON_NULL_RETURN_START
+#pragma push_macro("FVector")
+#undef FVector
+#pragma push_macro("GAME_SAFE_BINDING_IMPLEMENTATION")
+#undef GAME_SAFE_BINDING_IMPLEMENTATION
+#pragma push_macro("GAME_SAFE_OPTIONAL_BINDING")
+#undef GAME_SAFE_OPTIONAL_BINDING
+#pragma push_macro("GARBAGE_COLLECTION_KEEPFLAGS")
+#undef GARBAGE_COLLECTION_KEEPFLAGS
+#pragma push_macro("GCC_ALIGN")
+#undef GCC_ALIGN
+#pragma push_macro("GCC_DIAGNOSTIC_HELPER")
+#undef GCC_DIAGNOSTIC_HELPER
+#p
