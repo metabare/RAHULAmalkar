@@ -1814,4 +1814,22 @@
 #undef GCC_ALIGN
 #pragma push_macro("GCC_DIAGNOSTIC_HELPER")
 #undef GCC_DIAGNOSTIC_HELPER
-#p
+#pragma push_macro("GCC_PACK")
+#undef GCC_PACK
+#pragma push_macro("GENERATE_MEMBER_FUNCTION_CHECK")
+#undef GENERATE_MEMBER_FUNCTION_CHECK
+#pragma push_macro("GENERATED_BODY")
+#undef GENERATED_BODY
+#pragma push_macro("GENERATED_BODY_LEGACY")
+#undef GENERATED_BODY_LEGACY
+#pragma push_macro("GENERATED_IINTERFACE_BODY")
+#undef GENERATED_IINTERFACE_BODY
+#pragma push_macro("GENERATED_UCLASS_BODY")
+#undef GENERATED_UCLASS_BODY
+#pragma push_macro("GENERATED_UINTERFACE_BODY")
+#undef GENERATED_UINTERFACE_BODY
+#pragma push_macro("GENERATED_USTRUCT_BODY")
+#undef GENERATED_USTRUCT_BODY
+#pragma push_macro("generic")
+#undef generic
+#pragma push_m
