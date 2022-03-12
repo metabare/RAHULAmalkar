@@ -1883,4 +1883,20 @@
 #pragma push_macro("GETSAFERHISHADER_GEOMETRY")
 #undef GETSAFERHISHADER_GEOMETRY
 #pragma push_macro("GETSAFERHISHADER_HULL")
-#undef GETSAFERHISHADER_
+#undef GETSAFERHISHADER_HULL
+#pragma push_macro("GETSAFERHISHADER_PIXEL")
+#undef GETSAFERHISHADER_PIXEL
+#pragma push_macro("GETSAFERHISHADER_VERTEX")
+#undef GETSAFERHISHADER_VERTEX
+#pragma push_macro("GFirstFrameIntraFrameDebugging")
+#undef GFirstFrameIntraFrameDebugging
+#pragma push_macro("GFSDK_Aftermath_WITH_DX11")
+#undef GFSDK_Aftermath_WITH_DX11
+#pragma push_macro("GIntraFrameDebuggingGameThread")
+#undef GIntraFrameDebuggingGameThread
+#pragma push_macro("GIsEditor")
+#undef GIsEditor
+#pragma push_macro("GIsFirstInstance")
+#undef GIsFirstInstance
+#pragma push_macro("GIsUCCMakeStandaloneHeaderGenerator")
+#undef 
