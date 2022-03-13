@@ -1899,4 +1899,23 @@
 #pragma push_macro("GIsFirstInstance")
 #undef GIsFirstInstance
 #pragma push_macro("GIsUCCMakeStandaloneHeaderGenerator")
-#undef 
+#undef GIsUCCMakeStandaloneHeaderGenerator
+#pragma push_macro("GL_ACTIVE_PROGRAM")
+#undef GL_ACTIVE_PROGRAM
+#pragma push_macro("GL_ALL_BARRIER_BITS")
+#undef GL_ALL_BARRIER_BITS
+#pragma push_macro("GL_ALL_SHADER_BITS")
+#undef GL_ALL_SHADER_BITS
+#pragma push_macro("GL_ALPHA8_EXT")
+#undef GL_ALPHA8_EXT
+#pragma push_macro("GL_AND")
+#undef GL_AND
+#pragma push_macro("GL_AND_INVERTED")
+#undef GL_AND_INVERTED
+#pragma push_macro("GL_AND_REVERSE")
+#undef GL_AND_REVERSE
+#pragma push_macro("GL_ANY_SAMPLES_PASSED_EXT")
+#undef GL_ANY_SAMPLES_PASSED_EXT
+#pragma push_macro("GL_ATC_RGB_AMD")
+#undef GL_ATC_RGB_AMD
+#pragma push_macro("GL_ATC_RGBA_EXPLICIT_AL
