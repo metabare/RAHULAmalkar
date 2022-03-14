@@ -1936,4 +1936,24 @@
 #undef GL_BLUE
 #pragma push_macro("GL_CHECK")
 #undef GL_CHECK
-#p
+#pragma push_macro("GL_CLAMP")
+#undef GL_CLAMP
+#pragma push_macro("GL_CLAMP_TO_BORDER")
+#undef GL_CLAMP_TO_BORDER
+#pragma push_macro("GL_CLAMP_TO_BORDER_EXT")
+#undef GL_CLAMP_TO_BORDER_EXT
+#pragma push_macro("GL_CLEAR")
+#undef GL_CLEAR
+#pragma push_macro("GL_COLOR")
+#undef GL_COLOR
+#pragma push_macro("GL_COLOR_ATTACHMENT1")
+#undef GL_COLOR_ATTACHMENT1
+#pragma push_macro("GL_COLOR_ATTACHMENT10")
+#undef GL_COLOR_ATTACHMENT10
+#pragma push_macro("GL_COLOR_ATTACHMENT11")
+#undef GL_COLOR_ATTACHMENT11
+#pragma push_macro("GL_COLOR_ATTACHMENT12")
+#undef GL_COLOR_ATTACHMENT12
+#pragma push_macro("GL_COLOR_ATTACHMENT13")
+#undef GL_COLOR_ATTACHMENT13
+#pragma push_mac
