@@ -1918,4 +1918,22 @@
 #undef GL_ANY_SAMPLES_PASSED_EXT
 #pragma push_macro("GL_ATC_RGB_AMD")
 #undef GL_ATC_RGB_AMD
-#pragma push_macro("GL_ATC_RGBA_EXPLICIT_AL
+#pragma push_macro("GL_ATC_RGBA_EXPLICIT_ALPHA_AMD")
+#undef GL_ATC_RGBA_EXPLICIT_ALPHA_AMD
+#pragma push_macro("GL_ATC_RGBA_INTERPOLATED_ALPHA_AMD")
+#undef GL_ATC_RGBA_INTERPOLATED_ALPHA_AMD
+#pragma push_macro("GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER")
+#undef GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER
+#pragma push_macro("GL_BACK_LEFT")
+#undef GL_BACK_LEFT
+#pragma push_macro("GL_BACK_RIGHT")
+#undef GL_BACK_RIGHT
+#pragma push_macro("GL_BGRA")
+#undef GL_BGRA
+#pragma push_macro("GL_BGRA8_EXT")
+#undef GL_BGRA8_EXT
+#pragma push_macro("GL_BLUE")
+#undef GL_BLUE
+#pragma push_macro("GL_CHECK")
+#undef GL_CHECK
+#p
