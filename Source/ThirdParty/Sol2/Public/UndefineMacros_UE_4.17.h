@@ -1956,4 +1956,22 @@
 #undef GL_COLOR_ATTACHMENT12
 #pragma push_macro("GL_COLOR_ATTACHMENT13")
 #undef GL_COLOR_ATTACHMENT13
-#pragma push_mac
+#pragma push_macro("GL_COLOR_ATTACHMENT14")
+#undef GL_COLOR_ATTACHMENT14
+#pragma push_macro("GL_COLOR_ATTACHMENT15")
+#undef GL_COLOR_ATTACHMENT15
+#pragma push_macro("GL_COLOR_ATTACHMENT2")
+#undef GL_COLOR_ATTACHMENT2
+#pragma push_macro("GL_COLOR_ATTACHMENT3")
+#undef GL_COLOR_ATTACHMENT3
+#pragma push_macro("GL_COLOR_ATTACHMENT4")
+#undef GL_COLOR_ATTACHMENT4
+#pragma push_macro("GL_COLOR_ATTACHMENT5")
+#undef GL_COLOR_ATTACHMENT5
+#pragma push_macro("GL_COLOR_ATTACHMENT6")
+#undef GL_COLOR_ATTACHMENT6
+#pragma push_macro("GL_COLOR_ATTACHMENT7")
+#undef GL_COLOR_ATTACHMENT7
+#pragma push_macro("GL_COLOR_ATTACHMENT8")
+#undef GL_COLOR_ATTACHMENT8
+#pragma
