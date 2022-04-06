@@ -2121,4 +2121,21 @@
 #pragma push_macro("GL_DEBUG_SOURCE_API_ARB")
 #undef GL_DEBUG_SOURCE_API_ARB
 #pragma push_macro("GL_DEBUG_SOURCE_API_KHR")
-#undef GL_DEBUG_SOURCE_A
+#undef GL_DEBUG_SOURCE_API_KHR
+#pragma push_macro("GL_DEBUG_SOURCE_OTHER_ARB")
+#undef GL_DEBUG_SOURCE_OTHER_ARB
+#pragma push_macro("GL_DEBUG_SOURCE_OTHER_KHR")
+#undef GL_DEBUG_SOURCE_OTHER_KHR
+#pragma push_macro("GL_DEBUG_TOOL_EXT")
+#undef GL_DEBUG_TOOL_EXT
+#pragma push_macro("GL_DEBUG_TOOL_NAME_EXT")
+#undef GL_DEBUG_TOOL_NAME_EXT
+#pragma push_macro("GL_DEBUG_TOOL_PURPOSE_EXT")
+#undef GL_DEBUG_TOOL_PURPOSE_EXT
+#pragma push_macro("GL_DEBUG_TYPE_ERROR_ARB")
+#undef GL_DEBUG_TYPE_ERROR_ARB
+#pragma push_macro("GL_DEBUG_TYPE_ERROR_KHR")
+#undef GL_DEBUG_TYPE_ERROR_KHR
+#pragma push_macro("GL_DEBUG_TYPE_MARKER")
+#undef GL_DEBUG_TYPE_MARKER
+#
