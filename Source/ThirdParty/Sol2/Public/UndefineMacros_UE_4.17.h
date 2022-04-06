@@ -2138,4 +2138,21 @@
 #undef GL_DEBUG_TYPE_ERROR_KHR
 #pragma push_macro("GL_DEBUG_TYPE_MARKER")
 #undef GL_DEBUG_TYPE_MARKER
-#
+#pragma push_macro("GL_DEBUG_TYPE_MARKER_KHR")
+#undef GL_DEBUG_TYPE_MARKER_KHR
+#pragma push_macro("GL_DEBUG_TYPE_OTHER_ARB")
+#undef GL_DEBUG_TYPE_OTHER_ARB
+#pragma push_macro("GL_DEBUG_TYPE_OTHER_KHR")
+#undef GL_DEBUG_TYPE_OTHER_KHR
+#pragma push_macro("GL_DEBUG_TYPE_POP_GROUP")
+#undef GL_DEBUG_TYPE_POP_GROUP
+#pragma push_macro("GL_DEBUG_TYPE_POP_GROUP_KHR")
+#undef GL_DEBUG_TYPE_POP_GROUP_KHR
+#pragma push_macro("GL_DEBUG_TYPE_PUSH_GROUP")
+#undef GL_DEBUG_TYPE_PUSH_GROUP
+#pragma push_macro("GL_DEPTH")
+#undef GL_DEPTH
+#pragma push_macro("GL_DEPTH_BOUNDS_TEST_EXT")
+#undef GL_DEPTH_BOUNDS_TEST_EXT
+#pragma push_macro("GL_DEPTH_COMPONENT24")
+#undef GL_DEPTH_COMPO
