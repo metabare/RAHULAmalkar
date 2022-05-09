@@ -2386,4 +2386,26 @@
 #undef GL_READ_BUFFER
 #pragma push_macro("GL_READ_FRAMEBUFFER")
 #undef GL_READ_FRAMEBUFFER
-#p
+#pragma push_macro("GL_READ_FRAMEBUFFER_BINDING")
+#undef GL_READ_FRAMEBUFFER_BINDING
+#pragma push_macro("GL_READ_FRAMEBUFFER_NV")
+#undef GL_READ_FRAMEBUFFER_NV
+#pragma push_macro("GL_READ_WRITE")
+#undef GL_READ_WRITE
+#pragma push_macro("GL_RED")
+#undef GL_RED
+#pragma push_macro("GL_RG16")
+#undef GL_RG16
+#pragma push_macro("GL_RG16F")
+#undef GL_RG16F
+#pragma push_macro("GL_RG16I")
+#undef GL_RG16I
+#pragma push_macro("GL_RG16UI")
+#undef GL_RG16UI
+#pragma push_macro("GL_RG32F")
+#undef GL_RG32F
+#pragma push_macro("GL_RG32I")
+#undef GL_RG32I
+#pragma push_macro("GL_RG32UI")
+#undef GL_RG32UI
+#pragma push_macro("GL_R
