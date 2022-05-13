@@ -2547,4 +2547,19 @@
 #pragma push_macro("GL_TEXTURE_BUFFER")
 #undef GL_TEXTURE_BUFFER
 #pragma push_macro("GL_TEXTURE_COMPARE_FUNC")
-#un
+#undef GL_TEXTURE_COMPARE_FUNC
+#pragma push_macro("GL_TEXTURE_COMPARE_MODE")
+#undef GL_TEXTURE_COMPARE_MODE
+#pragma push_macro("GL_TEXTURE_CUBE_MAP_ARRAY")
+#undef GL_TEXTURE_CUBE_MAP_ARRAY
+#pragma push_macro("GL_TEXTURE_CUBE_MAP_SEAMLESS")
+#undef GL_TEXTURE_CUBE_MAP_SEAMLESS
+#pragma push_macro("GL_TEXTURE_LOD_BIAS")
+#undef GL_TEXTURE_LOD_BIAS
+#pragma push_macro("GL_TEXTURE_MAX_LEVEL")
+#undef GL_TEXTURE_MAX_LEVEL
+#pragma push_macro("GL_TEXTURE_MINIMIZE_STORAGE_APPLE")
+#undef GL_TEXTURE_MINIMIZE_STORAGE_APPLE
+#pragma push_macro("GL_TEXTURE_RANGE_LENGTH_APPLE")
+#undef GL_TEXTURE_RANGE_LENGTH_APPLE
+#pragma push_macro("GL_TEXTUR
