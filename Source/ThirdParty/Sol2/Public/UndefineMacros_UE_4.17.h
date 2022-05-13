@@ -2529,4 +2529,22 @@
 #pragma push_macro("GL_SYNC_GPU_COMMANDS_COMPLETE")
 #undef GL_SYNC_GPU_COMMANDS_COMPLETE
 #pragma push_macro("GL_TESS_CONTROL_SHADER")
-#undef GL_TESS_CONTROL_SHADE
+#undef GL_TESS_CONTROL_SHADER
+#pragma push_macro("GL_TESS_CONTROL_SHADER_BIT")
+#undef GL_TESS_CONTROL_SHADER_BIT
+#pragma push_macro("GL_TESS_EVALUATION_SHADER")
+#undef GL_TESS_EVALUATION_SHADER
+#pragma push_macro("GL_TESS_EVALUATION_SHADER_BIT")
+#undef GL_TESS_EVALUATION_SHADER_BIT
+#pragma push_macro("GL_TEXTURE_2D_ARRAY")
+#undef GL_TEXTURE_2D_ARRAY
+#pragma push_macro("GL_TEXTURE_2D_MULTISAMPLE")
+#undef GL_TEXTURE_2D_MULTISAMPLE
+#pragma push_macro("GL_TEXTURE_3D")
+#undef GL_TEXTURE_3D
+#pragma push_macro("GL_TEXTURE_BASE_LEVEL")
+#undef GL_TEXTURE_BASE_LEVEL
+#pragma push_macro("GL_TEXTURE_BUFFER")
+#undef GL_TEXTURE_BUFFER
+#pragma push_macro("GL_TEXTURE_COMPARE_FUNC")
+#un
