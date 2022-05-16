@@ -2562,4 +2562,22 @@
 #undef GL_TEXTURE_MINIMIZE_STORAGE_APPLE
 #pragma push_macro("GL_TEXTURE_RANGE_LENGTH_APPLE")
 #undef GL_TEXTURE_RANGE_LENGTH_APPLE
-#pragma push_macro("GL_TEXTUR
+#pragma push_macro("GL_TEXTURE_RANGE_POINTER_APPLE")
+#undef GL_TEXTURE_RANGE_POINTER_APPLE
+#pragma push_macro("GL_TEXTURE_STORAGE_HINT_APPLE")
+#undef GL_TEXTURE_STORAGE_HINT_APPLE
+#pragma push_macro("GL_TEXTURE_SWIZZLE_A")
+#undef GL_TEXTURE_SWIZZLE_A
+#pragma push_macro("GL_TEXTURE_SWIZZLE_B")
+#undef GL_TEXTURE_SWIZZLE_B
+#pragma push_macro("GL_TEXTURE_SWIZZLE_G")
+#undef GL_TEXTURE_SWIZZLE_G
+#pragma push_macro("GL_TEXTURE_SWIZZLE_R")
+#undef GL_TEXTURE_SWIZZLE_R
+#pragma push_macro("GL_TEXTURE_WRAP_R")
+#undef GL_TEXTURE_WRAP_R
+#pragma push_macro("GL_TIME_ELAPSED")
+#undef GL_TIME_ELAPSED
+#pragma push_macro("GL_TIME_ELAPSED_EXT")
+#undef GL_TIME_ELAPSED_EXT
+#pragma
