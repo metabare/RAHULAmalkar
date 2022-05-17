@@ -2621,4 +2621,21 @@
 #pragma push_macro("GL_UNSIGNED_INT_SAMPLER_BUFFER")
 #undef GL_UNSIGNED_INT_SAMPLER_BUFFER
 #pragma push_macro("GL_UNSIGNED_INT_SAMPLER_CUBE")
-#u
+#undef GL_UNSIGNED_INT_SAMPLER_CUBE
+#pragma push_macro("GL_UNSIGNED_INT_VEC2")
+#undef GL_UNSIGNED_INT_VEC2
+#pragma push_macro("GL_UNSIGNED_INT_VEC3")
+#undef GL_UNSIGNED_INT_VEC3
+#pragma push_macro("GL_UNSIGNED_INT_VEC4")
+#undef GL_UNSIGNED_INT_VEC4
+#pragma push_macro("GL_UNSIGNED_INT64_NV")
+#undef GL_UNSIGNED_INT64_NV
+#pragma push_macro("GL_UNSIGNED_NORMALIZED")
+#undef GL_UNSIGNED_NORMALIZED
+#pragma push_macro("GL_VERTEX_SHADER_BIT")
+#undef GL_VERTEX_SHADER_BIT
+#pragma push_macro("GL_WRITE_ONLY")
+#undef GL_WRITE_ONLY
+#pragma push_macro("GL_WRITE_ONLY_OES")
+#undef GL_WRITE_ONLY_OES
+#pragma push
