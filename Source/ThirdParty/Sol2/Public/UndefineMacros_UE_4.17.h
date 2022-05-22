@@ -2730,4 +2730,21 @@
 #undef IDC_NOTOALL
 #pragma push_macro("IDC_YES")
 #undef IDC_YES
-#pr
+#pragma push_macro("IDC_YESTOALL")
+#undef IDC_YESTOALL
+#pragma push_macro("IDD_YESNO2ALL")
+#undef IDD_YESNO2ALL
+#pragma push_macro("IDD_YESNO2ALLCANCEL")
+#undef IDD_YESNO2ALLCANCEL
+#pragma push_macro("IDD_YESNOYESTOALL")
+#undef IDD_YESNOYESTOALL
+#pragma push_macro("IDICON_UE4Game")
+#undef IDICON_UE4Game
+#pragma push_macro("IL_MAX_SEMANTIC_NAME")
+#undef IL_MAX_SEMANTIC_NAME
+#pragma push_macro("IMPLEMENT_ALIGNED_STORAGE")
+#undef IMPLEMENT_ALIGNED_STORAGE
+#pragma push_macro("IMPLEMENT_ALIGNED_TYPE")
+#undef IMPLEMENT_ALIGNED_TYPE
+#pragma push_macro("IMPLEMENT_APPLICATION")
+#undef
