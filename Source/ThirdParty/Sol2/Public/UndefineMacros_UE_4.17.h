@@ -2710,3 +2710,24 @@
 #undef HEADER_GENERATED_DELEGATE_SIGNATURE_SUFFIX
 #pragma push_macro("HIDE_ACTOR_TRANSFORM_FUNCTIONS")
 #undef HIDE_ACTOR_TRANSFORM_FUNCTIONS
+#pragma push_macro("HIT_BUFFER_MAX_SYNC_QUERIES")
+#undef HIT_BUFFER_MAX_SYNC_QUERIES
+#pragma push_macro("HIT_BUFFER_SIZE")
+#undef HIT_BUFFER_SIZE
+#pragma push_macro("HTTP_GENERIC_PLATFORM_HAS_GETURLDOMAIN")
+#undef HTTP_GENERIC_PLATFORM_HAS_GETURLDOMAIN
+#pragma push_macro("ID_HASHFILE")
+#undef ID_HASHFILE
+#pragma push_macro("ID_MODULE_API_VERSION_RESOURCE")
+#undef ID_MODULE_API_VERSION_RESOURCE
+#pragma push_macro("IDC_CANCEL")
+#undef IDC_CANCEL
+#pragma push_macro("IDC_MESSAGE")
+#undef IDC_MESSAGE
+#pragma push_macro("IDC_NO_B")
+#undef IDC_NO_B
+#pragma push_macro("IDC_NOTOALL")
+#undef IDC_NOTOALL
+#pragma push_macro("IDC_YES")
+#undef IDC_YES
+#pr
