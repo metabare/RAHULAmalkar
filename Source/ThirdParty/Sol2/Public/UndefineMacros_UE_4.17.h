@@ -2852,4 +2852,24 @@
 #undef INDEX_REQUIREDMODULE
 #pragma push_macro("INDEX_SPAWNMODULE")
 #undef INDEX_SPAWNMODULE
-#pragma push_macro("INDEX_TYPEDATAMODULE"
+#pragma push_macro("INDEX_TYPEDATAMODULE")
+#undef INDEX_TYPEDATAMODULE
+#pragma push_macro("INITIATE_GL_FRAME_DUMP")
+#undef INITIATE_GL_FRAME_DUMP
+#pragma push_macro("INITIATE_GL_FRAME_DUMP_EVERY_X_CALLS")
+#undef INITIATE_GL_FRAME_DUMP_EVERY_X_CALLS
+#pragma push_macro("INLINE_FMEMORY_OPERATION")
+#undef INLINE_FMEMORY_OPERATION
+#pragma push_macro("INT")
+#undef INT
+#pragma push_macro("INT32_MAIN_INT32_ARGC_TCHAR_ARGV")
+#undef INT32_MAIN_INT32_ARGC_TCHAR_ARGV
+#pragma push_macro("INTEL_ORDER_TCHARARRAY")
+#undef INTEL_ORDER_TCHARARRAY
+#pragma push_macro("INTEL_ORDER_VECTOR")
+#undef INTEL_ORDER_VECTOR
+#pragma push_macro("INTEL_ORDER16")
+#undef INTEL_ORDER16
+#pragma push_macro("INTEL_ORDER32")
+#undef INTEL_ORDER32
+#p
