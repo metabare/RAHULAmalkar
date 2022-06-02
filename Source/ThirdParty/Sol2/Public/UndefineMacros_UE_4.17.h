@@ -2872,4 +2872,22 @@
 #undef INTEL_ORDER16
 #pragma push_macro("INTEL_ORDER32")
 #undef INTEL_ORDER32
-#p
+#pragma push_macro("INTEL_ORDER64")
+#undef INTEL_ORDER64
+#pragma push_macro("INTEL_ORDERF")
+#undef INTEL_ORDERF
+#pragma push_macro("InterlockedAdd")
+#undef InterlockedAdd
+#pragma push_macro("InterlockedCompareExchange")
+#undef InterlockedCompareExchange
+#pragma push_macro("InterlockedCompareExchange64")
+#undef InterlockedCompareExchange64
+#pragma push_macro("InterlockedCompareExchangePointer")
+#undef InterlockedCompareExchangePointer
+#pragma push_macro("InterlockedDecrement")
+#undef InterlockedDecrement
+#pragma push_macro("InterlockedDecrement64")
+#undef InterlockedDecrement64
+#pragma push_macro("InterlockedExchange")
+#undef InterlockedExchange
+#pragma push_macro("Interlo
