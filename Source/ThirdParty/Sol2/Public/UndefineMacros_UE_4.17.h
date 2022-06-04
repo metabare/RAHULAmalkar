@@ -2944,4 +2944,21 @@
 #undef IS_PROGRAM
 #pragma push_macro("IS_TCHAR_ARRAY")
 #undef IS_TCHAR_ARRAY
-#pragma push_macro("
+#pragma push_macro("IsAlreadyBound")
+#undef IsAlreadyBound
+#pragma push_macro("JNI_METHOD")
+#undef JNI_METHOD
+#pragma push_macro("JSON_SERIALIZE")
+#undef JSON_SERIALIZE
+#pragma push_macro("JSON_SERIALIZE_ARRAY")
+#undef JSON_SERIALIZE_ARRAY
+#pragma push_macro("JSON_SERIALIZE_ARRAY_SERIALIZABLE")
+#undef JSON_SERIALIZE_ARRAY_SERIALIZABLE
+#pragma push_macro("JSON_SERIALIZE_MAP")
+#undef JSON_SERIALIZE_MAP
+#pragma push_macro("JSON_SERIALIZE_MAP_SERIALIZABLE")
+#undef JSON_SERIALIZE_MAP_SERIALIZABLE
+#pragma push_macro("JSON_SERIALIZE_OBJECT_SERIALIZABLE")
+#undef JSON_SERIALIZE_OBJECT_SERIALIZABLE
+#pragma push_macro("JSON_SERIALIZE_SERIALIZABLE")
+#unde
