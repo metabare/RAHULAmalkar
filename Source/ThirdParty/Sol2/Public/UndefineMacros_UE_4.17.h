@@ -2924,4 +2924,24 @@
 #undef INVALID_OBJECTNAME_CHARACTERS
 #pragma push_macro("INVALID_OBJECTPATH_CHARACTERS")
 #undef INVALID_OBJECTPATH_CHARACTERS
-#pragma
+#pragma push_macro("INVALID_SOCKET")
+#undef INVALID_SOCKET
+#pragma push_macro("INVALID_TAGNETINDEX")
+#undef INVALID_TAGNETINDEX
+#pragma push_macro("ioctlsocket")
+#undef ioctlsocket
+#pragma push_macro("IOS_MAX_PATH")
+#undef IOS_MAX_PATH
+#pragma push_macro("IOS_PROFILING_ENABLED")
+#undef IOS_PROFILING_ENABLED
+#pragma push_macro("IS_EMPTY")
+#undef IS_EMPTY
+#pragma push_macro("IS_MONOLITHIC")
+#undef IS_MONOLITHIC
+#pragma push_macro("IS_POD")
+#undef IS_POD
+#pragma push_macro("IS_PROGRAM")
+#undef IS_PROGRAM
+#pragma push_macro("IS_TCHAR_ARRAY")
+#undef IS_TCHAR_ARRAY
+#pragma push_macro("
