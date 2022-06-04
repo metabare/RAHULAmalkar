@@ -2961,4 +2961,21 @@
 #pragma push_macro("JSON_SERIALIZE_OBJECT_SERIALIZABLE")
 #undef JSON_SERIALIZE_OBJECT_SERIALIZABLE
 #pragma push_macro("JSON_SERIALIZE_SERIALIZABLE")
-#unde
+#undef JSON_SERIALIZE_SERIALIZABLE
+#pragma push_macro("kDOPArray")
+#undef kDOPArray
+#pragma push_macro("KEYCODE_BACKSPACE")
+#undef KEYCODE_BACKSPACE
+#pragma push_macro("KEYCODE_ENTER")
+#undef KEYCODE_ENTER
+#pragma push_macro("KEYCODE_ESCAPE")
+#undef KEYCODE_ESCAPE
+#pragma push_macro("KILL_CURRENT_PARTICLE")
+#undef KILL_CURRENT_PARTICLE
+#pragma push_macro("KINDA_SMALL_NUMBER")
+#undef KINDA_SMALL_NUMBER
+#pragma push_macro("KISMET_MATH_INLINE_ENABLED")
+#undef KISMET_MATH_INLINE_ENABLED
+#pragma push_macro("LANDSCAPE_INV_XYOFFSET_SCALE")
+#undef LANDSCAPE_INV_XYOFFSET_SCALE
+#pragma push_mac
