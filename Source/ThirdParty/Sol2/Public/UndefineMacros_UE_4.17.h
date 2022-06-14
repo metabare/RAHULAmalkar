@@ -3141,4 +3141,21 @@
 #pragma push_macro("MAX_APEXCLOTH_VERTICES_FOR_VB")
 #undef MAX_APEXCLOTH_VERTICES_FOR_VB
 #pragma push_macro("MAX_AUDIOCHANNELS")
-#
+#undef MAX_AUDIOCHANNELS
+#pragma push_macro("MAX_BASEPASS_DYNAMIC_POINT_LIGHTS")
+#undef MAX_BASEPASS_DYNAMIC_POINT_LIGHTS
+#pragma push_macro("MAX_BONES")
+#undef MAX_BONES
+#pragma push_macro("MAX_CACHED_OS_FREES")
+#undef MAX_CACHED_OS_FREES
+#pragma push_macro("MAX_CACHED_OS_FREES_BYTE_LIMIT")
+#undef MAX_CACHED_OS_FREES_BYTE_LIMIT
+#pragma push_macro("MAX_CBS")
+#undef MAX_CBS
+#pragma push_macro("MAX_dbl")
+#undef MAX_dbl
+#pragma push_macro("MAX_DEFERRED_MESSAGE_QUEUE_SIZE")
+#undef MAX_DEFERRED_MESSAGE_QUEUE_SIZE
+#pragma push_macro("MAX_FILTER_BANDWIDTH")
+#undef MAX_FILTER_BANDWIDTH
+#pragma push
