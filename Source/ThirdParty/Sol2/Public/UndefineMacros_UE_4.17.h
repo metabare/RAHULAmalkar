@@ -3250,4 +3250,22 @@
 #undef MAX_uint64
 #pragma push_macro("MAX_uint8")
 #undef MAX_uint8
-#pragma pus
+#pragma push_macro("MAX_UNCOMPRESSED_VOICE_BUFFER_SIZE")
+#undef MAX_UNCOMPRESSED_VOICE_BUFFER_SIZE
+#pragma push_macro("MAX_UNREAL_FILENAME_LENGTH")
+#undef MAX_UNREAL_FILENAME_LENGTH
+#pragma push_macro("MAX_VERTS_PER_POLY")
+#undef MAX_VERTS_PER_POLY
+#pragma push_macro("MAX_VOICE_DATA_SIZE")
+#undef MAX_VOICE_DATA_SIZE
+#pragma push_macro("MAX_VOLUME")
+#undef MAX_VOLUME
+#pragma push_macro("MAXUINT8")
+#undef MAXUINT8
+#pragma push_macro("ME_CAPTION_HEIGHT")
+#undef ME_CAPTION_HEIGHT
+#pragma push_macro("ME_PREV_THUMBNAIL_SZ")
+#undef ME_PREV_THUMBNAIL_SZ
+#pragma push_macro("ME_STD_BORDER")
+#undef ME_STD_BORDER
+#p
