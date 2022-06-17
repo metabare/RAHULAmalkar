@@ -3268,4 +3268,22 @@
 #undef ME_PREV_THUMBNAIL_SZ
 #pragma push_macro("ME_STD_BORDER")
 #undef ME_STD_BORDER
-#p
+#pragma push_macro("ME_STD_HPADDING")
+#undef ME_STD_HPADDING
+#pragma push_macro("ME_STD_LABEL_PAD")
+#undef ME_STD_LABEL_PAD
+#pragma push_macro("ME_STD_TAB_HEIGHT")
+#undef ME_STD_TAB_HEIGHT
+#pragma push_macro("ME_STD_THUMBNAIL_SZ")
+#undef ME_STD_THUMBNAIL_SZ
+#pragma push_macro("ME_STD_VPADDING")
+#undef ME_STD_VPADDING
+#pragma push_macro("MEDSIGHTTHRESHOLD")
+#undef MEDSIGHTTHRESHOLD
+#pragma push_macro("MEDSIGHTTHRESHOLDSQUARED")
+#undef MEDSIGHTTHRESHOLDSQUARED
+#pragma push_macro("MEM_TIME")
+#undef MEM_TIME
+#pragma push_macro("MESSAGE_RPC_RETRY_INTERVAL")
+#undef MESSAGE_RPC_RETRY_INTERVAL
+#pragma push_macro("MESSAGE_RPC_R
