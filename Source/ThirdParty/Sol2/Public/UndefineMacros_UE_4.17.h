@@ -3286,4 +3286,20 @@
 #undef MEM_TIME
 #pragma push_macro("MESSAGE_RPC_RETRY_INTERVAL")
 #undef MESSAGE_RPC_RETRY_INTERVAL
-#pragma push_macro("MESSAGE_RPC_R
+#pragma push_macro("MESSAGE_RPC_RETRY_TIMEOUT")
+#undef MESSAGE_RPC_RETRY_TIMEOUT
+#pragma push_macro("METAL_DEBUG_OPTION")
+#undef METAL_DEBUG_OPTION
+#pragma push_macro("METAL_DEBUG_OPTIONS")
+#undef METAL_DEBUG_OPTIONS
+#pragma push_macro("METAL_MAX_BUFFERS")
+#undef METAL_MAX_BUFFERS
+#pragma push_macro("METAL_MAX_TEXTURES")
+#undef METAL_MAX_TEXTURES
+#pragma push_macro("METAL_NEW_NONNULL_DECL")
+#undef METAL_NEW_NONNULL_DECL
+#pragma push_macro("METAL_SET_COMPUTE_REFLECTION")
+#undef METAL_SET_COMPUTE_REFLECTION
+#pragma push_macro("METAL_SET_RENDER_REFLECTION")
+#undef METAL_SET_RENDER_REFLECTION
+#p
