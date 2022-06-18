@@ -3318,4 +3318,26 @@
 #undef MIN_FILTER_BANDWIDTH
 #pragma push_macro("MIN_FILTER_FREQUENCY")
 #undef MIN_FILTER_FREQUENCY
-#p
+#pragma push_macro("MIN_FILTER_GAIN")
+#undef MIN_FILTER_GAIN
+#pragma push_macro("MIN_flt")
+#undef MIN_flt
+#pragma push_macro("MIN_int16")
+#undef MIN_int16
+#pragma push_macro("MIN_int32")
+#undef MIN_int32
+#pragma push_macro("MIN_int64")
+#undef MIN_int64
+#pragma push_macro("MIN_int8")
+#undef MIN_int8
+#pragma push_macro("MIN_PITCH")
+#undef MIN_PITCH
+#pragma push_macro("MIN_PLACED_BUFFER_SIZE")
+#undef MIN_PLACED_BUFFER_SIZE
+#pragma push_macro("MIN_SOUND_PRIORITY")
+#undef MIN_SOUND_PRIORITY
+#pragma push_macro("MIN_uint16")
+#undef MIN_uint16
+#pragma push_macro("MIN_uint32")
+#undef MIN_uint32
+#pragma push_macr
