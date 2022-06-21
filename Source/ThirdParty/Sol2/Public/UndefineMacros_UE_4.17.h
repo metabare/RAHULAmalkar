@@ -3358,4 +3358,24 @@
 #undef MONO_PCM_BUFFER_SIZE
 #pragma push_macro("MONOLITHIC_HEADER_BOILERPLATE")
 #undef MONOLITHIC_HEADER_BOILERPLATE
-#pragma push_macro("MOVIESCENE_DETAILED_SCOPE_CYCLE_COU
+#pragma push_macro("MOVIESCENE_DETAILED_SCOPE_CYCLE_COUNTER")
+#undef MOVIESCENE_DETAILED_SCOPE_CYCLE_COUNTER
+#pragma push_macro("MOVIESCENE_DETAILED_STATS")
+#undef MOVIESCENE_DETAILED_STATS
+#pragma push_macro("MS_ALIGN")
+#undef MS_ALIGN
+#pragma push_macro("MSC_FORMAT_DIAGNOSTIC_HELPER")
+#undef MSC_FORMAT_DIAGNOSTIC_HELPER
+#pragma push_macro("MSC_FORMAT_DIAGNOSTIC_HELPER_2")
+#undef MSC_FORMAT_DIAGNOSTIC_HELPER_2
+#pragma push_macro("MSVC_PRAGMA")
+#undef MSVC_PRAGMA
+#pragma push_macro("MTLFence")
+#undef MTLFence
+#pragma push_macro("MTLHeap")
+#undef MTLHeap
+#pragma push_macro("MTLHeapDescriptorRef")
+#undef MTLHeapDescriptorRef
+#pragma push_macro("MTLRenderStageFragment")
+#undef MTLRenderStageFragment
+#
