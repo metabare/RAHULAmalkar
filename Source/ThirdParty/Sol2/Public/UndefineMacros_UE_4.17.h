@@ -3425,4 +3425,24 @@
 #pragma push_macro("NAVMESHVER_SEGMENT_LINKS")
 #undef NAVMESHVER_SEGMENT_LINKS
 #pragma push_macro("NAVMESHVER_TILED_GENERATION")
-#undef NAVMESHVER_TILED_GENERATIO
+#undef NAVMESHVER_TILED_GENERATION
+#pragma push_macro("NAVSYS_DEBUG")
+#undef NAVSYS_DEBUG
+#pragma push_macro("NDI_FUNC_BINDER")
+#undef NDI_FUNC_BINDER
+#pragma push_macro("NEARSIGHTTHRESHOLD")
+#undef NEARSIGHTTHRESHOLD
+#pragma push_macro("NEARSIGHTTHRESHOLDSQUARED")
+#undef NEARSIGHTTHRESHOLDSQUARED
+#pragma push_macro("NEEDS_ICU_DLLS")
+#undef NEEDS_ICU_DLLS
+#pragma push_macro("NET_CHECKSUM")
+#undef NET_CHECKSUM
+#pragma push_macro("NET_CHECKSUM_CUSTOM")
+#undef NET_CHECKSUM_CUSTOM
+#pragma push_macro("NET_CHECKSUM_IGNORE")
+#undef NET_CHECKSUM_IGNORE
+#pragma push_macro("NET_CHECKSUM_OR_END")
+#undef NET_CHECKSUM_OR_END
+#pragma push_macro("NET_ENABLE_CHECKSUMS")
+#u
