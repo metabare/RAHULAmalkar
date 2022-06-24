@@ -3394,4 +3394,21 @@
 #undef NAME_NO_NUMBER
 #pragma push_macro("NAME_NO_NUMBER_INTERNAL")
 #undef NAME_NO_NUMBER_INTERNAL
-#pr
+#pragma push_macro("NAME_OBJECTS")
+#undef NAME_OBJECTS
+#pragma push_macro("NAME_WIDE_MASK")
+#undef NAME_WIDE_MASK
+#pragma push_macro("NAV_USE_MAIN_NAVIGATION_DATA")
+#undef NAV_USE_MAIN_NAVIGATION_DATA
+#pragma push_macro("NAVMESHVER_64BIT")
+#undef NAVMESHVER_64BIT
+#pragma push_macro("NAVMESHVER_AREA_CLASSES")
+#undef NAVMESHVER_AREA_CLASSES
+#pragma push_macro("NAVMESHVER_CLUSTER_PATH")
+#undef NAVMESHVER_CLUSTER_PATH
+#pragma push_macro("NAVMESHVER_CLUSTER_SIMPLIFIED")
+#undef NAVMESHVER_CLUSTER_SIMPLIFIED
+#pragma push_macro("NAVMESHVER_DYNAMIC_LINKS")
+#undef NAVMESHVER_DYNAMIC_LINKS
+#pragma push_macro("NAVMESHVER_INITIAL")
+#undef NAVMES
