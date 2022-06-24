@@ -3378,4 +3378,20 @@
 #undef MTLHeapDescriptorRef
 #pragma push_macro("MTLRenderStageFragment")
 #undef MTLRenderStageFragment
-#
+#pragma push_macro("MTLRenderStages")
+#undef MTLRenderStages
+#pragma push_macro("MTLRenderStageVertex")
+#undef MTLRenderStageVertex
+#pragma push_macro("MTLResourceHazardTrackingModeUntracked")
+#undef MTLResourceHazardTrackingModeUntracked
+#pragma push_macro("NAME_EXTERNAL_TO_INTERNAL")
+#undef NAME_EXTERNAL_TO_INTERNAL
+#pragma push_macro("NAME_INDEX_SHIFT")
+#undef NAME_INDEX_SHIFT
+#pragma push_macro("NAME_INTERNAL_TO_EXTERNAL")
+#undef NAME_INTERNAL_TO_EXTERNAL
+#pragma push_macro("NAME_NO_NUMBER")
+#undef NAME_NO_NUMBER
+#pragma push_macro("NAME_NO_NUMBER_INTERNAL")
+#undef NAME_NO_NUMBER_INTERNAL
+#pr
