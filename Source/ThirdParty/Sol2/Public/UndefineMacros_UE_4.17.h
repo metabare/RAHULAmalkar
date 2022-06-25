@@ -3445,4 +3445,21 @@
 #pragma push_macro("NET_CHECKSUM_OR_END")
 #undef NET_CHECKSUM_OR_END
 #pragma push_macro("NET_ENABLE_CHECKSUMS")
-#u
+#undef NET_ENABLE_CHECKSUMS
+#pragma push_macro("NETWORK_PROFILER")
+#undef NETWORK_PROFILER
+#pragma push_macro("NIAGARA_BUILTIN_EVENTNAME_COLLISION")
+#undef NIAGARA_BUILTIN_EVENTNAME_COLLISION
+#pragma push_macro("NIAGARA_BUILTIN_EVENTNAME_DEATH")
+#undef NIAGARA_BUILTIN_EVENTNAME_DEATH
+#pragma push_macro("NIAGARA_BUILTIN_EVENTNAME_SPAWN")
+#undef NIAGARA_BUILTIN_EVENTNAME_SPAWN
+#pragma push_macro("NIAGARA_INVALID_MEMORY")
+#undef NIAGARA_INVALID_MEMORY
+#pragma push_macro("NO_API")
+#undef NO_API
+#pragma push_macro("NO_LOGGING")
+#undef NO_LOGGING
+#pragma push_macro("NOATOM")
+#undef NOATOM
+#pragma push_macro("NOCOMM")
