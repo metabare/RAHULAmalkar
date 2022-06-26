@@ -3565,4 +3565,21 @@
 #pragma push_macro("OPENGL_ES2_BRING_UP")
 #undef OPENGL_ES2_BRING_UP
 #pragma push_macro("OPENGL_ESDEFERRED")
-#un
+#undef OPENGL_ESDEFERRED
+#pragma push_macro("OPENGL_GL3")
+#undef OPENGL_GL3
+#pragma push_macro("OPENGL_GL4")
+#undef OPENGL_GL4
+#pragma push_macro("OPENGL_NAME_CACHE_SIZE")
+#undef OPENGL_NAME_CACHE_SIZE
+#pragma push_macro("OPENGL_PERFORMANCE_DATA_INVALID")
+#undef OPENGL_PERFORMANCE_DATA_INVALID
+#pragma push_macro("OPENGL_SUPPORTS_SM5")
+#undef OPENGL_SUPPORTS_SM5
+#pragma push_macro("OPENGL_USE_BINDABLE_UNIFORMS")
+#undef OPENGL_USE_BINDABLE_UNIFORMS
+#pragma push_macro("OPENGL_USE_BLIT_FOR_BACK_BUFFER")
+#undef OPENGL_USE_BLIT_FOR_BACK_BUFFER
+#pragma push_macro("OPENGLRHI_DETAILED_STATS")
+#undef OPENGLRHI_DETAILED_STATS
+#pragma push_macro("O
