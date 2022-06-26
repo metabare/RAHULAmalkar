@@ -3544,4 +3544,25 @@
 #undef NUM_VIEW_DESCRIPTORS_TIER_1
 #pragma push_macro("NUM_VIEW_DESCRIPTORS_TIER_2")
 #undef NUM_VIEW_DESCRIPTORS_TIER_2
-#pragma push_macro("NUM_V
+#pragma push_macro("NUM_VIEW_DESCRIPTORS_TIER_3")
+#undef NUM_VIEW_DESCRIPTORS_TIER_3
+#pragma push_macro("NUM_VOICE_CHANNELS")
+#undef NUM_VOICE_CHANNELS
+#pragma push_macro("NumBitsPerDWORD")
+#undef NumBitsPerDWORD
+#pragma push_macro("NumBitsPerDWORDLogTwo")
+#undef NumBitsPerDWORDLogTwo
+#pragma push_macro("NV_AFTERMATH")
+#undef NV_AFTERMATH
+#pragma push_macro("OCCLUSION_SLOP")
+#undef OCCLUSION_SLOP
+#pragma push_macro("OEMRESOURCE")
+#undef OEMRESOURCE
+#pragma push_macro("ON_SCOPE_EXIT")
+#undef ON_SCOPE_EXIT
+#pragma push_macro("OPENGL_ES2")
+#undef OPENGL_ES2
+#pragma push_macro("OPENGL_ES2_BRING_UP")
+#undef OPENGL_ES2_BRING_UP
+#pragma push_macro("OPENGL_ESDEFERRED")
+#un
