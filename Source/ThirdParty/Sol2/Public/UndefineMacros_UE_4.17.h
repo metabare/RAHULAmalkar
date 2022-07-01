@@ -3679,4 +3679,21 @@
 #pragma push_macro("PACKAGE_SCOPE")
 #undef PACKAGE_SCOPE
 #pragma push_macro("PACKETHANDLER_HAS_BEGINHANDSHAKING")
-#undef PACKETHA
+#undef PACKETHANDLER_HAS_BEGINHANDSHAKING
+#pragma push_macro("PAKHASH_USE_CRC")
+#undef PAKHASH_USE_CRC
+#pragma push_macro("PARAM_PASSED_BY_REF")
+#undef PARAM_PASSED_BY_REF
+#pragma push_macro("PARAM_PASSED_BY_REF_ZEROED")
+#undef PARAM_PASSED_BY_REF_ZEROED
+#pragma push_macro("PARAM_PASSED_BY_VAL")
+#undef PARAM_PASSED_BY_VAL
+#pragma push_macro("PARAM_PASSED_BY_VAL_ZEROED")
+#undef PARAM_PASSED_BY_VAL_ZEROED
+#pragma push_macro("PARTICLE_ELEMENT")
+#undef PARTICLE_ELEMENT
+#pragma push_macro("PARTICLE_INSTANCE_PREFETCH")
+#undef PARTICLE_INSTANCE_PREFETCH
+#pragma push_macro("PARTICLE_OWNER_PREFETCH")
+#undef PARTICLE_OWNER_PREFETCH
+#pragm
