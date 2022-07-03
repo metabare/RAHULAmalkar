@@ -3810,4 +3810,19 @@
 #undef PLATFORM_HAS_BSD_SOCKET_FEATURE_WINSOCKETS
 #pragma push_macro("PLATFORM_HAS_BSD_SOCKETS")
 #undef PLATFORM_HAS_BSD_SOCKETS
-#pr
+#pragma push_macro("PLATFORM_HAS_BSD_TIME")
+#undef PLATFORM_HAS_BSD_TIME
+#pragma push_macro("PLATFORM_HAS_CPUID")
+#undef PLATFORM_HAS_CPUID
+#pragma push_macro("PLATFORM_HAS_NO_EPROCLIM")
+#undef PLATFORM_HAS_NO_EPROCLIM
+#pragma push_macro("PLATFORM_HAS_THREADSAFE_RHIGetRenderQueryResult")
+#undef PLATFORM_HAS_THREADSAFE_RHIGetRenderQueryResult
+#pragma push_macro("PLATFORM_HAS_TOUCH_MAIN_SCREEN")
+#undef PLATFORM_HAS_TOUCH_MAIN_SCREEN
+#pragma push_macro("PLATFORM_HAS_UMA")
+#undef PLATFORM_HAS_UMA
+#pragma push_macro("PLATFORM_HTML5")
+#undef PLATFORM_HTML5
+#pragma push_macro("PLATFORM_HTML5_BROWSER")
+#
