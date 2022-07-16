@@ -4028,4 +4028,26 @@
 #undef PSO_IF_STRING_COMPARE_FAILS_RETURN_FALSE
 #pragma push_macro("PURE_VIRTUAL")
 #undef PURE_VIRTUAL
-#pragma p
+#pragma push_macro("PUSH_MACRO")
+#undef PUSH_MACRO
+#pragma push_macro("QOS_IGNORE_HITCHES")
+#undef QOS_IGNORE_HITCHES
+#pragma push_macro("Quant10BitDiv")
+#undef Quant10BitDiv
+#pragma push_macro("Quant10BitFactor")
+#undef Quant10BitFactor
+#pragma push_macro("Quant10BitOffs")
+#undef Quant10BitOffs
+#pragma push_macro("Quant11BitDiv")
+#undef Quant11BitDiv
+#pragma push_macro("Quant11BitFactor")
+#undef Quant11BitFactor
+#pragma push_macro("Quant11BitOffs")
+#undef Quant11BitOffs
+#pragma push_macro("Quant16BitDiv")
+#undef Quant16BitDiv
+#pragma push_macro("Quant16BitFactor")
+#undef Quant16BitFactor
+#pragma push_macro("Quant16BitOffs")
+#undef Quant16BitOffs
+#pragma
