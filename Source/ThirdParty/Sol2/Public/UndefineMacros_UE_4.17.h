@@ -4050,4 +4050,19 @@
 #undef Quant16BitFactor
 #pragma push_macro("Quant16BitOffs")
 #undef Quant16BitOffs
-#pragma
+#pragma push_macro("QUATERNION_ZEROING_THRESHOLD")
+#undef QUATERNION_ZEROING_THRESHOLD
+#pragma push_macro("QUICK_SCOPE_CYCLE_COUNTER")
+#undef QUICK_SCOPE_CYCLE_COUNTER
+#pragma push_macro("QUICK_USE_CYCLE_STAT")
+#undef QUICK_USE_CYCLE_STAT
+#pragma push_macro("RB_MinAngleToLockDOF")
+#undef RB_MinAngleToLockDOF
+#pragma push_macro("RB_MinSizeToLockDOF")
+#undef RB_MinSizeToLockDOF
+#pragma push_macro("RECAST_ASYNC_REBUILDING")
+#undef RECAST_ASYNC_REBUILDING
+#pragma push_macro("RECAST_DEBUGDRAW_H")
+#undef RECAST_DEBUGDRAW_H
+#pragma push_macro("RECAST_DEFAULT_AREA")
+#undef RECAST_DEFAULT_AREA
