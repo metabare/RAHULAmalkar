@@ -4118,4 +4118,18 @@
 #undef REN_ForceNoResetLoaders
 #pragma push_macro("REN_None")
 #undef REN_None
-#pragma push_macro("REN_NonTransaction
+#pragma push_macro("REN_NonTransactional")
+#undef REN_NonTransactional
+#pragma push_macro("REN_SkipGeneratedClasses")
+#undef REN_SkipGeneratedClasses
+#pragma push_macro("REN_Test")
+#undef REN_Test
+#pragma push_macro("REPLACEMENT_OPERATOR_NEW_AND_DELETE")
+#undef REPLACEMENT_OPERATOR_NEW_AND_DELETE
+#pragma push_macro("REPORT_GL_CLEAR_EVENT_FOR_FRAME_DUMP")
+#undef REPORT_GL_CLEAR_EVENT_FOR_FRAME_DUMP
+#pragma push_macro("REPORT_GL_DRAW_ARRAYS_EVENT_FOR_FRAME_DUMP")
+#undef REPORT_GL_DRAW_ARRAYS_EVENT_FOR_FRAME_DUMP
+#pragma push_macro("REPORT_GL_DRAW_ARRAYS_INSTANCED_EVENT_FOR_FRAME_DUMP")
+#undef REPORT_GL_DRAW_ARRAYS_INSTANCED_EVENT_FOR_FRAME_DUMP
+#p
