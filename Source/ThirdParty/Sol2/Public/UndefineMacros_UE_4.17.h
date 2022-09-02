@@ -4360,4 +4360,23 @@
 #undef SELECT_STATIC_MESH_VERTEX_TYPE
 #pragma push_macro("SELECT_STATIC_MESH_VERTEX_TYPE_WITH_TEX_COORDS")
 #undef SELECT_STATIC_MESH_VERTEX_TYPE_WITH_TEX_COORDS
-#pragma push_macro("SEQUENCER_IN
+#pragma push_macro("SEQUENCER_INSTANCE_PLAYER_TYPE")
+#undef SEQUENCER_INSTANCE_PLAYER_TYPE
+#pragma push_macro("SERIALIZE_SYMBOL_INFO")
+#undef SERIALIZE_SYMBOL_INFO
+#pragma push_macro("SET_BONE_DATA")
+#undef SET_BONE_DATA
+#pragma push_macro("SET_CYCLE_COUNTER")
+#undef SET_CYCLE_COUNTER
+#pragma push_macro("SET_CYCLE_COUNTER_FName")
+#undef SET_CYCLE_COUNTER_FName
+#pragma push_macro("SET_DWORD_STAT")
+#undef SET_DWORD_STAT
+#pragma push_macro("SET_DWORD_STAT_FName")
+#undef SET_DWORD_STAT_FName
+#pragma push_macro("SET_FLOAT_STAT")
+#undef SET_FLOAT_STAT
+#pragma push_macro("SET_FLOAT_STAT_FName")
+#undef SET_FLOAT_STAT_FName
+#pragma push_macro("SET_MEMORY_STAT")
+#
