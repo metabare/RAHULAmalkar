@@ -4379,4 +4379,20 @@
 #pragma push_macro("SET_FLOAT_STAT_FName")
 #undef SET_FLOAT_STAT_FName
 #pragma push_macro("SET_MEMORY_STAT")
-#
+#undef SET_MEMORY_STAT
+#pragma push_macro("SET_MEMORY_STAT_FName")
+#undef SET_MEMORY_STAT_FName
+#pragma push_macro("SET_WARN_COLOR")
+#undef SET_WARN_COLOR
+#pragma push_macro("SET_WARN_COLOR_AND_BACKGROUND")
+#undef SET_WARN_COLOR_AND_BACKGROUND
+#pragma push_macro("SHIPPING_PC_GAME")
+#undef SHIPPING_PC_GAME
+#pragma push_macro("SHOULD_TRACK_OBJECTS")
+#undef SHOULD_TRACK_OBJECTS
+#pragma push_macro("ShouldExecuteOnRenderThread")
+#undef ShouldExecuteOnRenderThread
+#pragma push_macro("SHOWFLAG_ALWAYS_ACCESSIBLE")
+#undef SHOWFLAG_ALWAYS_ACCESSIBLE
+#pragma push_macro("SHOWFLAG_FIXED_IN_SHIPPING")
+#und
