@@ -4395,4 +4395,21 @@
 #pragma push_macro("SHOWFLAG_ALWAYS_ACCESSIBLE")
 #undef SHOWFLAG_ALWAYS_ACCESSIBLE
 #pragma push_macro("SHOWFLAG_FIXED_IN_SHIPPING")
-#und
+#undef SHOWFLAG_FIXED_IN_SHIPPING
+#pragma push_macro("SHUFFLEMASK")
+#undef SHUFFLEMASK
+#pragma push_macro("SHUTDOWN_IF_EXIT_REQUESTED")
+#undef SHUTDOWN_IF_EXIT_REQUESTED
+#pragma push_macro("SIGN_BIT")
+#undef SIGN_BIT
+#pragma push_macro("SIMD_ALIGNMENT")
+#undef SIMD_ALIGNMENT
+#pragma push_macro("SKIP_ANIMROTATIONONLY_TRACKS")
+#undef SKIP_ANIMROTATIONONLY_TRACKS
+#pragma push_macro("SKIP_FORCEMESHTRANSLATION_TRACKS")
+#undef SKIP_FORCEMESHTRANSLATION_TRACKS
+#pragma push_macro("SLATE_ARGUMENT")
+#undef SLATE_ARGUMENT
+#pragma push_macro("SLATE_ATTRIBUTE")
+#undef SLATE_ATTRIBUTE
+#pragma push_macro("SLATE_BEGIN_ARGS")
