@@ -4675,4 +4675,23 @@
 #pragma push_macro("TOTAL_OVERHEAD_SCRIPT_STATS")
 #undef TOTAL_OVERHEAD_SCRIPT_STATS
 #pragma push_macro("TRACK_CONSOLE_FIND_COUNT")
-#undef TRACK_CONSOLE_FIND_
+#undef TRACK_CONSOLE_FIND_COUNT
+#pragma push_macro("TRACK_OBJECT")
+#undef TRACK_OBJECT
+#pragma push_macro("TRACK_RELOCATIONS")
+#undef TRACK_RELOCATIONS
+#pragma push_macro("TrackBufferViewAdd")
+#undef TrackBufferViewAdd
+#pragma push_macro("TrackBufferViewRemove")
+#undef TrackBufferViewRemove
+#pragma push_macro("TrackImageViewAdd")
+#undef TrackImageViewAdd
+#pragma push_macro("TrackImageViewRemove")
+#undef TrackImageViewRemove
+#pragma push_macro("TRAIL_EMITTER_CHECK_FLAG")
+#undef TRAIL_EMITTER_CHECK_FLAG
+#pragma push_macro("TRAIL_EMITTER_FLAG_DEADTRAIL")
+#undef TRAIL_EMITTER_FLAG_DEADTRAIL
+#pragma push_macro("TRAIL_EMITTER_FLAG_END")
+#undef TRAIL_EMITTER_FLAG_END
+#pragma
