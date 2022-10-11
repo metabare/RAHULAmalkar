@@ -4759,4 +4759,21 @@
 #pragma push_macro("TRANSLATION_ZEROING_THRESHOLD")
 #undef TRANSLATION_ZEROING_THRESHOLD
 #pragma push_macro("TRUE")
-#u
+#undef TRUE
+#pragma push_macro("TUPLES_USE_DEFAULTED_FUNCTIONS")
+#undef TUPLES_USE_DEFAULTED_FUNCTIONS
+#pragma push_macro("TWO_PI")
+#undef TWO_PI
+#pragma push_macro("TYPENAME_OUTSIDE_TEMPLATE")
+#undef TYPENAME_OUTSIDE_TEMPLATE
+#pragma push_macro("UA_DEVICE_PLATFORM_ERROR")
+#undef UA_DEVICE_PLATFORM_ERROR
+#pragma push_macro("UA_SYSTEM_ERROR")
+#undef UA_SYSTEM_ERROR
+#pragma push_macro("UCLASS")
+#undef UCLASS
+#pragma push_macro("UCLASS_FAST_ISA_COMPARE_WITH_OUTERWALK")
+#undef UCLASS_FAST_ISA_COMPARE_WITH_OUTERWALK
+#pragma push_macro("UCLASS_FAST_ISA_IMPL")
+#undef UCLASS_FAST_ISA_IMPL
+#pragma push_macro("U
