@@ -4834,4 +4834,25 @@
 #undef UE_CVLOG_PULLEDCONVEX
 #pragma push_macro("UE_CVLOG_SEGMENT")
 #undef UE_CVLOG_SEGMENT
-#pragma push_macro("UE_
+#pragma push_macro("UE_CVLOG_SEGMENT_THICK")
+#undef UE_CVLOG_SEGMENT_THICK
+#pragma push_macro("UE_CVLOG_UELOG")
+#undef UE_CVLOG_UELOG
+#pragma push_macro("UE_DEBUG_FILL_FREED")
+#undef UE_DEBUG_FILL_FREED
+#pragma push_macro("UE_DEBUG_FILL_NEW")
+#undef UE_DEBUG_FILL_NEW
+#pragma push_macro("UE_EDITOR")
+#undef UE_EDITOR
+#pragma push_macro("UE_GAME")
+#undef UE_GAME
+#pragma push_macro("UE_GC_TRACK_OBJ_AVAILABLE")
+#undef UE_GC_TRACK_OBJ_AVAILABLE
+#pragma push_macro("UE_GCCLUSTER_VERBOSE_LOGGING")
+#undef UE_GCCLUSTER_VERBOSE_LOGGING
+#pragma push_macro("UE_GET_LOG_VERBOSITY")
+#undef UE_GET_LOG_VERBOSITY
+#pragma push_macro("UE_IFVLOG")
+#undef UE_IFVLOG
+#pragma push_macro("UE_LOG")
+#undef 
