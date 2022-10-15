@@ -4855,4 +4855,19 @@
 #pragma push_macro("UE_IFVLOG")
 #undef UE_IFVLOG
 #pragma push_macro("UE_LOG")
-#undef 
+#undef UE_LOG
+#pragma push_macro("UE_LOG_ACTIVE")
+#undef UE_LOG_ACTIVE
+#pragma push_macro("UE_LOG_ANY_ACTIVE")
+#undef UE_LOG_ANY_ACTIVE
+#pragma push_macro("UE_LOG_EXPAND_IS_FATAL")
+#undef UE_LOG_EXPAND_IS_FATAL
+#pragma push_macro("UE_LOG_EXPAND_IS_FATAL_All")
+#undef UE_LOG_EXPAND_IS_FATAL_All
+#pragma push_macro("UE_LOG_EXPAND_IS_FATAL_Display")
+#undef UE_LOG_EXPAND_IS_FATAL_Display
+#pragma push_macro("UE_LOG_EXPAND_IS_FATAL_Error")
+#undef UE_LOG_EXPAND_IS_FATAL_Error
+#pragma push_macro("UE_LOG_EXPAND_IS_FATAL_Fatal")
+#undef UE_LOG_EXPAND_IS_FATAL_Fatal
+#pragma push_macro("UE_LOG_EXPAND_IS_FATAL_
