@@ -4906,4 +4906,24 @@
 #undef UE_VLOG_CONE
 #pragma push_macro("UE_VLOG_CONVEXPOLY")
 #undef UE_VLOG_CONVEXPOLY
-#pragma pus
+#pragma push_macro("UE_VLOG_CYLINDER")
+#undef UE_VLOG_CYLINDER
+#pragma push_macro("UE_VLOG_EVENT_WITH_DATA")
+#undef UE_VLOG_EVENT_WITH_DATA
+#pragma push_macro("UE_VLOG_EVENTS")
+#undef UE_VLOG_EVENTS
+#pragma push_macro("UE_VLOG_HISTOGRAM")
+#undef UE_VLOG_HISTOGRAM
+#pragma push_macro("UE_VLOG_LOCATION")
+#undef UE_VLOG_LOCATION
+#pragma push_macro("UE_VLOG_MESH")
+#undef UE_VLOG_MESH
+#pragma push_macro("UE_VLOG_OBOX")
+#undef UE_VLOG_OBOX
+#pragma push_macro("UE_VLOG_PULLEDCONVEX")
+#undef UE_VLOG_PULLEDCONVEX
+#pragma push_macro("UE_VLOG_SEGMENT")
+#undef UE_VLOG_SEGMENT
+#pragma push_macro("UE_VLOG_SEGMENT_THICK")
+#undef UE_VLOG_SEGMENT_THICK
+#pragm
