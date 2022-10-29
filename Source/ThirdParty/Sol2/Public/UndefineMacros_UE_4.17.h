@@ -5032,3 +5032,20 @@
 #undef USE_DEFERRED_DEPENDENCY_CHECK_VERIFICATION_TESTS
 #pragma push_macro("USE_DELEGATE_TRYGETBOUNDFUNCTIONNAME")
 #undef USE_DELEGATE_TRYGETBOUNDFUNCTIONNAME
+#pragma push_macro("USE_EQS_DEBUGGER")
+#undef USE_EQS_DEBUGGER
+#pragma push_macro("USE_EQS_TICKLOADDATA")
+#undef USE_EQS_TICKLOADDATA
+#pragma push_macro("USE_EVENT_DRIVEN_ASYNC_LOAD_AT_BOOT_TIME")
+#undef USE_EVENT_DRIVEN_ASYNC_LOAD_AT_BOOT_TIME
+#pragma push_macro("USE_FAST_QUAT_MUL")
+#undef USE_FAST_QUAT_MUL
+#pragma push_macro("USE_GBuiltinSamplersUniformBuffer")
+#undef USE_GBuiltinSamplersUniformBuffer
+#pragma push_macro("USE_IMPLICIT_ARCS")
+#undef USE_IMPLICIT_ARCS
+#pragma push_macro("USE_INTERNAL_LOCKS")
+#undef USE_INTERNAL_LOCKS
+#pragma push_macro("USE_LOGGING_IN_SHIPPING")
+#undef USE_LOGGING_IN_SHIPPING
+#pragma
