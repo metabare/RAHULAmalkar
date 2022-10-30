@@ -5048,4 +5048,20 @@
 #undef USE_INTERNAL_LOCKS
 #pragma push_macro("USE_LOGGING_IN_SHIPPING")
 #undef USE_LOGGING_IN_SHIPPING
-#pragma
+#pragma push_macro("USE_MALLOC_PROFILER")
+#undef USE_MALLOC_PROFILER
+#pragma push_macro("USE_MALLOC_STOMP")
+#undef USE_MALLOC_STOMP
+#pragma push_macro("USE_MCSOCKET_FOR_NFS")
+#undef USE_MCSOCKET_FOR_NFS
+#pragma push_macro("USE_NETWORK_PROFILER")
+#undef USE_NETWORK_PROFILER
+#pragma push_macro("USE_NIEVE_TLockFreeFixedSizeAllocator_TLSCacheBase")
+#undef USE_NIEVE_TLockFreeFixedSizeAllocator_TLSCacheBase
+#pragma push_macro("USE_NULL_RHI")
+#undef USE_NULL_RHI
+#pragma push_macro("USE_OPENGL_NAME_CACHE")
+#undef USE_OPENGL_NAME_CACHE
+#pragma push_macro("USE_PIX")
+#undef USE_PIX
+#pragma push_macro("USE_REMOTE_INTEGRATION")
