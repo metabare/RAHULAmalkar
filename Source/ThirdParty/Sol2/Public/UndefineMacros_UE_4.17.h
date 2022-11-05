@@ -5065,3 +5065,21 @@
 #pragma push_macro("USE_PIX")
 #undef USE_PIX
 #pragma push_macro("USE_REMOTE_INTEGRATION")
+#undef USE_REMOTE_INTEGRATION
+#pragma push_macro("USE_SCENE_LOCK")
+#undef USE_SCENE_LOCK
+#pragma push_macro("USE_SECURE_CRT")
+#undef USE_SECURE_CRT
+#pragma push_macro("USE_SERVER_PERF_COUNTERS")
+#undef USE_SERVER_PERF_COUNTERS
+#pragma push_macro("USE_STABLE_LOCALIZATION_KEYS")
+#undef USE_STABLE_LOCALIZATION_KEYS
+#pragma push_macro("USE_STATIC_ROOT_SIGNATURE")
+#undef USE_STATIC_ROOT_SIGNATURE
+#pragma push_macro("USE_TUPLE_AUTO_RETURN_TYPES")
+#undef USE_TUPLE_AUTO_RETURN_TYPES
+#pragma push_macro("USE_UBER_GRAPH_PERSISTENT_FRAME")
+#undef USE_UBER_GRAPH_PERSISTENT_FRAME
+#pragma push_macro("USING_CODE_ANALYSIS")
+#undef USING_CODE_ANALYSIS
+#p
