@@ -5082,4 +5082,22 @@
 #undef USE_UBER_GRAPH_PERSISTENT_FRAME
 #pragma push_macro("USING_CODE_ANALYSIS")
 #undef USING_CODE_ANALYSIS
-#p
+#pragma push_macro("USTRUCT")
+#undef USTRUCT
+#pragma push_macro("UTF8_TO_TCHAR")
+#undef UTF8_TO_TCHAR
+#pragma push_macro("VALID_SAVEDDIRSUFFIX_CHARACTERS")
+#undef VALID_SAVEDDIRSUFFIX_CHARACTERS
+#pragma push_macro("VALIDATE_MEMORY_PROTECTION")
+#undef VALIDATE_MEMORY_PROTECTION
+#pragma push_macro("VALIDATE_MOVES")
+#undef VALIDATE_MOVES
+#pragma push_macro("VALIDATE_SYNC_SIZE")
+#undef VALIDATE_SYNC_SIZE
+#pragma push_macro("VARARG_BODY")
+#undef VARARG_BODY
+#pragma push_macro("VARARG_DECL")
+#undef VARARG_DECL
+#pragma push_macro("VARARG_EXTRA")
+#undef VARARG_EXTRA
+#pragma push_macro("VARA
