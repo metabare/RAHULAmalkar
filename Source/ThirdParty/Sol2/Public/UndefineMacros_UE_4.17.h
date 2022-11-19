@@ -5162,4 +5162,23 @@
 #undef VectorIntAndNot
 #pragma push_macro("VectorIntCompareEQ")
 #undef VectorIntCompareEQ
-#pragma
+#pragma push_macro("VectorIntCompareGE")
+#undef VectorIntCompareGE
+#pragma push_macro("VectorIntCompareGT")
+#undef VectorIntCompareGT
+#pragma push_macro("VectorIntCompareLE")
+#undef VectorIntCompareLE
+#pragma push_macro("VectorIntCompareLT")
+#undef VectorIntCompareLT
+#pragma push_macro("VectorIntCompareNEQ")
+#undef VectorIntCompareNEQ
+#pragma push_macro("VectorIntLoad")
+#undef VectorIntLoad
+#pragma push_macro("VectorIntLoad1")
+#undef VectorIntLoad1
+#pragma push_macro("VectorIntLoadAligned")
+#undef VectorIntLoadAligned
+#pragma push_macro("VectorIntMax")
+#undef VectorIntMax
+#pragma push_macro("VectorIntMin")
+#u
