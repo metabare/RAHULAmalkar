@@ -5181,4 +5181,24 @@
 #pragma push_macro("VectorIntMax")
 #undef VectorIntMax
 #pragma push_macro("VectorIntMin")
-#u
+#undef VectorIntMin
+#pragma push_macro("VectorIntMultiply")
+#undef VectorIntMultiply
+#pragma push_macro("VectorIntNegate")
+#undef VectorIntNegate
+#pragma push_macro("VectorIntNot")
+#undef VectorIntNot
+#pragma push_macro("VectorIntOr")
+#undef VectorIntOr
+#pragma push_macro("VectorIntSign")
+#undef VectorIntSign
+#pragma push_macro("VectorIntStore")
+#undef VectorIntStore
+#pragma push_macro("VectorIntStoreAligned")
+#undef VectorIntStoreAligned
+#pragma push_macro("VectorIntSubtract")
+#undef VectorIntSubtract
+#pragma push_macro("VectorIntToFloat")
+#undef VectorIntToFloat
+#pragma push_macro("VectorIntXor")
+#undef VectorIntX
