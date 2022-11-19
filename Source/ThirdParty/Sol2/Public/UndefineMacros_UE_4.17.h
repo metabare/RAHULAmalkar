@@ -5201,4 +5201,23 @@
 #pragma push_macro("VectorIntToFloat")
 #undef VectorIntToFloat
 #pragma push_macro("VectorIntXor")
-#undef VectorIntX
+#undef VectorIntXor
+#pragma push_macro("VectorLoad")
+#undef VectorLoad
+#pragma push_macro("VectorLoadAligned")
+#undef VectorLoadAligned
+#pragma push_macro("VectorLoadByte4")
+#undef VectorLoadByte4
+#pragma push_macro("VectorLoadByte4Reverse")
+#undef VectorLoadByte4Reverse
+#pragma push_macro("VectorLoadFloat1")
+#undef VectorLoadFloat1
+#pragma push_macro("VectorLoadFloat3")
+#undef VectorLoadFloat3
+#pragma push_macro("VectorLoadFloat3_W0")
+#undef VectorLoadFloat3_W0
+#pragma push_macro("VectorLoadFloat3_W1")
+#undef VectorLoadFloat3_W1
+#pragma push_macro("VectorLoadURGB10A2N")
+#undef VectorLoadURGB10A2N
+#pra
