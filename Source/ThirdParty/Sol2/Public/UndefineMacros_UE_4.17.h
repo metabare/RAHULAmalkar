@@ -5140,4 +5140,26 @@
 #undef VectorCompareLT
 #pragma push_macro("VectorCompareNE")
 #undef VectorCompareNE
-#pragma push_macro("VectorCross
+#pragma push_macro("VectorCross")
+#undef VectorCross
+#pragma push_macro("VectorDivide")
+#undef VectorDivide
+#pragma push_macro("VectorDot3")
+#undef VectorDot3
+#pragma push_macro("VectorDot4")
+#undef VectorDot4
+#pragma push_macro("VectorFloatToInt")
+#undef VectorFloatToInt
+#pragma push_macro("VectorGetControlRegister")
+#undef VectorGetControlRegister
+#pragma push_macro("VectorIntAbs")
+#undef VectorIntAbs
+#pragma push_macro("VectorIntAdd")
+#undef VectorIntAdd
+#pragma push_macro("VectorIntAnd")
+#undef VectorIntAnd
+#pragma push_macro("VectorIntAndNot")
+#undef VectorIntAndNot
+#pragma push_macro("VectorIntCompareEQ")
+#undef VectorIntCompareEQ
+#pragma
