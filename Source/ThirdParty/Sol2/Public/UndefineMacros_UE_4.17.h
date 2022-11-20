@@ -5220,4 +5220,24 @@
 #undef VectorLoadFloat3_W1
 #pragma push_macro("VectorLoadURGB10A2N")
 #undef VectorLoadURGB10A2N
-#pra
+#pragma push_macro("VectorLoadURGBA16N")
+#undef VectorLoadURGBA16N
+#pragma push_macro("VectorMask_EQ")
+#undef VectorMask_EQ
+#pragma push_macro("VectorMask_GE")
+#undef VectorMask_GE
+#pragma push_macro("VectorMask_GT")
+#undef VectorMask_GT
+#pragma push_macro("VectorMask_LE")
+#undef VectorMask_LE
+#pragma push_macro("VectorMask_LT")
+#undef VectorMask_LT
+#pragma push_macro("VectorMask_NE")
+#undef VectorMask_NE
+#pragma push_macro("VectorMaskBits")
+#undef VectorMaskBits
+#pragma push_macro("VectorMax")
+#undef VectorMax
+#pragma push_macro("VectorMergeVecXYZ_VecW")
+#undef VectorMergeVecXYZ_VecW
+#pragma push_
