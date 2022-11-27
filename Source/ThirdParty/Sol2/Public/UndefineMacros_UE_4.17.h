@@ -5370,4 +5370,22 @@
 #undef VIEW_UNIFORM_BUFFER_MEMBER_ARRAY
 #pragma push_macro("VIEW_UNIFORM_BUFFER_MEMBER_EX")
 #undef VIEW_UNIFORM_BUFFER_MEMBER_EX
-#pragma push_macro("VIEW_UN
+#pragma push_macro("VIEW_UNIFORM_BUFFER_MEMBER_TABLE")
+#undef VIEW_UNIFORM_BUFFER_MEMBER_TABLE
+#pragma push_macro("VISLOG_FILENAME_EXT")
+#undef VISLOG_FILENAME_EXT
+#pragma push_macro("VK_DYNAMICAPI_TO_VULKANRHI")
+#undef VK_DYNAMICAPI_TO_VULKANRHI
+#pragma push_macro("VK_KHR_maintenance1")
+#undef VK_KHR_maintenance1
+#pragma push_macro("VK_NO_PROTOTYPES")
+#undef VK_NO_PROTOTYPES
+#pragma push_macro("VK_PROTOTYPES")
+#undef VK_PROTOTYPES
+#pragma push_macro("VK_USE_PLATFORM_ANDROID_KHR")
+#undef VK_USE_PLATFORM_ANDROID_KHR
+#pragma push_macro("VK_USE_PLATFORM_WIN32_KHR")
+#undef VK_USE_PLATFORM_WIN32_KHR
+#pragma push_macro("VOICE_CHANNEL_INDEX")
+#undef VOICE_CHANNEL_INDEX
+#pr
