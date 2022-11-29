@@ -5468,4 +5468,23 @@
 #undef WITH_D3DX_LIBS
 #pragma push_macro("WITH_DATABASE_SUPPORT")
 #undef WITH_DATABASE_SUPPORT
-#pragma 
+#pragma push_macro("WITH_DX_PERF")
+#undef WITH_DX_PERF
+#pragma push_macro("WITH_EDITOR")
+#undef WITH_EDITOR
+#pragma push_macro("WITH_EDITORONLY_DATA")
+#undef WITH_EDITORONLY_DATA
+#pragma push_macro("WITH_ENGINE")
+#undef WITH_ENGINE
+#pragma push_macro("WITH_FANCY_TEXT")
+#undef WITH_FANCY_TEXT
+#pragma push_macro("WITH_FIXED_AREA_ENTERING_COST")
+#undef WITH_FIXED_AREA_ENTERING_COST
+#pragma push_macro("WITH_FREETYPE")
+#undef WITH_FREETYPE
+#pragma push_macro("WITH_HARFBUZZ")
+#undef WITH_HARFBUZZ
+#pragma push_macro("WITH_HOT_RELOAD")
+#undef WITH_HOT_RELOAD
+#pragma push_macro("WITH_LOADPACKAGE_TIME_TRACKER")
+#undef WITH_
