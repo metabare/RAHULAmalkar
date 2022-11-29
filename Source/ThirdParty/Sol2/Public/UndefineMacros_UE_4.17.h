@@ -5450,4 +5450,22 @@
 #undef WhitelistCommandLines
 #pragma push_macro("WIN32_LEAN_AND_MEAN")
 #undef WIN32_LEAN_AND_MEAN
-#pragma push_macr
+#pragma push_macro("WINAPI")
+#undef WINAPI
+#pragma push_macro("WINDOWS_MAX_PATH")
+#undef WINDOWS_MAX_PATH
+#pragma push_macro("WINDOWS_PF_COMPARE_EXCHANGE128")
+#undef WINDOWS_PF_COMPARE_EXCHANGE128
+#pragma push_macro("WINDOWS_PLATFORM_ATOMICS_GUARD")
+#undef WINDOWS_PLATFORM_ATOMICS_GUARD
+#pragma push_macro("WINDOWS_PLATFORM_TYPES_GUARD")
+#undef WINDOWS_PLATFORM_TYPES_GUARD
+#pragma push_macro("WITH_AUTOMATION_WORKER")
+#undef WITH_AUTOMATION_WORKER
+#pragma push_macro("WITH_CASE_PRESERVING_NAME")
+#undef WITH_CASE_PRESERVING_NAME
+#pragma push_macro("WITH_D3DX_LIBS")
+#undef WITH_D3DX_LIBS
+#pragma push_macro("WITH_DATABASE_SUPPORT")
+#undef WITH_DATABASE_SUPPORT
+#pragma 
