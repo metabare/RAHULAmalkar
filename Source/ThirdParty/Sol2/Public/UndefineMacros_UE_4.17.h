@@ -5434,4 +5434,20 @@
 #undef VULKANAPINAMESPACE
 #pragma push_macro("WANTS_COMMANDLINE_WHITELIST")
 #undef WANTS_COMMANDLINE_WHITELIST
-#pr
+#pragma push_macro("WANTS_DRAW_MESH_EVENTS")
+#undef WANTS_DRAW_MESH_EVENTS
+#pragma push_macro("WANTS_WINDOWS_EVENT_LOGGING")
+#undef WANTS_WINDOWS_EVENT_LOGGING
+#pragma push_macro("WARNING_LOCATION")
+#undef WARNING_LOCATION
+#pragma push_macro("WAVE_FORMAT_ADPCM")
+#undef WAVE_FORMAT_ADPCM
+#pragma push_macro("WAVE_FORMAT_LPCM")
+#undef WAVE_FORMAT_LPCM
+#pragma push_macro("WEBBROWSER_HASAPPLICATIONCACHEDIR")
+#undef WEBBROWSER_HASAPPLICATIONCACHEDIR
+#pragma push_macro("WhitelistCommandLines")
+#undef WhitelistCommandLines
+#pragma push_macro("WIN32_LEAN_AND_MEAN")
+#undef WIN32_LEAN_AND_MEAN
+#pragma push_macr
