@@ -5543,4 +5543,12 @@
 #pragma push_macro("XFERTEXT")
 #undef XFERTEXT
 #pragma push_macro("XFERUNICODESTRING")
-#undef XFERUNICODE
+#undef XFERUNICODESTRING
+#pragma push_macro("Z_PRECISION")
+#undef Z_PRECISION
+#pragma push_macro("ZERO_ANIMWEIGHT_THRESH")
+#undef ZERO_ANIMWEIGHT_THRESH
+#pragma push_macro("ZERO_FILLED_DUMMY_UNIFORM_BUFFER_SIZE")
+#undef ZERO_FILLED_DUMMY_UNIFORM_BUFFER_SIZE
+#pragma push_macro("ZERO_INIT")
+#undef ZERO_INIT
