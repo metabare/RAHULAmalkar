@@ -30,4 +30,19 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 
 		TestNotNull( TEXT( "UthLuaState created in C++ via NewObject()" ),
 					 luaC1 );
-		TestNotNull( TEXT( "UthLuaState created in C++ via NewObject() with MarkAsRootSe
+		TestNotNull( TEXT( "UthLuaState created in C++ via NewObject() with MarkAsRootSet flag" ),
+					 luaC2 );
+
+		TestTrue( TEXT( "UthLuaState created in C++ via NewObject(): isValid()" ),
+				  luaC1->isValid() );
+		TestTrue( TEXT( "UthLuaState created in C++ via NewObject() with MarkAsRootSet flag: isValid()" ),
+				  luaC2->isValid() );
+
+		TestEqual( TEXT( "UthLuaState created in C++ via NewObject(): getName() == 'default'" ),
+				   luaC1->getName(),
+				   FName( "default" ) );
+
+		luaC1->setName( "TestStateName" );
+		std::string luaStateNameActual = luaC1->getLuaState()["uth"]["statename"];    // Sol requires assignment
+		TestEqual( TEXT( "UthLuaState created in C++ via NewObject(): setName( <name> ) => getName() == <name>" ),
+				   lua
