@@ -45,4 +45,16 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 		luaC1->setName( "TestStateName" );
 		std::string luaStateNameActual = luaC1->getLuaState()["uth"]["statename"];    // Sol requires assignment
 		TestEqual( TEXT( "UthLuaState created in C++ via NewObject(): setName( <name> ) => getName() == <name>" ),
-				   lua
+				   luaC1->getName(),
+				   FName( "TestStateName" ) );
+		TestEqual( TEXT( "UthLuaState created in C++ via NewObject(): setName( <name> ) => Lua uth.statename == <name>" ),
+				   luaStateNameActual,
+				   std::string( "TestStateName" ) );
+
+		UUthLuaState * luaC1_PendingKill = luaC1;    // becomes a dangling pointer after next GC round
+		UUthLuaState * luaC2_PendingKill = luaC2;    // becomes a dangling pointer after next GC round
+		luaC1->destroy(); luaC1 = nullptr;
+		luaC2->destroy(); luaC2 = nullptr;
+
+		TestFalse( TEXT( "UthLuaState created in C++ via NewObject(): destroy() => isValid()" ),
+				   lu
