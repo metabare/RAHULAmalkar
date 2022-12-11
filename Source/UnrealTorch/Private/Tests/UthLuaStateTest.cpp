@@ -69,4 +69,18 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 		check( luaC1 && luaC1->isValid() && luaC2 && luaC2->isValid() );
 
 		CollectGarbage( RF_NoFlags, /*full purge =*/ true );
-		luaC1 = nullpt
+		luaC1 = nullptr;
+
+		// (*luaC1) should be dead now, but we cannot test it without risking a crash
+		TestTrue( TEXT( "UthLuaState created in C++ via NewObject() with MarkAsRootSet flag: CollectGarbage() => isValid()" ),
+				  luaC2->isValid() );    // Might crash if luaC2 was nevertheless collected. Setting full purge to false does not help.
+
+		luaC2->destroy(); luaC2 = nullptr;
+	}
+
+	// script()
+	{
+		UUthLuaState * lua{ NewObject<UUthLuaState>( GetTransientPackage(), FName(), RF_MarkAsRootSet ) };
+		check( lua && lua->isValid() );
+
+		TestTrue( TEXT( "UthLuaState::script(<valid expression>) return status" ),
