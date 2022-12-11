@@ -93,3 +93,18 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 
 		lua->script( "initially_undefined_variable = 10" );
 		TestTrue( TEXT( "UthLuaState::script(<set x>); UthLuaState::script(<use x>) return status" ),
+				  lua->script( "x3 = 1 + 1 + initially_undefined_variable" ) );
+
+		lua->destroy(); lua = nullptr;
+	}
+
+	// Logging from Lua to UE_LOG
+	{
+		UUthLuaState * lua{ NewObject<UUthLuaState>( GetTransientPackage(), FName(), RF_MarkAsRootSet ) };
+		check( lua && lua->isValid() );
+
+		AddExpectedError( TEXT( ".. Test error message from Lua via UE_LOG" ), EAutomationExpectedErrorFlags::Exact, 1 );
+		TestTrue( TEXT( "UthLuaState: Lua call to uth.ue.UE_LOG( <error>, <error message> ) return status && expected error detected" ),
+				  lua->script( "uth.ue.UE_LOG( uth.ue.ELogVerbosity.Error, 'Test error message from Lua via UE_LOG' )" ) );
+
+	
