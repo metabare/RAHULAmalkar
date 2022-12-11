@@ -57,4 +57,16 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 		luaC2->destroy(); luaC2 = nullptr;
 
 		TestFalse( TEXT( "UthLuaState created in C++ via NewObject(): destroy() => isValid()" ),
-				   lu
+				   luaC1_PendingKill->isValid() );
+		TestFalse( TEXT( "UthLuaState created in C++ via NewObject() with MarkAsRootSet flag: destroy() => isValid()" ),
+				   luaC2_PendingKill->isValid() );
+	}
+
+	// Object lifetime and garbage collection
+	{
+		UUthLuaState * luaC1{ NewObject<UUthLuaState>( GetTransientPackage(), FName() ) };    // becomes a dangling pointer after next GC round
+		UUthLuaState * luaC2{ NewObject<UUthLuaState>( GetTransientPackage(), FName(), RF_MarkAsRootSet ) };
+		check( luaC1 && luaC1->isValid() && luaC2 && luaC2->isValid() );
+
+		CollectGarbage( RF_NoFlags, /*full purge =*/ true );
+		luaC1 = nullpt
