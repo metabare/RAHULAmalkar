@@ -84,3 +84,12 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 		check( lua && lua->isValid() );
 
 		TestTrue( TEXT( "UthLuaState::script(<valid expression>) return status" ),
+				  lua->script("x1 = 1 + 1") );
+
+		AddExpectedError( TEXT( ".UUthLuaState::script. Failed to run script: runtime error .string .x2 = 1 . 1 . initially_undefined_variable..:1: attempt to perform arithmetic on global 'initially_undefined_variable' .a nil value." ),
+						  EAutomationExpectedErrorFlags::Exact, 1 );
+		TestFalse( TEXT( "UthLuaState::script(<invalid expression>) return status && expected error detected" ),
+				   lua->script( "x2 = 1 + 1 + initially_undefined_variable" ) );
+
+		lua->script( "initially_undefined_variable = 10" );
+		TestTrue( TEXT( "UthLuaState::script(<set x>); UthLuaState::script(<use x>) return status" ),
