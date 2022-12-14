@@ -107,4 +107,20 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 		TestTrue( TEXT( "UthLuaState: Lua call to uth.ue.UE_LOG( <error>, <error message> ) return status && expected error detected" ),
 				  lua->script( "uth.ue.UE_LOG( uth.ue.ELogVerbosity.Error, 'Test error message from Lua via UE_LOG' )" ) );
 
-	
+		lua->destroy(); lua = nullptr;
+	}
+
+	// Lua logging and output
+	{
+		std::string BaseDirGameLogs = TCHAR_TO_UTF8( *FPaths::GameLogDir() );
+
+		UUthLuaState * lua{ NewObject<UUthLuaState>( GetTransientPackage(), FName(), RF_MarkAsRootSet ) };
+		check( lua && lua->isValid() );
+
+		// Set state name and define the expected log file name
+		lua->setName( "LuaStateLoggingTest" );
+		std::string expectedLogFileName{ BaseDirGameLogs + "/lua_LuaStateLoggingTest.log" };
+
+		// Write to log and define the expected log contents
+		lua->script( R"(  print('Test print()')  )" );
+		l
