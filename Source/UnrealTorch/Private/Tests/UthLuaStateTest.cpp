@@ -123,4 +123,20 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 
 		// Write to log and define the expected log contents
 		lua->script( R"(  print('Test print()')  )" );
-		l
+		lua->script( R"(  io.write('Test io.write()\n')  )" );
+		lua->script( R"(  LOG( ELogVerbosity.Log, 'Test LOG()')  )" );
+		const std::array<std::string, 3> expectedLogLines{ {
+				"[print] Test print()",
+				"Test io.write()",
+				"[Log] [] Test LOG()",
+			} };
+
+		// Destroy the state so as to close the log file
+		lua->destroy(); lua = nullptr;
+
+		// Compare the log file to the expected lines
+		std::ifstream logFile( expectedLogFileName, std::ios_base::in );
+		std::string logLine;
+		for( auto & expectedLogLine : expectedLogLines )
+		{
+			TestTrue( TEXT( "UthLuaState: Lua call
