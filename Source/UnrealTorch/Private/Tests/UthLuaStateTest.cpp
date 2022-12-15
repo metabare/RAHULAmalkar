@@ -139,4 +139,17 @@ bool FUthLuaStateTest::RunTest( const FString & Parameters )
 		std::string logLine;
 		for( auto & expectedLogLine : expectedLogLines )
 		{
-			TestTrue( TEXT( "UthLuaState: Lua call
+			TestTrue( TEXT( "UthLuaState: Lua calls to print(), io.write() and LOG() cause expected output in the log file" ),
+					  getline( logFile, logLine ) && logLine == expectedLogLine );
+		}
+
+		logFile.close();
+	}
+
+	return true;
+}
+
+
+
+
+#endif //WITH_DEV_AUTOMATION_TESTS
