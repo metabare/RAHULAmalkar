@@ -48,4 +48,18 @@ UUthLuaState::UUthLuaState()
 	std::string BaseDirGameLogs = TCHAR_TO_UTF8( *FPaths::GameLogDir() );
 
 	// Create a sol-wrapped Lua state
-	lu
+	lua = std::make_unique<sol::state>();
+
+	// Open all standard libraries
+	lua->open_libraries();
+
+	// Set paths
+	(*lua)["package"]["path"] =
+		BaseDirPlugin + "/Source/UnrealTorch/Private/lua/?.lua;" +
+		BaseDirPlugin + "/Source/ThirdParty/Torch/WindowsTorch/lua/?.lua;" +
+		BaseDirPlugin + "/Source/ThirdParty/Torch/WindowsTorch/lua/?/init.lua;" +
+		BaseDirGameContent + "/Lua/?.lua;" +
+		BaseDirGameContent + "/Lua/?/init.lua";   // no semicolon at end to avoid getting ;; by accident later
+	(*lua)["package"]["cpath"] =
+		BaseDirPlugin + "/Source/ThirdParty/Torch/WindowsTorch/bin/?.dll;" +
+		BaseDirG
