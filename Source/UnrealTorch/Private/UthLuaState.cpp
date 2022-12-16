@@ -35,4 +35,17 @@ void UeLogProxy( ELogVerbosity::Type verbosity, const std::string & message )
 
 UUthLuaState::UUthLuaState()
 {
-	// Stop if the plugin is not loaded ye
+	// Stop if the plugin is not loaded yet (probably UE is just creating an internal instance of us).
+	// The field 'lua' will stay null and isValid() will return false for this object.
+	// 
+	// Note: IsModuleLoaded() returns true even if StartupModule() is still running.
+	if( !FModuleManager::Get().IsModuleLoaded( "UnrealTorch" ) ) return;
+
+
+	// Get base directories
+	std::string BaseDirPlugin = TCHAR_TO_UTF8( *IPluginManager::Get().FindPlugin( "UnrealTorch" )->GetBaseDir() );
+	std::string BaseDirGameContent = TCHAR_TO_UTF8( *FPaths::GameContentDir() );
+	std::string BaseDirGameLogs = TCHAR_TO_UTF8( *FPaths::GameLogDir() );
+
+	// Create a sol-wrapped Lua state
+	lu
