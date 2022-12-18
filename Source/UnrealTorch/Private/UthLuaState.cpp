@@ -62,4 +62,20 @@ UUthLuaState::UUthLuaState()
 		BaseDirGameContent + "/Lua/?/init.lua";   // no semicolon at end to avoid getting ;; by accident later
 	(*lua)["package"]["cpath"] =
 		BaseDirPlugin + "/Source/ThirdParty/Torch/WindowsTorch/bin/?.dll;" +
-		BaseDirG
+		BaseDirGameContent + "/Lua/bin/?.dll";   // no semicolon at end to avoid getting ;; by accident later
+
+	// Create and populate the global table 'uth'
+	sol::table uth_ue = lua->create_table_with(
+		"UE_LOG", UeLogProxy,
+		"BuildShippingOrTest", UE_BUILD_SHIPPING || UE_BUILD_TEST,
+		"FPaths", lua->create_table_with(
+			"GameLogDir", BaseDirGameLogs
+		)
+	);
+	uth_ue.new_enum( "ELogVerbosity",
+					 "Fatal", ELogVerbosity::Fatal,
+					 "Error", ELogVerbosity::Error,
+					 "Warning", ELogVerbosity::Warning,
+					 "Display", ELogVerbosity::Display,
+					 "Log", ELogVerbosity::Log,
+					 "Verbose", EL
