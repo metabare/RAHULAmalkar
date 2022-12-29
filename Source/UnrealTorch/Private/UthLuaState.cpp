@@ -78,4 +78,21 @@ UUthLuaState::UUthLuaState()
 					 "Warning", ELogVerbosity::Warning,
 					 "Display", ELogVerbosity::Display,
 					 "Log", ELogVerbosity::Log,
-					 "Verbose", EL
+					 "Verbose", ELogVerbosity::Verbose,
+					 "VeryVerbose", ELogVerbosity::VeryVerbose
+	);
+	(*lua)["uth"] = lua->create_table_with(
+		"statename", *name.ToString(),
+		"ue", uth_ue
+	);
+
+	// Call Lua-side initialization script
+	try
+	{
+		lua->script_file( BaseDirPlugin + "/Source/UnrealTorch/Private/lua/uth/init.lua", sol::default_on_error );
+	}
+	catch( const sol::error & error )
+	{
+		// We won't get a stack traceback this way; to get one, we should use a protected_function (cf. https://github.com/ThePhD/sol2/issues/280)
+		// but that leads to a rather convoluted call syntax
+		UE_LOG( LogUnrealTorch, Error, TE
