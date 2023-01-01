@@ -119,4 +119,35 @@ void UUthLuaState::destroy()
 	// 
 	// ConditionalBeginDestroy() is advocated by many @ answerhub, but the (sparse) documentation on it suggests it's
 	// not the right way. Use staff answer from
-	// https://a
+	// https://answers.unrealengine.com/questions/12111/destruction-of-uobjects.html
+	// Note that UE references to the object won't be cleared before the next GC sweep!
+	MarkPendingKill();    // we must be unrooted!
+}
+
+
+bool UUthLuaState::isValid()
+{
+	return lua && !IsPendingKill();
+}
+
+
+
+
+sol::state & UUthLuaState::getLuaState()
+{
+	check( isValid() );
+
+	return *lua;
+}
+
+
+void UUthLuaState::setName( FName newName )
+{
+	check( isValid() );
+
+	// Store it
+	name = newName;
+
+	// Set it in Lualand and re-redirect Lua output accordingly
+	(*lua)["uth"]["statename"] = *name.ToString();
+	(*lua)["uth"]["utility"
