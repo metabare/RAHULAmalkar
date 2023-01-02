@@ -1,0 +1,5 @@
+--- UnrealTorch Lua state initialization script
+-- @script init
+--
+-- Called by UE from UUthLuaState::construct().
+-- This script performs Lua-side initialization of th
