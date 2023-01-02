@@ -2,4 +2,13 @@
 -- @script init
 --
 -- Called by UE from UUthLuaState::construct().
--- This script performs Lua-side initialization of th
+-- This script performs Lua-side initialization of the Lua state.
+--
+-- The global variable 'uth' has been already set from the C++ side with the following structure:
+--   uth                                  The main table for all UnrealTorch data
+--     .statename                         Name of this state; see UUthLuaState.setName()
+--     .ue                                Static data from UE
+--       .UE_LOG( verbosity, message )    Write log entries to UE log
+--       .ELogVerbosity                   Verbosity level enumeration for UE_LOG()
+--       .BuildShippingOrTest             True if UE is built in Shipping or Test configuration
+--       .FPaths                          UE p
