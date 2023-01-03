@@ -47,4 +47,34 @@ end
 -- Load additional modules
 require( 'fun' )()    -- import all lua.* functions to globals
 if not uth.NSTRICT then require( 'strict' ) end
-uth.ut
+uth.utility = require( 'uth.utility' )
+torch = require( 'torch' )
+
+
+
+
+-- Initialization
+
+
+-- Decorate loggers
+uth.ue.UE_LOG       = uth.utility.decorate_logger( uth.ue.UE_LOG, 2 )
+uth.utility.LUA_LOG = uth.utility.decorate_logger( uth.utility.LUA_LOG, 2 )
+uth.utility.LOG     = uth.utility.decorate_logger( uth.utility.LOG, 2 )
+
+-- Import main logger and verbosity levels to the global table
+LOG           = uth.utility.LOG
+ELogVerbosity = uth.ue.ELogVerbosity
+
+-- If NDEBUG then disable various stuff
+if uth.NDEBUG then
+  function LOG(...) end
+end
+
+-- Redirect output
+uth.utility.redirect_output()
+
+
+
+
+-- Run manual tests
+local tests = r
