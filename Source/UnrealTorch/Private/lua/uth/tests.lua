@@ -63,4 +63,15 @@ function tests.run()
 --  t[3] = 321123
 
 
-  -- Test inc
+  -- Test including a Content lua module
+--  LOG( ELogVerbosity.Log, 'Testing Content/Lua/' )
+--  local clt = require('content_lua_test')
+--  clt.run()
+--  LOG( ELogVerbosity.Log, 'Testing Content/Lua/ done' )
+
+end
+
+
+
+
+return tests
