@@ -40,4 +40,27 @@ function tests.run()
 
   -- Test locals and alllocals querying
   io.write( 'Inspecting locals and alllocals\n' )
-  io.write( 'locals: \n' .. tests.inspect( uth.utility.locals() ) ..
+  io.write( 'locals: \n' .. tests.inspect( uth.utility.locals() ) .. '\n\n' )
+  io.write( 'alllocals: \n' .. tests.inspect( uth.utility.alllocals() ) .. '\n\n' )
+  io.write( 'Inspecting locals and alllocals done\n\n' )
+
+  -- Test trapping into ZeroBrane Studio
+  io.write( 'Trapping into ZBS debugger\n' ); io.flush();
+  uth.utility.breakpoint()
+  io.write( 'Trapping into ZBS debugger done\n' ); io.flush();
+
+  -- Test Torch (should be already imported by UnrealTorch)
+  torch.test()
+
+  -- Create a tensor to be read on the other side
+  z = torch.Tensor(5)
+  z[1] = 123
+  z[2] = 456
+
+  -- Write to a tensor injected from the other side
+--  t[1] = 10
+--  t[2] = 20
+--  t[3] = 321123
+
+
+  -- Test inc
