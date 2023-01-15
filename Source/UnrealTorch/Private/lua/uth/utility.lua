@@ -48,4 +48,37 @@ utility.LOG = (
 
     return function(...)
       LUA_LOG_capture(...)
-      if uth.LOG_ALSO_TO_UE the
+      if uth.LOG_ALSO_TO_UE then UE_LOG_capture(...) end
+    end
+  end
+)()
+
+
+
+
+--- Redirected print
+--
+-- Redirected print() that writes all output via io.write()
+function utility.print( ... )
+  local arg = table.pack(...)
+
+  io.write( '[print] ' )
+  for i = 1, arg.n do
+    io.write( tostring( arg[i] ) .. (i ~= arg.n and '\t' or '\n') )
+  end
+  if arg.n == 0 then io.write( '\n' ) end
+  io.flush()
+
+end
+
+
+
+
+--- Redirect print and io.output() to a log file
+--
+-- Redirecting stderr seems tricky so we ignore that.
+function utility.redirect_output()
+
+  local logfile = uth.ue.FPaths.GameLogDir .. '/lua_' .. uth.statename .. '.log'
+
+  uth.
