@@ -81,4 +81,22 @@ function utility.redirect_output()
 
   local logfile = uth.ue.FPaths.GameLogDir .. '/lua_' .. uth.statename .. '.log'
 
-  uth.
+  uth.ue.UE_LOG( uth.ue.ELogVerbosity.Log, 'Redirecting Lua print() and io.write() to \'' .. logfile .. '\'' )
+  print = utility.print
+  io.output( logfile )
+
+end
+
+
+
+
+--- Modify a logging function so that it logs also the names of the nearest calling functions
+function utility.decorate_logger( logger, message_arg_index )
+  local callstack_offset = 5
+
+  return function( ... )
+    local args = table.pack(...)
+    if not type(args[message_arg_index]) == "string" then return end
+
+    local callstack = range( 1 + callstack_offset, 1 + callstack_offset + uth.LOG_CALLSTACK_DEPTH - 1 )
+                      :map( funct
