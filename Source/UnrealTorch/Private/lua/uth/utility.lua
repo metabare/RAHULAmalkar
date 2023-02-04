@@ -99,4 +99,22 @@ function utility.decorate_logger( logger, message_arg_index )
     if not type(args[message_arg_index]) == "string" then return end
 
     local callstack = range( 1 + callstack_offset, 1 + callstack_offset + uth.LOG_CALLSTACK_DEPTH - 1 )
-                      :map( funct
+                      :map( function(d) return debug.getinfo(d, 'n') end )
+                      :take_while( function(x) return x and x.name end )
+                      :map( function(x) return x.name end )
+                      :reduce( function(acc,x) return x .. '.' .. acc end, '' )
+
+    args[message_arg_index] = '[' .. callstack:sub( 1, callstack:len() - 1 ) .. '] ' .. args[message_arg_index]
+
+    return logger( unpack(args) )
+  end
+
+end
+
+
+
+
+--- Add a log entry with the calling function's name and arguments
+--
+-- Logs the filename, line, name and callstack of the calling function, together with all its local variables.
+-- 
