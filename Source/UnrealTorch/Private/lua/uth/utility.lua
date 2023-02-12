@@ -117,4 +117,20 @@ end
 --- Add a log entry with the calling function's name and arguments
 --
 -- Logs the filename, line, name and callstack of the calling function, together with all its local variables.
--- 
+-- If this is called at the very beginning of the function, then the local variables consist of just the function arguments.
+function utility.log_function_start()
+
+  local info = debug.getinfo(2)
+  local fname = string.gsub( info.short_src, '.*[\\/]', '' ) .. ':' .. info.linedefined .. ':' .. info.name .. '()'
+  local fargs = utility.inspect( utility.locals(2) )
+  local stack = string.sub( debug.traceback('', 2), 2 )
+  local message = 'Function ' .. fname .. ' starting with args ' .. fargs .. ', ' .. stack;
+
+  LOG( uth.ue.ELogVerbosity.VeryVerbose, message )
+
+end
+
+
+
+
+--- Ret
