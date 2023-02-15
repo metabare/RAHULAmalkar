@@ -133,4 +133,23 @@ end
 
 
 
---- Ret
+--- Return all local variables of the calling function
+--
+-- @param level    This is 1 by default, which results in the locals of the calling function being returned.
+--                 Increase to return the locals of an upfunction.
+-- @return         A table with variable-value pairs as a key-value pairs.
+--
+-- adapted from https://stackoverflow.com/questions/2834579
+function utility.locals( level )
+  if not level then level = 1 end
+
+  local variables = {}
+
+  local idx = 1
+  while true do
+
+    local ln, lv = debug.getlocal(level + 1, idx)
+    if ln ~= nil then
+      variables[ln] = lv
+    else
+   
