@@ -188,4 +188,22 @@ end
 
 --- Return all local variables of all calling functions on the stack
 --
--- @param startlevel    This is 1 by default, which results in all calling functions on the stack bein
+-- @param startlevel    This is 1 by default, which results in all calling functions on the stack being included.
+--                      Increase to start from a more distant caller.
+-- @return              An array of tables. Each table corresponds to a caller, starting from the nearest one,
+--                      and contains the found variable-value pairs as key-value pairs.
+function utility.alllocals( startlevel )
+  if not startlevel then startlevel = 1 end
+
+  local allvariables = {}
+
+  local level = startlevel + 1
+  while debug.getinfo( level ) do
+
+    local variables = {}
+
+    local index = 1
+    while true do
+
+      local ln, lv = debug.getlocal( level, index )
+     
