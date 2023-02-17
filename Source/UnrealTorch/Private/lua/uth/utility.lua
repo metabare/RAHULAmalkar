@@ -206,4 +206,24 @@ function utility.alllocals( startlevel )
     while true do
 
       local ln, lv = debug.getlocal( level, index )
-     
+      if ln then
+        variables[ln] = lv
+      else
+        break
+      end
+
+      index = index + 1
+    end
+
+    allvariables[level] = variables;
+
+    level = level + 1
+  end
+
+  return allvariables
+end
+
+
+
+
+return utility
