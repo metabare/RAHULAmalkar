@@ -152,4 +152,40 @@ function utility.locals( level )
     if ln ~= nil then
       variables[ln] = lv
     else
-   
+      break
+    end
+
+    idx = 1 + idx
+  end
+
+  return variables
+end
+
+
+
+
+-- from https://stackoverflow.com/questions/2834579
+function utility.upvalues( func )
+  if not func then func = debug.getinfo(2, "f").func end
+
+  local variables = {}
+  local idx = 1
+  while true do
+    local ln, lv = debug.getupvalue(func, idx)
+    if ln ~= nil then
+      variables[ln] = lv
+    else
+      break
+    end
+    idx = 1 + idx
+  end
+
+  return variables
+end
+
+
+
+
+--- Return all local variables of all calling functions on the stack
+--
+-- @param startlevel    This is 1 by default, which results in all calling functions on the stack bein
