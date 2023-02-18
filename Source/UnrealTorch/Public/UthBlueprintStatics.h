@@ -44,4 +44,15 @@ public:
 	 *   Plugins\UnrealTorch\Source\UnrealTorch\Private\lua\uth\utility.lua.
 	 *
 	 * A generic logger from the utility module is copied, with its verbosity level enumeration, to the global variable
-	 * LOG and ELogVerbosity. Verbosity levels follow
+	 * LOG and ELogVerbosity. Verbosity levels follow the UE_LOG() verbosity levels. See also section 'State name and
+	 * Lua output' below. Usage:
+	 *   LOG( ELogVerbosity.Warning, 'Log message here' )
+	 *
+	 * A global variable 'uth' is created with the following structure:
+	 *   uth								The main table for all UnrealTorch data
+	 *     .statename						Name of this state; see UUthLuaState.setName()
+	 *     .ue								Data from UE
+	 *       .UE_LOG( verbosity, message )	Write log entries to UE log
+	 *       .ELogVerbosity					Verbosity level enumeration for UE_LOG()
+	 *       .BuildShippingOrTest			True if UE is running in Shipping or Test configuration
+	 *       .F
