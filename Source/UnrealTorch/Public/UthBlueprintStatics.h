@@ -31,4 +31,17 @@ public:
 	 *
 	 * C++ users: Use factory helpers like UUthBlueprintStatics::CreateLuaState() or UE's NewObject() to create
 	 * instances of this class. Never explicitly delete these instances; instead use the destroy() method. See the
-	 * section below on object lifecycle for mo
+	 * section below on object lifecycle for more details.
+	 *
+	 * A new Lua state is created and initialized with all Torch-related paths set, necessary packages and dlls loaded,
+	 * and a set of utility functions defined.
+	 *
+	 * All Lua standard libraries are opened.
+	 *
+	 * Torch is imported into the global variable 'torch'.
+	 *
+	 * The UnrealTorch utility module is imported into 'uth.utility'; for available functions, see the following file:
+	 *   Plugins\UnrealTorch\Source\UnrealTorch\Private\lua\uth\utility.lua.
+	 *
+	 * A generic logger from the utility module is copied, with its verbosity level enumeration, to the global variable
+	 * LOG and ELogVerbosity. Verbosity levels follow
