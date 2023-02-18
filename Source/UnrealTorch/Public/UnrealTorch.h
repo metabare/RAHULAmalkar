@@ -24,4 +24,10 @@ class FUnrealTorchModule : public IModuleInterface
 public:
 
 	/** IModuleInterface implementation */
-	virtual void
+	virtual void StartupModule() override;
+	virtual void ShutdownModule() override;
+
+private:
+
+	std::unique_ptr<WindowsTorchLoader> windowsTorchLoader;
+};
