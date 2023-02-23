@@ -69,4 +69,13 @@ public:
 	 *
 	 * State name and Lua output:
 	 *
-	 * The internal name of the state object is set to 'default' in the constructor. You can chang
+	 * The internal name of the state object is set to 'default' in the constructor. You can change it with setName() or
+	 * by using the Blueprint helper function CreateLuaState(). All Lua output from io.write(), print() and LOG() will
+	 * be redirected to Saved\Logs\lua_<name>.log. Note that if you have several states with the same name, you will get
+	 * the output of only one of them. The internal name of the state object is not related to UObject names; we do not
+	 * use those.
+	 *
+	 * (C++ only) Object lifecycle and garbage collection:
+	 *
+	 * When a new Lua state is created using the factory helper UUthBlueprintStatics::CreateLuaState() and the parameter
+	 * 'protectFromGC' is to true, the object will be added to the root set of UOb
