@@ -78,4 +78,12 @@ public:
 	 * (C++ only) Object lifecycle and garbage collection:
 	 *
 	 * When a new Lua state is created using the factory helper UUthBlueprintStatics::CreateLuaState() and the parameter
-	 * 'protectFromGC' is to true, the object will be added to the root set of UOb
+	 * 'protectFromGC' is to true, the object will be added to the root set of UObjects and thus excluded from garbage
+	 * collection. Use UUthLuaState::destroy() to force-send it toward destruction. If the parameter 'protectFromGC' is
+	 * left false, then make sure that you always keep at least one UPROPERTY pointer to the obtained instance.
+	 *
+	 * IMPORTANT NOTE: In C++, Never explicitly delete instances of UObject-derived classes like this: instances of this
+	 * class are managed by the UE garbage collector. Consequently, neither should you use any smart pointers with
+	 * instances of this class.
+	 * 
+	 * @param name						Internal name of the object. Affects logging; see below
