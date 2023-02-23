@@ -55,4 +55,18 @@ public:
 	 *       .UE_LOG( verbosity, message )	Write log entries to UE log
 	 *       .ELogVerbosity					Verbosity level enumeration for UE_LOG()
 	 *       .BuildShippingOrTest			True if UE is running in Shipping or Test configuration
-	 *       .F
+	 *       .FPaths						UE path information
+	 *         .GameLogDir					Log directory path from FPaths::GameLogDir()
+	 *
+	 * The package.path variable is set to include the following locations, in this order:
+	 *   1. UnrealTorch Lua files
+	 *   2. Torch Lua files
+	 *   3. Project level Lua files: Content/Lua/?.lua and Content/Lua/?/init.lua
+	 *
+	 * The package.cpath variable is set to include the following locations, in this order:
+	 *   1. Torch DLLs
+	 *   2. Project level DLLs: Content/Lua/bin/?.dll
+	 *
+	 * State name and Lua output:
+	 *
+	 * The internal name of the state object is set to 'default' in the constructor. You can chang
