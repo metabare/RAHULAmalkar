@@ -17,4 +17,37 @@ public class UnrealTorch : ModuleRules
 
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"UnrealTor
+				"UnrealTorch/Public"
+				// ... add public include paths required here ...
+			}
+			);
+				
+		
+		PrivateIncludePaths.AddRange(
+			new string[] {
+				"UnrealTorch/Private",
+				// ... add other private include paths required here ...
+			}
+			);
+			
+		
+		PublicDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"Core",
+				"Projects",
+				"RangeV3",
+				"Sol2",
+				"Torch",
+				// ... add other public dependencies that you statically link with here ...
+			}
+			);
+			
+		
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"CoreUObject",
+				"Engine",
+				"Slate",
+				"S
