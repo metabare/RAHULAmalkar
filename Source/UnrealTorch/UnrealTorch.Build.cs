@@ -69,4 +69,7 @@ public class UnrealTorch : ModuleRules
 		// cd Source/UnrealTorch/
 		// find Private/lua/ -type f | sed 's_\(.*\)_RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(ModuleDirectory, "\1")));_'
 		//RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(ModuleDirectory, "Private/lua/startup_module.lua")));
-		//RuntimeDependencies.Add(new RuntimeDepen
+		//RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(ModuleDirectory, "Private/lua/uth/tests.lua")));
+		//RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(ModuleDirectory, "Private/lua/uth/utility.lua")));
+	}
+}
