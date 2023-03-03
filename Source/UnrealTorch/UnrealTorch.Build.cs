@@ -50,4 +50,23 @@ public class UnrealTorch : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"S
+				"SlateCore",
+				// ... add private dependencies that you statically link with here ...	
+			}
+			);
+		
+		
+		DynamicallyLoadedModuleNames.AddRange(
+			new string[]
+			{
+				// ... add any modules that your module loads dynamically here ...
+			}
+			);
+
+
+		// Have our Lua files included during packaging
+		//
+		// cd Source/UnrealTorch/
+		// find Private/lua/ -type f | sed 's_\(.*\)_RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(ModuleDirectory, "\1")));_'
+		//RuntimeDependencies.Add(new RuntimeDependency(Path.Combine(ModuleDirectory, "Private/lua/startup_module.lua")));
+		//RuntimeDependencies.Add(new RuntimeDepen
